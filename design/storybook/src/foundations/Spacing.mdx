@@ -1,0 +1,68 @@
+import { Canvas, Meta } from '@storybook/addon-docs/blocks'
+
+import * as SpacingStories from './Spacing.stories'
+
+<Meta of={SpacingStories} />
+
+# Spacing
+
+The scale starts at 8px. Generous margins — whitespace is part of the design.
+
+<table>
+  <thead>
+    <tr>
+      <th>Token</th>
+      <th>Value</th>
+      <th>Use</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>space-1</td>
+      <td>8px</td>
+      <td>minimum inner spacing</td>
+    </tr>
+    <tr>
+      <td>space-2</td>
+      <td>16px</td>
+      <td>between related elements</td>
+    </tr>
+    <tr>
+      <td>space-3</td>
+      <td>24px</td>
+      <td>card padding / gutter</td>
+    </tr>
+    <tr>
+      <td>space-4</td>
+      <td>40px</td>
+      <td>between inner sections</td>
+    </tr>
+    <tr>
+      <td>space-5</td>
+      <td>64px</td>
+      <td>between page sections</td>
+    </tr>
+    <tr>
+      <td>space-6</td>
+      <td>96px</td>
+      <td>hero margins</td>
+    </tr>
+    <tr>
+      <td>space-inset-button</td>
+      <td>10px 20px</td>
+      <td>button padding</td>
+    </tr>
+    <tr>
+      <td>space-inset-card</td>
+      <td>20px</td>
+      <td>card padding</td>
+    </tr>
+    <tr>
+      <td>space-gutter</td>
+      <td>24px</td>
+      <td>12-column grid gutter</td>
+    </tr>
+  </tbody>
+</table>
+
+<Canvas of={SpacingStories.Scale} />

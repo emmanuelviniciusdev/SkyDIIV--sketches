@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@import "@fontsource-variable/inter/wght.css";
+@import "@fontsource-variable/inter/wght-italic.css";
+@import "./tokens.css";
+
+html,
+body {
+  background: var(--background);
+  color: var(--text-body);
+  font-family: var(--font-sans);
+}
+
+.brand-name {
+  text-transform: none;
+}

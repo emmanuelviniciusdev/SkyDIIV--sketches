@@ -1,0 +1,15 @@
+import { Canvas, Meta } from '@storybook/addon-docs/blocks'
+
+import * as ColorsStories from './Colors.stories'
+
+<Meta of={ColorsStories} />
+
+# Colors
+
+The palette is faded and warm. Do not use pure black or pure white. Borders use stone warm at reduced opacity.
+
+Brand slate is not for body or interface text. Use the semantic body, muted, and display text colors.
+
+Primary actions use the accessible primary fill with on-primary text.
+
+<Canvas of={ColorsStories.Palette} />

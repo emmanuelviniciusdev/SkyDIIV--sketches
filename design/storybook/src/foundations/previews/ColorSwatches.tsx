@@ -1,0 +1,215 @@
+import { contrastRatio, semanticContrastPairs, wcagAaMinimum } from '../contrast'
+import { colors, radius, spacing, typography } from '../tokens'
+import { FoundationFrame, FoundationNote, FoundationTitle } from './FoundationFrame'
+
+const brandSwatches = [
+  { token: '--background', hex: colors.background, label: 'off-white' },
+  { token: '--card', hex: colors.card, label: 'surface' },
+  { token: '--grain', hex: colors.grain, label: 'grain white' },
+  { token: '--foreground', hex: colors.foreground, label: 'slate gray' },
+  { token: '--border', hex: colors.muted, label: 'stone warm' },
+  { token: '--primary', hex: colors.primary, label: 'slate blue' },
+  { token: '--secondary', hex: colors.secondary, label: 'terracotta' },
+  { token: '--destructive', hex: colors.destructive, label: 'rose gray' },
+  { token: '--accent', hex: colors.accent, label: 'lilac' },
+  { token: '--cool', hex: colors.cool, label: 'cool blue-gray' },
+  { token: '--nude', hex: colors.nude, label: 'nude warm' },
+  { token: '--dusty', hex: colors.dusty, label: 'dusty blue' },
+] as const
+
+const semanticSwatches = [
+  { token: '--text-body', hex: colors.text.body, label: 'body text' },
+  { token: '--text-muted', hex: colors.text.muted, label: 'secondary text' },
+  { token: '--text-display', hex: colors.text.display, label: 'display (large text)' },
+  { token: '--text-on-primary', hex: colors.text.onPrimary, label: 'text on action' },
+  { token: '--primary-accessible', hex: colors.primaryAccessible, label: 'AA primary action' },
+] as const
+
+function SwatchList({
+  heading,
+  items,
+}: {
+  heading: string
+  items: readonly { token: string; hex: string; label: string }[]
+}) {
+  return (
+    <section style={{ marginBottom: spacing[4] }}>
+      <h2
+        style={{
+          margin: `0 0 ${spacing[2]}px`,
+          fontSize: typography.scale.h2.fontSize,
+          fontWeight: typography.scale.h2.fontWeight,
+          letterSpacing: typography.scale.h2.letterSpacing,
+          lineHeight: typography.scale.h2.lineHeight,
+          textTransform: 'lowercase',
+        }}
+      >
+        {heading}
+      </h2>
+      <ul
+        style={{
+          display: 'grid',
+          gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))',
+          gap: spacing[2],
+          listStyle: 'none',
+          margin: 0,
+          padding: 0,
+        }}
+      >
+        {items.map((item) => (
+          <li
+            key={item.token}
+            style={{
+              display: 'flex',
+              gap: spacing[1],
+              alignItems: 'center',
+              padding: spacing[1],
+              background: colors.card,
+              border: `1px solid color-mix(in srgb, ${colors.muted} 40%, transparent)`,
+              borderRadius: radius.lg,
+            }}
+          >
+            <span
+              aria-hidden="true"
+              style={{
+                width: 48,
+                height: 48,
+                flexShrink: 0,
+                background: item.hex,
+                borderRadius: radius.md,
+                border: `1px solid color-mix(in srgb, ${colors.muted} 40%, transparent)`,
+              }}
+            />
+            <span style={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
+              <span
+                style={{
+                  fontSize: typography.scale.small.fontSize,
+                  letterSpacing: typography.scale.small.letterSpacing,
+                  color: colors.text.body,
+                }}
+              >
+                {item.label}
+              </span>
+              <code
+                style={{
+                  fontSize: typography.scale.micro.fontSize,
+                  letterSpacing: typography.scale.micro.letterSpacing,
+                  color: colors.text.body,
+                }}
+              >
+                {item.token}
+              </code>
+              <code
+                style={{
+                  fontSize: typography.scale.micro.fontSize,
+                  letterSpacing: typography.scale.micro.letterSpacing,
+                  color: colors.text.body,
+                }}
+              >
+                {item.hex}
+              </code>
+            </span>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )
+}
+
+export function ColorSwatches() {
+  return (
+    <FoundationFrame>
+      <FoundationTitle>colors</FoundationTitle>
+      <FoundationNote>
+        The brand palette stays faded. Interface text uses semantic colors.
+      </FoundationNote>
+      <SwatchList heading="brand palette" items={brandSwatches} />
+      <SwatchList heading="semantic text" items={semanticSwatches} />
+      <section>
+        <h2
+          style={{
+            margin: `0 0 ${spacing[2]}px`,
+            fontSize: typography.scale.h2.fontSize,
+            fontWeight: typography.scale.h2.fontWeight,
+            letterSpacing: typography.scale.h2.letterSpacing,
+            lineHeight: typography.scale.h2.lineHeight,
+            textTransform: 'lowercase',
+          }}
+        >
+          contrast pairs
+        </h2>
+        <table
+          style={{
+            width: '100%',
+            borderCollapse: 'collapse',
+            fontSize: typography.scale.small.fontSize,
+            letterSpacing: typography.scale.small.letterSpacing,
+          }}
+        >
+          <caption
+            style={{
+              captionSide: 'bottom',
+              textAlign: 'left',
+              paddingTop: spacing[1],
+              color: colors.text.muted,
+            }}
+          >
+            Allowed semantic pairs for text. The brand palette must not be used as body text.
+          </caption>
+          <thead>
+            <tr>
+              {['pair', 'foreground', 'background', 'ratio', 'minimum', 'result'].map((header) => (
+                <th
+                  key={header}
+                  scope="col"
+                  style={{
+                    textAlign: 'left',
+                    padding: `${spacing[1]}px`,
+                    borderBottom: `1px solid color-mix(in srgb, ${colors.muted} 40%, transparent)`,
+                    fontWeight: typography.fontWeight.regular,
+                    textTransform: 'lowercase',
+                  }}
+                >
+                  {header}
+                </th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {semanticContrastPairs.map((pair) => {
+              const ratio = contrastRatio(pair.foreground, pair.background)
+              const minimum = wcagAaMinimum(pair.largeText)
+              const passes = ratio >= minimum
+              return (
+                <tr key={pair.name}>
+                  <th
+                    scope="row"
+                    style={{
+                      textAlign: 'left',
+                      padding: `${spacing[1]}px`,
+                      fontWeight: typography.fontWeight.regular,
+                      color: colors.text.body,
+                    }}
+                  >
+                    {pair.name}
+                  </th>
+                  <td style={{ padding: `${spacing[1]}px` }}>
+                    <code>{pair.foreground}</code>
+                  </td>
+                  <td style={{ padding: `${spacing[1]}px` }}>
+                    <code>{pair.background}</code>
+                  </td>
+                  <td style={{ padding: `${spacing[1]}px` }}>{ratio.toFixed(2)}:1</td>
+                  <td style={{ padding: `${spacing[1]}px` }}>{minimum}:1</td>
+                  <td style={{ padding: `${spacing[1]}px`, color: colors.text.body }}>
+                    {passes ? 'passes AA' : 'fails AA'}
+                  </td>
+                </tr>
+              )
+            })}
+          </tbody>
+        </table>
+      </section>
+    </FoundationFrame>
+  )
+}

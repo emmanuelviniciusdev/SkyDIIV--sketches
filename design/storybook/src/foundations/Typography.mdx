@@ -1,0 +1,84 @@
+import { Canvas, Meta } from '@storybook/addon-docs/blocks'
+
+import * as TypographyStories from './Typography.stories'
+
+<Meta of={TypographyStories} />
+
+# Typography
+
+The primary typeface is Inter.
+
+## Scale
+
+<table>
+  <thead>
+    <tr>
+      <th>Level</th>
+      <th>Size</th>
+      <th>Weight</th>
+      <th>Tracking</th>
+      <th>Leading</th>
+      <th>Use</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Display</td>
+      <td>48–64px</td>
+      <td>400</td>
+      <td>0.12em</td>
+      <td>1.2</td>
+      <td>app name, hero</td>
+    </tr>
+    <tr>
+      <td>H1</td>
+      <td>32px</td>
+      <td>300</td>
+      <td>0.08em</td>
+      <td>1.2</td>
+      <td>section titles</td>
+    </tr>
+    <tr>
+      <td>H2</td>
+      <td>24px</td>
+      <td>400</td>
+      <td>0.04em</td>
+      <td>1.2</td>
+      <td>subtitles</td>
+    </tr>
+    <tr>
+      <td>Body</td>
+      <td>16px</td>
+      <td>400</td>
+      <td>0.01em</td>
+      <td>1.6</td>
+      <td>running text</td>
+    </tr>
+    <tr>
+      <td>Small</td>
+      <td>13px</td>
+      <td>400</td>
+      <td>0.02em</td>
+      <td>1.6</td>
+      <td>labels, captions</td>
+    </tr>
+    <tr>
+      <td>Micro</td>
+      <td>11px</td>
+      <td>400</td>
+      <td>0.04em</td>
+      <td>1.6</td>
+      <td>tags, badges</td>
+    </tr>
+  </tbody>
+</table>
+
+## Lowercase
+
+All text is lowercase, except:
+
+- Product name **SkyDIIV**
+- Wordmark **SkyCHNNLS**
+- Emails and other names where capitalization is part of the data
+
+<Canvas of={TypographyStories.Specimen} />
