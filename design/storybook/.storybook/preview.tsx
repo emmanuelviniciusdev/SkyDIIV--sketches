@@ -28,6 +28,7 @@ const preview: Preview = {
             'Colors',
             'Typography',
             'Logos',
+            'Emoticons',
             'Spacing',
             'Radius',
             'Shadows',

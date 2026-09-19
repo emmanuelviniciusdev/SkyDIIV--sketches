@@ -1,0 +1,6302 @@
+[
+  {
+    "id": "1f603",
+    "code": "U+1F603",
+    "glyph": "😃",
+    "name": "grinning face with big eyes",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-smiling",
+    "src": "/emoticons/kddi/1f603.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f601",
+    "code": "U+1F601",
+    "glyph": "😁",
+    "name": "beaming face with smiling eyes",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-smiling",
+    "src": "/emoticons/kddi/1f601.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f602",
+    "code": "U+1F602",
+    "glyph": "😂",
+    "name": "face with tears of joy",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-smiling",
+    "src": "/emoticons/kddi/1f602.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f609",
+    "code": "U+1F609",
+    "glyph": "😉",
+    "name": "winking face",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-smiling",
+    "src": "/emoticons/kddi/1f609.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f60a",
+    "code": "U+1F60A",
+    "glyph": "😊",
+    "name": "smiling face with smiling eyes",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-smiling",
+    "src": "/emoticons/kddi/1f60a.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f60d",
+    "code": "U+1F60D",
+    "glyph": "😍",
+    "name": "smiling face with heart-eyes",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-affection",
+    "src": "/emoticons/kddi/1f60d.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f618",
+    "code": "U+1F618",
+    "glyph": "😘",
+    "name": "face blowing a kiss",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-affection",
+    "src": "/emoticons/kddi/1f618.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "263a",
+    "code": "U+263A",
+    "glyph": "☺",
+    "name": "smiling face",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-affection",
+    "src": "/emoticons/kddi/263a.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f61a",
+    "code": "U+1F61A",
+    "glyph": "😚",
+    "name": "kissing face with closed eyes",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-affection",
+    "src": "/emoticons/kddi/1f61a.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f61c",
+    "code": "U+1F61C",
+    "glyph": "😜",
+    "name": "winking face with tongue",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-tongue",
+    "src": "/emoticons/kddi/1f61c.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f60f",
+    "code": "U+1F60F",
+    "glyph": "😏",
+    "name": "smirking face",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-neutral-skeptical",
+    "src": "/emoticons/kddi/1f60f.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f612",
+    "code": "U+1F612",
+    "glyph": "😒",
+    "name": "unamused face",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-neutral-skeptical",
+    "src": "/emoticons/kddi/1f612.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f60c",
+    "code": "U+1F60C",
+    "glyph": "😌",
+    "name": "relieved face",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-sleepy",
+    "src": "/emoticons/kddi/1f60c.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f614",
+    "code": "U+1F614",
+    "glyph": "😔",
+    "name": "pensive face",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-sleepy",
+    "src": "/emoticons/kddi/1f614.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f62a",
+    "code": "U+1F62A",
+    "glyph": "😪",
+    "name": "sleepy face",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-sleepy",
+    "src": "/emoticons/kddi/1f62a.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f637",
+    "code": "U+1F637",
+    "glyph": "😷",
+    "name": "face with medical mask",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-unwell",
+    "src": "/emoticons/kddi/1f637.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f635",
+    "code": "U+1F635",
+    "glyph": "😵",
+    "name": "face with crossed-out eyes",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-unwell",
+    "src": "/emoticons/kddi/1f635.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f632",
+    "code": "U+1F632",
+    "glyph": "😲",
+    "name": "astonished face",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-concerned",
+    "src": "/emoticons/kddi/1f632.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f633",
+    "code": "U+1F633",
+    "glyph": "😳",
+    "name": "flushed face",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-concerned",
+    "src": "/emoticons/kddi/1f633.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f628",
+    "code": "U+1F628",
+    "glyph": "😨",
+    "name": "fearful face",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-concerned",
+    "src": "/emoticons/kddi/1f628.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f630",
+    "code": "U+1F630",
+    "glyph": "😰",
+    "name": "anxious face with sweat",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-concerned",
+    "src": "/emoticons/kddi/1f630.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f622",
+    "code": "U+1F622",
+    "glyph": "😢",
+    "name": "crying face",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-concerned",
+    "src": "/emoticons/kddi/1f622.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f62d",
+    "code": "U+1F62D",
+    "glyph": "😭",
+    "name": "loudly crying face",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-concerned",
+    "src": "/emoticons/kddi/1f62d.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f631",
+    "code": "U+1F631",
+    "glyph": "😱",
+    "name": "face screaming in fear",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-concerned",
+    "src": "/emoticons/kddi/1f631.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f616",
+    "code": "U+1F616",
+    "glyph": "😖",
+    "name": "confounded face",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-concerned",
+    "src": "/emoticons/kddi/1f616.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f623",
+    "code": "U+1F623",
+    "glyph": "😣",
+    "name": "persevering face",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-concerned",
+    "src": "/emoticons/kddi/1f623.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f613",
+    "code": "U+1F613",
+    "glyph": "😓",
+    "name": "downcast face with sweat",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-concerned",
+    "src": "/emoticons/kddi/1f613.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f629",
+    "code": "U+1F629",
+    "glyph": "😩",
+    "name": "weary face",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-concerned",
+    "src": "/emoticons/kddi/1f629.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f62b",
+    "code": "U+1F62B",
+    "glyph": "😫",
+    "name": "tired face",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-concerned",
+    "src": "/emoticons/kddi/1f62b.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f624",
+    "code": "U+1F624",
+    "glyph": "😤",
+    "name": "face with steam from nose",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-negative",
+    "src": "/emoticons/kddi/1f624.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f621",
+    "code": "U+1F621",
+    "glyph": "😡",
+    "name": "enraged face",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-negative",
+    "src": "/emoticons/kddi/1f621.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f620",
+    "code": "U+1F620",
+    "glyph": "😠",
+    "name": "angry face",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-negative",
+    "src": "/emoticons/kddi/1f620.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f47f",
+    "code": "U+1F47F",
+    "glyph": "👿",
+    "name": "angry face with horns",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-negative",
+    "src": "/emoticons/kddi/1f47f.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f480",
+    "code": "U+1F480",
+    "glyph": "💀",
+    "name": "skull",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-negative",
+    "src": "/emoticons/kddi/1f480.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4a9",
+    "code": "U+1F4A9",
+    "glyph": "💩",
+    "name": "pile of poo",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-costume",
+    "src": "/emoticons/kddi/1f4a9.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f479",
+    "code": "U+1F479",
+    "glyph": "👹",
+    "name": "ogre",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-costume",
+    "src": "/emoticons/kddi/1f479.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f47a",
+    "code": "U+1F47A",
+    "glyph": "👺",
+    "name": "goblin",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-costume",
+    "src": "/emoticons/kddi/1f47a.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f47b",
+    "code": "U+1F47B",
+    "glyph": "👻",
+    "name": "ghost",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-costume",
+    "src": "/emoticons/kddi/1f47b.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f47d",
+    "code": "U+1F47D",
+    "glyph": "👽",
+    "name": "alien",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-costume",
+    "src": "/emoticons/kddi/1f47d.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f47e",
+    "code": "U+1F47E",
+    "glyph": "👾",
+    "name": "alien monster",
+    "group": "Smileys & Emotion",
+    "subgroup": "face-costume",
+    "src": "/emoticons/kddi/1f47e.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f63a",
+    "code": "U+1F63A",
+    "glyph": "😺",
+    "name": "grinning cat",
+    "group": "Smileys & Emotion",
+    "subgroup": "cat-face",
+    "src": "/emoticons/kddi/1f63a.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f638",
+    "code": "U+1F638",
+    "glyph": "😸",
+    "name": "grinning cat with smiling eyes",
+    "group": "Smileys & Emotion",
+    "subgroup": "cat-face",
+    "src": "/emoticons/kddi/1f638.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f639",
+    "code": "U+1F639",
+    "glyph": "😹",
+    "name": "cat with tears of joy",
+    "group": "Smileys & Emotion",
+    "subgroup": "cat-face",
+    "src": "/emoticons/kddi/1f639.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f63b",
+    "code": "U+1F63B",
+    "glyph": "😻",
+    "name": "smiling cat with heart-eyes",
+    "group": "Smileys & Emotion",
+    "subgroup": "cat-face",
+    "src": "/emoticons/kddi/1f63b.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f63c",
+    "code": "U+1F63C",
+    "glyph": "😼",
+    "name": "cat with wry smile",
+    "group": "Smileys & Emotion",
+    "subgroup": "cat-face",
+    "src": "/emoticons/kddi/1f63c.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f63d",
+    "code": "U+1F63D",
+    "glyph": "😽",
+    "name": "kissing cat",
+    "group": "Smileys & Emotion",
+    "subgroup": "cat-face",
+    "src": "/emoticons/kddi/1f63d.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f640",
+    "code": "U+1F640",
+    "glyph": "🙀",
+    "name": "weary cat",
+    "group": "Smileys & Emotion",
+    "subgroup": "cat-face",
+    "src": "/emoticons/kddi/1f640.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f63f",
+    "code": "U+1F63F",
+    "glyph": "😿",
+    "name": "crying cat",
+    "group": "Smileys & Emotion",
+    "subgroup": "cat-face",
+    "src": "/emoticons/kddi/1f63f.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f63e",
+    "code": "U+1F63E",
+    "glyph": "😾",
+    "name": "pouting cat",
+    "group": "Smileys & Emotion",
+    "subgroup": "cat-face",
+    "src": "/emoticons/kddi/1f63e.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f648",
+    "code": "U+1F648",
+    "glyph": "🙈",
+    "name": "see-no-evil monkey",
+    "group": "Smileys & Emotion",
+    "subgroup": "monkey-face",
+    "src": "/emoticons/kddi/1f648.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f649",
+    "code": "U+1F649",
+    "glyph": "🙉",
+    "name": "hear-no-evil monkey",
+    "group": "Smileys & Emotion",
+    "subgroup": "monkey-face",
+    "src": "/emoticons/kddi/1f649.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f64a",
+    "code": "U+1F64A",
+    "glyph": "🙊",
+    "name": "speak-no-evil monkey",
+    "group": "Smileys & Emotion",
+    "subgroup": "monkey-face",
+    "src": "/emoticons/kddi/1f64a.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f48c",
+    "code": "U+1F48C",
+    "glyph": "💌",
+    "name": "love letter",
+    "group": "Smileys & Emotion",
+    "subgroup": "heart",
+    "src": "/emoticons/kddi/1f48c.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f498",
+    "code": "U+1F498",
+    "glyph": "💘",
+    "name": "heart with arrow",
+    "group": "Smileys & Emotion",
+    "subgroup": "heart",
+    "src": "/emoticons/kddi/1f498.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f49d",
+    "code": "U+1F49D",
+    "glyph": "💝",
+    "name": "heart with ribbon",
+    "group": "Smileys & Emotion",
+    "subgroup": "heart",
+    "src": "/emoticons/kddi/1f49d.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f496",
+    "code": "U+1F496",
+    "glyph": "💖",
+    "name": "sparkling heart",
+    "group": "Smileys & Emotion",
+    "subgroup": "heart",
+    "src": "/emoticons/kddi/1f496.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f493",
+    "code": "U+1F493",
+    "glyph": "💓",
+    "name": "beating heart",
+    "group": "Smileys & Emotion",
+    "subgroup": "heart",
+    "src": "/emoticons/kddi/1f493.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f49e",
+    "code": "U+1F49E",
+    "glyph": "💞",
+    "name": "revolving hearts",
+    "group": "Smileys & Emotion",
+    "subgroup": "heart",
+    "src": "/emoticons/kddi/1f49e.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f495",
+    "code": "U+1F495",
+    "glyph": "💕",
+    "name": "two hearts",
+    "group": "Smileys & Emotion",
+    "subgroup": "heart",
+    "src": "/emoticons/kddi/1f495.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f494",
+    "code": "U+1F494",
+    "glyph": "💔",
+    "name": "broken heart",
+    "group": "Smileys & Emotion",
+    "subgroup": "heart",
+    "src": "/emoticons/kddi/1f494.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "2764",
+    "code": "U+2764",
+    "glyph": "❤",
+    "name": "red heart",
+    "group": "Smileys & Emotion",
+    "subgroup": "heart",
+    "src": "/emoticons/kddi/2764.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f49b",
+    "code": "U+1F49B",
+    "glyph": "💛",
+    "name": "yellow heart",
+    "group": "Smileys & Emotion",
+    "subgroup": "heart",
+    "src": "/emoticons/kddi/1f49b.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f49a",
+    "code": "U+1F49A",
+    "glyph": "💚",
+    "name": "green heart",
+    "group": "Smileys & Emotion",
+    "subgroup": "heart",
+    "src": "/emoticons/kddi/1f49a.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f499",
+    "code": "U+1F499",
+    "glyph": "💙",
+    "name": "blue heart",
+    "group": "Smileys & Emotion",
+    "subgroup": "heart",
+    "src": "/emoticons/kddi/1f499.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f49c",
+    "code": "U+1F49C",
+    "glyph": "💜",
+    "name": "purple heart",
+    "group": "Smileys & Emotion",
+    "subgroup": "heart",
+    "src": "/emoticons/kddi/1f49c.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f48b",
+    "code": "U+1F48B",
+    "glyph": "💋",
+    "name": "kiss mark",
+    "group": "Smileys & Emotion",
+    "subgroup": "emotion",
+    "src": "/emoticons/kddi/1f48b.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4af",
+    "code": "U+1F4AF",
+    "glyph": "💯",
+    "name": "hundred points",
+    "group": "Smileys & Emotion",
+    "subgroup": "emotion",
+    "src": "/emoticons/kddi/1f4af.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4a2",
+    "code": "U+1F4A2",
+    "glyph": "💢",
+    "name": "anger symbol",
+    "group": "Smileys & Emotion",
+    "subgroup": "emotion",
+    "src": "/emoticons/kddi/1f4a2.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4a5",
+    "code": "U+1F4A5",
+    "glyph": "💥",
+    "name": "collision",
+    "group": "Smileys & Emotion",
+    "subgroup": "emotion",
+    "src": "/emoticons/kddi/1f4a5.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4ab",
+    "code": "U+1F4AB",
+    "glyph": "💫",
+    "name": "dizzy",
+    "group": "Smileys & Emotion",
+    "subgroup": "emotion",
+    "src": "/emoticons/kddi/1f4ab.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4a6",
+    "code": "U+1F4A6",
+    "glyph": "💦",
+    "name": "sweat droplets",
+    "group": "Smileys & Emotion",
+    "subgroup": "emotion",
+    "src": "/emoticons/kddi/1f4a6.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4a8",
+    "code": "U+1F4A8",
+    "glyph": "💨",
+    "name": "dashing away",
+    "group": "Smileys & Emotion",
+    "subgroup": "emotion",
+    "src": "/emoticons/kddi/1f4a8.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4ac",
+    "code": "U+1F4AC",
+    "glyph": "💬",
+    "name": "speech balloon",
+    "group": "Smileys & Emotion",
+    "subgroup": "emotion",
+    "src": "/emoticons/kddi/1f4ac.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4a4",
+    "code": "U+1F4A4",
+    "glyph": "💤",
+    "name": "ZZZ",
+    "group": "Smileys & Emotion",
+    "subgroup": "emotion",
+    "src": "/emoticons/kddi/1f4a4.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f44b",
+    "code": "U+1F44B",
+    "glyph": "👋",
+    "name": "waving hand",
+    "group": "People & Body",
+    "subgroup": "hand-fingers-open",
+    "src": "/emoticons/kddi/1f44b.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "270b",
+    "code": "U+270B",
+    "glyph": "✋",
+    "name": "raised hand",
+    "group": "People & Body",
+    "subgroup": "hand-fingers-open",
+    "src": "/emoticons/kddi/270b.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f44c",
+    "code": "U+1F44C",
+    "glyph": "👌",
+    "name": "OK hand",
+    "group": "People & Body",
+    "subgroup": "hand-fingers-partial",
+    "src": "/emoticons/kddi/1f44c.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "270c",
+    "code": "U+270C",
+    "glyph": "✌",
+    "name": "victory hand",
+    "group": "People & Body",
+    "subgroup": "hand-fingers-partial",
+    "src": "/emoticons/kddi/270c.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f448",
+    "code": "U+1F448",
+    "glyph": "👈",
+    "name": "backhand index pointing left",
+    "group": "People & Body",
+    "subgroup": "hand-single-finger",
+    "src": "/emoticons/kddi/1f448.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f449",
+    "code": "U+1F449",
+    "glyph": "👉",
+    "name": "backhand index pointing right",
+    "group": "People & Body",
+    "subgroup": "hand-single-finger",
+    "src": "/emoticons/kddi/1f449.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f446",
+    "code": "U+1F446",
+    "glyph": "👆",
+    "name": "backhand index pointing up",
+    "group": "People & Body",
+    "subgroup": "hand-single-finger",
+    "src": "/emoticons/kddi/1f446.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f447",
+    "code": "U+1F447",
+    "glyph": "👇",
+    "name": "backhand index pointing down",
+    "group": "People & Body",
+    "subgroup": "hand-single-finger",
+    "src": "/emoticons/kddi/1f447.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "261d",
+    "code": "U+261D",
+    "glyph": "☝",
+    "name": "index pointing up",
+    "group": "People & Body",
+    "subgroup": "hand-single-finger",
+    "src": "/emoticons/kddi/261d.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f44d",
+    "code": "U+1F44D",
+    "glyph": "👍",
+    "name": "thumbs up",
+    "group": "People & Body",
+    "subgroup": "hand-fingers-closed",
+    "src": "/emoticons/kddi/1f44d.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f44e",
+    "code": "U+1F44E",
+    "glyph": "👎",
+    "name": "thumbs down",
+    "group": "People & Body",
+    "subgroup": "hand-fingers-closed",
+    "src": "/emoticons/kddi/1f44e.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "270a",
+    "code": "U+270A",
+    "glyph": "✊",
+    "name": "raised fist",
+    "group": "People & Body",
+    "subgroup": "hand-fingers-closed",
+    "src": "/emoticons/kddi/270a.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f44a",
+    "code": "U+1F44A",
+    "glyph": "👊",
+    "name": "oncoming fist",
+    "group": "People & Body",
+    "subgroup": "hand-fingers-closed",
+    "src": "/emoticons/kddi/1f44a.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f44f",
+    "code": "U+1F44F",
+    "glyph": "👏",
+    "name": "clapping hands",
+    "group": "People & Body",
+    "subgroup": "hands",
+    "src": "/emoticons/kddi/1f44f.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f64c",
+    "code": "U+1F64C",
+    "glyph": "🙌",
+    "name": "raising hands",
+    "group": "People & Body",
+    "subgroup": "hands",
+    "src": "/emoticons/kddi/1f64c.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f64f",
+    "code": "U+1F64F",
+    "glyph": "🙏",
+    "name": "folded hands",
+    "group": "People & Body",
+    "subgroup": "hands",
+    "src": "/emoticons/kddi/1f64f.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f485",
+    "code": "U+1F485",
+    "glyph": "💅",
+    "name": "nail polish",
+    "group": "People & Body",
+    "subgroup": "hand-prop",
+    "src": "/emoticons/kddi/1f485.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4aa",
+    "code": "U+1F4AA",
+    "glyph": "💪",
+    "name": "flexed biceps",
+    "group": "People & Body",
+    "subgroup": "body-parts",
+    "src": "/emoticons/kddi/1f4aa.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f442",
+    "code": "U+1F442",
+    "glyph": "👂",
+    "name": "ear",
+    "group": "People & Body",
+    "subgroup": "body-parts",
+    "src": "/emoticons/kddi/1f442.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f443",
+    "code": "U+1F443",
+    "glyph": "👃",
+    "name": "nose",
+    "group": "People & Body",
+    "subgroup": "body-parts",
+    "src": "/emoticons/kddi/1f443.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f440",
+    "code": "U+1F440",
+    "glyph": "👀",
+    "name": "eyes",
+    "group": "People & Body",
+    "subgroup": "body-parts",
+    "src": "/emoticons/kddi/1f440.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f445",
+    "code": "U+1F445",
+    "glyph": "👅",
+    "name": "tongue",
+    "group": "People & Body",
+    "subgroup": "body-parts",
+    "src": "/emoticons/kddi/1f445.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f444",
+    "code": "U+1F444",
+    "glyph": "👄",
+    "name": "mouth",
+    "group": "People & Body",
+    "subgroup": "body-parts",
+    "src": "/emoticons/kddi/1f444.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f476",
+    "code": "U+1F476",
+    "glyph": "👶",
+    "name": "baby",
+    "group": "People & Body",
+    "subgroup": "person",
+    "src": "/emoticons/kddi/1f476.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f471",
+    "code": "U+1F471",
+    "glyph": "👱",
+    "name": "person: blond hair",
+    "group": "People & Body",
+    "subgroup": "person",
+    "src": "/emoticons/kddi/1f471.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f468",
+    "code": "U+1F468",
+    "glyph": "👨",
+    "name": "man",
+    "group": "People & Body",
+    "subgroup": "person",
+    "src": "/emoticons/kddi/1f468.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f469",
+    "code": "U+1F469",
+    "glyph": "👩",
+    "name": "woman",
+    "group": "People & Body",
+    "subgroup": "person",
+    "src": "/emoticons/kddi/1f469.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f474",
+    "code": "U+1F474",
+    "glyph": "👴",
+    "name": "old man",
+    "group": "People & Body",
+    "subgroup": "person",
+    "src": "/emoticons/kddi/1f474.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f475",
+    "code": "U+1F475",
+    "glyph": "👵",
+    "name": "old woman",
+    "group": "People & Body",
+    "subgroup": "person",
+    "src": "/emoticons/kddi/1f475.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f64d",
+    "code": "U+1F64D",
+    "glyph": "🙍",
+    "name": "person frowning",
+    "group": "People & Body",
+    "subgroup": "person-gesture",
+    "src": "/emoticons/kddi/1f64d.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f64e",
+    "code": "U+1F64E",
+    "glyph": "🙎",
+    "name": "person pouting",
+    "group": "People & Body",
+    "subgroup": "person-gesture",
+    "src": "/emoticons/kddi/1f64e.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f645",
+    "code": "U+1F645",
+    "glyph": "🙅",
+    "name": "person gesturing NO",
+    "group": "People & Body",
+    "subgroup": "person-gesture",
+    "src": "/emoticons/kddi/1f645.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f646",
+    "code": "U+1F646",
+    "glyph": "🙆",
+    "name": "person gesturing OK",
+    "group": "People & Body",
+    "subgroup": "person-gesture",
+    "src": "/emoticons/kddi/1f646.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f64b",
+    "code": "U+1F64B",
+    "glyph": "🙋",
+    "name": "person raising hand",
+    "group": "People & Body",
+    "subgroup": "person-gesture",
+    "src": "/emoticons/kddi/1f64b.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f647",
+    "code": "U+1F647",
+    "glyph": "🙇",
+    "name": "person bowing",
+    "group": "People & Body",
+    "subgroup": "person-gesture",
+    "src": "/emoticons/kddi/1f647.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f46e",
+    "code": "U+1F46E",
+    "glyph": "👮",
+    "name": "police officer",
+    "group": "People & Body",
+    "subgroup": "person-role",
+    "src": "/emoticons/kddi/1f46e.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f477",
+    "code": "U+1F477",
+    "glyph": "👷",
+    "name": "construction worker",
+    "group": "People & Body",
+    "subgroup": "person-role",
+    "src": "/emoticons/kddi/1f477.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f478",
+    "code": "U+1F478",
+    "glyph": "👸",
+    "name": "princess",
+    "group": "People & Body",
+    "subgroup": "person-role",
+    "src": "/emoticons/kddi/1f478.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f473",
+    "code": "U+1F473",
+    "glyph": "👳",
+    "name": "person wearing turban",
+    "group": "People & Body",
+    "subgroup": "person-role",
+    "src": "/emoticons/kddi/1f473.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f472",
+    "code": "U+1F472",
+    "glyph": "👲",
+    "name": "person with skullcap",
+    "group": "People & Body",
+    "subgroup": "person-role",
+    "src": "/emoticons/kddi/1f472.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f470",
+    "code": "U+1F470",
+    "glyph": "👰",
+    "name": "person with veil",
+    "group": "People & Body",
+    "subgroup": "person-role",
+    "src": "/emoticons/kddi/1f470.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f47c",
+    "code": "U+1F47C",
+    "glyph": "👼",
+    "name": "baby angel",
+    "group": "People & Body",
+    "subgroup": "person-fantasy",
+    "src": "/emoticons/kddi/1f47c.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f385",
+    "code": "U+1F385",
+    "glyph": "🎅",
+    "name": "Santa Claus",
+    "group": "People & Body",
+    "subgroup": "person-fantasy",
+    "src": "/emoticons/kddi/1f385.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f486",
+    "code": "U+1F486",
+    "glyph": "💆",
+    "name": "person getting massage",
+    "group": "People & Body",
+    "subgroup": "person-activity",
+    "src": "/emoticons/kddi/1f486.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f487",
+    "code": "U+1F487",
+    "glyph": "💇",
+    "name": "person getting haircut",
+    "group": "People & Body",
+    "subgroup": "person-activity",
+    "src": "/emoticons/kddi/1f487.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f6b6",
+    "code": "U+1F6B6",
+    "glyph": "🚶",
+    "name": "person walking",
+    "group": "People & Body",
+    "subgroup": "person-activity",
+    "src": "/emoticons/kddi/1f6b6.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f3c3",
+    "code": "U+1F3C3",
+    "glyph": "🏃",
+    "name": "person running",
+    "group": "People & Body",
+    "subgroup": "person-activity",
+    "src": "/emoticons/kddi/1f3c3.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f483",
+    "code": "U+1F483",
+    "glyph": "💃",
+    "name": "woman dancing",
+    "group": "People & Body",
+    "subgroup": "person-activity",
+    "src": "/emoticons/kddi/1f483.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f46f",
+    "code": "U+1F46F",
+    "glyph": "👯",
+    "name": "people with bunny ears",
+    "group": "People & Body",
+    "subgroup": "person-activity",
+    "src": "/emoticons/kddi/1f46f.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f3c2",
+    "code": "U+1F3C2",
+    "glyph": "🏂",
+    "name": "snowboarder",
+    "group": "People & Body",
+    "subgroup": "person-sport",
+    "src": "/emoticons/kddi/1f3c2.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f3c4",
+    "code": "U+1F3C4",
+    "glyph": "🏄",
+    "name": "person surfing",
+    "group": "People & Body",
+    "subgroup": "person-sport",
+    "src": "/emoticons/kddi/1f3c4.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f3ca",
+    "code": "U+1F3CA",
+    "glyph": "🏊",
+    "name": "person swimming",
+    "group": "People & Body",
+    "subgroup": "person-sport",
+    "src": "/emoticons/kddi/1f3ca.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f6c0",
+    "code": "U+1F6C0",
+    "glyph": "🛀",
+    "name": "person taking bath",
+    "group": "People & Body",
+    "subgroup": "person-resting",
+    "src": "/emoticons/kddi/1f6c0.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f48f",
+    "code": "U+1F48F",
+    "glyph": "💏",
+    "name": "kiss",
+    "group": "People & Body",
+    "subgroup": "family",
+    "src": "/emoticons/kddi/1f48f.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f491",
+    "code": "U+1F491",
+    "glyph": "💑",
+    "name": "couple with heart",
+    "group": "People & Body",
+    "subgroup": "family",
+    "src": "/emoticons/kddi/1f491.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f46a",
+    "code": "U+1F46A",
+    "glyph": "👪",
+    "name": "family",
+    "group": "People & Body",
+    "subgroup": "person-symbol",
+    "src": "/emoticons/kddi/1f46a.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f463",
+    "code": "U+1F463",
+    "glyph": "👣",
+    "name": "footprints",
+    "group": "People & Body",
+    "subgroup": "person-symbol",
+    "src": "/emoticons/kddi/1f463.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f435",
+    "code": "U+1F435",
+    "glyph": "🐵",
+    "name": "monkey face",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal",
+    "src": "/emoticons/kddi/1f435.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f436",
+    "code": "U+1F436",
+    "glyph": "🐶",
+    "name": "dog face",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal",
+    "src": "/emoticons/kddi/1f436.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f429",
+    "code": "U+1F429",
+    "glyph": "🐩",
+    "name": "poodle",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal",
+    "src": "/emoticons/kddi/1f429.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f431",
+    "code": "U+1F431",
+    "glyph": "🐱",
+    "name": "cat face",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal",
+    "src": "/emoticons/kddi/1f431.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f42f",
+    "code": "U+1F42F",
+    "glyph": "🐯",
+    "name": "tiger face",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal",
+    "src": "/emoticons/kddi/1f42f.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f434",
+    "code": "U+1F434",
+    "glyph": "🐴",
+    "name": "horse face",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal",
+    "src": "/emoticons/kddi/1f434.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f42e",
+    "code": "U+1F42E",
+    "glyph": "🐮",
+    "name": "cow face",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal",
+    "src": "/emoticons/kddi/1f42e.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f437",
+    "code": "U+1F437",
+    "glyph": "🐷",
+    "name": "pig face",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal",
+    "src": "/emoticons/kddi/1f437.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f417",
+    "code": "U+1F417",
+    "glyph": "🐗",
+    "name": "boar",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal",
+    "src": "/emoticons/kddi/1f417.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f43d",
+    "code": "U+1F43D",
+    "glyph": "🐽",
+    "name": "pig nose",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal",
+    "src": "/emoticons/kddi/1f43d.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f42b",
+    "code": "U+1F42B",
+    "glyph": "🐫",
+    "name": "two-hump camel",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal",
+    "src": "/emoticons/kddi/1f42b.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f418",
+    "code": "U+1F418",
+    "glyph": "🐘",
+    "name": "elephant",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal",
+    "src": "/emoticons/kddi/1f418.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f42d",
+    "code": "U+1F42D",
+    "glyph": "🐭",
+    "name": "mouse face",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal",
+    "src": "/emoticons/kddi/1f42d.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f430",
+    "code": "U+1F430",
+    "glyph": "🐰",
+    "name": "rabbit face",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal",
+    "src": "/emoticons/kddi/1f430.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f43b",
+    "code": "U+1F43B",
+    "glyph": "🐻",
+    "name": "bear",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal",
+    "src": "/emoticons/kddi/1f43b.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f428",
+    "code": "U+1F428",
+    "glyph": "🐨",
+    "name": "koala",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal",
+    "src": "/emoticons/kddi/1f428.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f43c",
+    "code": "U+1F43C",
+    "glyph": "🐼",
+    "name": "panda",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal",
+    "src": "/emoticons/kddi/1f43c.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f43e",
+    "code": "U+1F43E",
+    "glyph": "🐾",
+    "name": "paw prints",
+    "group": "Animals & Nature",
+    "subgroup": "animal-mammal",
+    "src": "/emoticons/kddi/1f43e.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f414",
+    "code": "U+1F414",
+    "glyph": "🐔",
+    "name": "chicken",
+    "group": "Animals & Nature",
+    "subgroup": "animal-bird",
+    "src": "/emoticons/kddi/1f414.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f423",
+    "code": "U+1F423",
+    "glyph": "🐣",
+    "name": "hatching chick",
+    "group": "Animals & Nature",
+    "subgroup": "animal-bird",
+    "src": "/emoticons/kddi/1f423.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f424",
+    "code": "U+1F424",
+    "glyph": "🐤",
+    "name": "baby chick",
+    "group": "Animals & Nature",
+    "subgroup": "animal-bird",
+    "src": "/emoticons/kddi/1f424.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f425",
+    "code": "U+1F425",
+    "glyph": "🐥",
+    "name": "front-facing baby chick",
+    "group": "Animals & Nature",
+    "subgroup": "animal-bird",
+    "src": "/emoticons/kddi/1f425.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f427",
+    "code": "U+1F427",
+    "glyph": "🐧",
+    "name": "penguin",
+    "group": "Animals & Nature",
+    "subgroup": "animal-bird",
+    "src": "/emoticons/kddi/1f427.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f438",
+    "code": "U+1F438",
+    "glyph": "🐸",
+    "name": "frog",
+    "group": "Animals & Nature",
+    "subgroup": "animal-amphibian",
+    "src": "/emoticons/kddi/1f438.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f422",
+    "code": "U+1F422",
+    "glyph": "🐢",
+    "name": "turtle",
+    "group": "Animals & Nature",
+    "subgroup": "animal-reptile",
+    "src": "/emoticons/kddi/1f422.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f40d",
+    "code": "U+1F40D",
+    "glyph": "🐍",
+    "name": "snake",
+    "group": "Animals & Nature",
+    "subgroup": "animal-reptile",
+    "src": "/emoticons/kddi/1f40d.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f432",
+    "code": "U+1F432",
+    "glyph": "🐲",
+    "name": "dragon face",
+    "group": "Animals & Nature",
+    "subgroup": "animal-reptile",
+    "src": "/emoticons/kddi/1f432.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f433",
+    "code": "U+1F433",
+    "glyph": "🐳",
+    "name": "spouting whale",
+    "group": "Animals & Nature",
+    "subgroup": "animal-marine",
+    "src": "/emoticons/kddi/1f433.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f42c",
+    "code": "U+1F42C",
+    "glyph": "🐬",
+    "name": "dolphin",
+    "group": "Animals & Nature",
+    "subgroup": "animal-marine",
+    "src": "/emoticons/kddi/1f42c.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f420",
+    "code": "U+1F420",
+    "glyph": "🐠",
+    "name": "tropical fish",
+    "group": "Animals & Nature",
+    "subgroup": "animal-marine",
+    "src": "/emoticons/kddi/1f420.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f421",
+    "code": "U+1F421",
+    "glyph": "🐡",
+    "name": "blowfish",
+    "group": "Animals & Nature",
+    "subgroup": "animal-marine",
+    "src": "/emoticons/kddi/1f421.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f419",
+    "code": "U+1F419",
+    "glyph": "🐙",
+    "name": "octopus",
+    "group": "Animals & Nature",
+    "subgroup": "animal-marine",
+    "src": "/emoticons/kddi/1f419.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f41a",
+    "code": "U+1F41A",
+    "glyph": "🐚",
+    "name": "spiral shell",
+    "group": "Animals & Nature",
+    "subgroup": "animal-marine",
+    "src": "/emoticons/kddi/1f41a.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f40c",
+    "code": "U+1F40C",
+    "glyph": "🐌",
+    "name": "snail",
+    "group": "Animals & Nature",
+    "subgroup": "animal-bug",
+    "src": "/emoticons/kddi/1f40c.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f41b",
+    "code": "U+1F41B",
+    "glyph": "🐛",
+    "name": "bug",
+    "group": "Animals & Nature",
+    "subgroup": "animal-bug",
+    "src": "/emoticons/kddi/1f41b.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f41c",
+    "code": "U+1F41C",
+    "glyph": "🐜",
+    "name": "ant",
+    "group": "Animals & Nature",
+    "subgroup": "animal-bug",
+    "src": "/emoticons/kddi/1f41c.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f41d",
+    "code": "U+1F41D",
+    "glyph": "🐝",
+    "name": "honeybee",
+    "group": "Animals & Nature",
+    "subgroup": "animal-bug",
+    "src": "/emoticons/kddi/1f41d.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f41e",
+    "code": "U+1F41E",
+    "glyph": "🐞",
+    "name": "lady beetle",
+    "group": "Animals & Nature",
+    "subgroup": "animal-bug",
+    "src": "/emoticons/kddi/1f41e.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f490",
+    "code": "U+1F490",
+    "glyph": "💐",
+    "name": "bouquet",
+    "group": "Animals & Nature",
+    "subgroup": "plant-flower",
+    "src": "/emoticons/kddi/1f490.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f338",
+    "code": "U+1F338",
+    "glyph": "🌸",
+    "name": "cherry blossom",
+    "group": "Animals & Nature",
+    "subgroup": "plant-flower",
+    "src": "/emoticons/kddi/1f338.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4ae",
+    "code": "U+1F4AE",
+    "glyph": "💮",
+    "name": "white flower",
+    "group": "Animals & Nature",
+    "subgroup": "plant-flower",
+    "src": "/emoticons/kddi/1f4ae.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f339",
+    "code": "U+1F339",
+    "glyph": "🌹",
+    "name": "rose",
+    "group": "Animals & Nature",
+    "subgroup": "plant-flower",
+    "src": "/emoticons/kddi/1f339.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f33a",
+    "code": "U+1F33A",
+    "glyph": "🌺",
+    "name": "hibiscus",
+    "group": "Animals & Nature",
+    "subgroup": "plant-flower",
+    "src": "/emoticons/kddi/1f33a.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f33b",
+    "code": "U+1F33B",
+    "glyph": "🌻",
+    "name": "sunflower",
+    "group": "Animals & Nature",
+    "subgroup": "plant-flower",
+    "src": "/emoticons/kddi/1f33b.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f33c",
+    "code": "U+1F33C",
+    "glyph": "🌼",
+    "name": "blossom",
+    "group": "Animals & Nature",
+    "subgroup": "plant-flower",
+    "src": "/emoticons/kddi/1f33c.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f337",
+    "code": "U+1F337",
+    "glyph": "🌷",
+    "name": "tulip",
+    "group": "Animals & Nature",
+    "subgroup": "plant-flower",
+    "src": "/emoticons/kddi/1f337.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f331",
+    "code": "U+1F331",
+    "glyph": "🌱",
+    "name": "seedling",
+    "group": "Animals & Nature",
+    "subgroup": "plant-other",
+    "src": "/emoticons/kddi/1f331.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f334",
+    "code": "U+1F334",
+    "glyph": "🌴",
+    "name": "palm tree",
+    "group": "Animals & Nature",
+    "subgroup": "plant-other",
+    "src": "/emoticons/kddi/1f334.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f335",
+    "code": "U+1F335",
+    "glyph": "🌵",
+    "name": "cactus",
+    "group": "Animals & Nature",
+    "subgroup": "plant-other",
+    "src": "/emoticons/kddi/1f335.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f33f",
+    "code": "U+1F33F",
+    "glyph": "🌿",
+    "name": "herb",
+    "group": "Animals & Nature",
+    "subgroup": "plant-other",
+    "src": "/emoticons/kddi/1f33f.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f340",
+    "code": "U+1F340",
+    "glyph": "🍀",
+    "name": "four leaf clover",
+    "group": "Animals & Nature",
+    "subgroup": "plant-other",
+    "src": "/emoticons/kddi/1f340.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f341",
+    "code": "U+1F341",
+    "glyph": "🍁",
+    "name": "maple leaf",
+    "group": "Animals & Nature",
+    "subgroup": "plant-other",
+    "src": "/emoticons/kddi/1f341.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f342",
+    "code": "U+1F342",
+    "glyph": "🍂",
+    "name": "fallen leaf",
+    "group": "Animals & Nature",
+    "subgroup": "plant-other",
+    "src": "/emoticons/kddi/1f342.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f344",
+    "code": "U+1F344",
+    "glyph": "🍄",
+    "name": "mushroom",
+    "group": "Animals & Nature",
+    "subgroup": "plant-other",
+    "src": "/emoticons/kddi/1f344.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f347",
+    "code": "U+1F347",
+    "glyph": "🍇",
+    "name": "grapes",
+    "group": "Food & Drink",
+    "subgroup": "food-fruit",
+    "src": "/emoticons/kddi/1f347.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f348",
+    "code": "U+1F348",
+    "glyph": "🍈",
+    "name": "melon",
+    "group": "Food & Drink",
+    "subgroup": "food-fruit",
+    "src": "/emoticons/kddi/1f348.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f349",
+    "code": "U+1F349",
+    "glyph": "🍉",
+    "name": "watermelon",
+    "group": "Food & Drink",
+    "subgroup": "food-fruit",
+    "src": "/emoticons/kddi/1f349.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f34a",
+    "code": "U+1F34A",
+    "glyph": "🍊",
+    "name": "tangerine",
+    "group": "Food & Drink",
+    "subgroup": "food-fruit",
+    "src": "/emoticons/kddi/1f34a.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f34c",
+    "code": "U+1F34C",
+    "glyph": "🍌",
+    "name": "banana",
+    "group": "Food & Drink",
+    "subgroup": "food-fruit",
+    "src": "/emoticons/kddi/1f34c.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f34d",
+    "code": "U+1F34D",
+    "glyph": "🍍",
+    "name": "pineapple",
+    "group": "Food & Drink",
+    "subgroup": "food-fruit",
+    "src": "/emoticons/kddi/1f34d.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f34e",
+    "code": "U+1F34E",
+    "glyph": "🍎",
+    "name": "red apple",
+    "group": "Food & Drink",
+    "subgroup": "food-fruit",
+    "src": "/emoticons/kddi/1f34e.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f34f",
+    "code": "U+1F34F",
+    "glyph": "🍏",
+    "name": "green apple",
+    "group": "Food & Drink",
+    "subgroup": "food-fruit",
+    "src": "/emoticons/kddi/1f34f.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f351",
+    "code": "U+1F351",
+    "glyph": "🍑",
+    "name": "peach",
+    "group": "Food & Drink",
+    "subgroup": "food-fruit",
+    "src": "/emoticons/kddi/1f351.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f352",
+    "code": "U+1F352",
+    "glyph": "🍒",
+    "name": "cherries",
+    "group": "Food & Drink",
+    "subgroup": "food-fruit",
+    "src": "/emoticons/kddi/1f352.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f353",
+    "code": "U+1F353",
+    "glyph": "🍓",
+    "name": "strawberry",
+    "group": "Food & Drink",
+    "subgroup": "food-fruit",
+    "src": "/emoticons/kddi/1f353.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f345",
+    "code": "U+1F345",
+    "glyph": "🍅",
+    "name": "tomato",
+    "group": "Food & Drink",
+    "subgroup": "food-fruit",
+    "src": "/emoticons/kddi/1f345.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f346",
+    "code": "U+1F346",
+    "glyph": "🍆",
+    "name": "eggplant",
+    "group": "Food & Drink",
+    "subgroup": "food-vegetable",
+    "src": "/emoticons/kddi/1f346.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f33d",
+    "code": "U+1F33D",
+    "glyph": "🌽",
+    "name": "ear of corn",
+    "group": "Food & Drink",
+    "subgroup": "food-vegetable",
+    "src": "/emoticons/kddi/1f33d.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f330",
+    "code": "U+1F330",
+    "glyph": "🌰",
+    "name": "chestnut",
+    "group": "Food & Drink",
+    "subgroup": "food-vegetable",
+    "src": "/emoticons/kddi/1f330.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f35e",
+    "code": "U+1F35E",
+    "glyph": "🍞",
+    "name": "bread",
+    "group": "Food & Drink",
+    "subgroup": "food-prepared",
+    "src": "/emoticons/kddi/1f35e.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f356",
+    "code": "U+1F356",
+    "glyph": "🍖",
+    "name": "meat on bone",
+    "group": "Food & Drink",
+    "subgroup": "food-prepared",
+    "src": "/emoticons/kddi/1f356.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f357",
+    "code": "U+1F357",
+    "glyph": "🍗",
+    "name": "poultry leg",
+    "group": "Food & Drink",
+    "subgroup": "food-prepared",
+    "src": "/emoticons/kddi/1f357.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f354",
+    "code": "U+1F354",
+    "glyph": "🍔",
+    "name": "hamburger",
+    "group": "Food & Drink",
+    "subgroup": "food-prepared",
+    "src": "/emoticons/kddi/1f354.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f35f",
+    "code": "U+1F35F",
+    "glyph": "🍟",
+    "name": "french fries",
+    "group": "Food & Drink",
+    "subgroup": "food-prepared",
+    "src": "/emoticons/kddi/1f35f.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f355",
+    "code": "U+1F355",
+    "glyph": "🍕",
+    "name": "pizza",
+    "group": "Food & Drink",
+    "subgroup": "food-prepared",
+    "src": "/emoticons/kddi/1f355.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f373",
+    "code": "U+1F373",
+    "glyph": "🍳",
+    "name": "cooking",
+    "group": "Food & Drink",
+    "subgroup": "food-prepared",
+    "src": "/emoticons/kddi/1f373.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f372",
+    "code": "U+1F372",
+    "glyph": "🍲",
+    "name": "pot of food",
+    "group": "Food & Drink",
+    "subgroup": "food-prepared",
+    "src": "/emoticons/kddi/1f372.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f371",
+    "code": "U+1F371",
+    "glyph": "🍱",
+    "name": "bento box",
+    "group": "Food & Drink",
+    "subgroup": "food-asian",
+    "src": "/emoticons/kddi/1f371.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f358",
+    "code": "U+1F358",
+    "glyph": "🍘",
+    "name": "rice cracker",
+    "group": "Food & Drink",
+    "subgroup": "food-asian",
+    "src": "/emoticons/kddi/1f358.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f359",
+    "code": "U+1F359",
+    "glyph": "🍙",
+    "name": "rice ball",
+    "group": "Food & Drink",
+    "subgroup": "food-asian",
+    "src": "/emoticons/kddi/1f359.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f35a",
+    "code": "U+1F35A",
+    "glyph": "🍚",
+    "name": "cooked rice",
+    "group": "Food & Drink",
+    "subgroup": "food-asian",
+    "src": "/emoticons/kddi/1f35a.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f35b",
+    "code": "U+1F35B",
+    "glyph": "🍛",
+    "name": "curry rice",
+    "group": "Food & Drink",
+    "subgroup": "food-asian",
+    "src": "/emoticons/kddi/1f35b.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f35c",
+    "code": "U+1F35C",
+    "glyph": "🍜",
+    "name": "steaming bowl",
+    "group": "Food & Drink",
+    "subgroup": "food-asian",
+    "src": "/emoticons/kddi/1f35c.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f35d",
+    "code": "U+1F35D",
+    "glyph": "🍝",
+    "name": "spaghetti",
+    "group": "Food & Drink",
+    "subgroup": "food-asian",
+    "src": "/emoticons/kddi/1f35d.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f360",
+    "code": "U+1F360",
+    "glyph": "🍠",
+    "name": "roasted sweet potato",
+    "group": "Food & Drink",
+    "subgroup": "food-asian",
+    "src": "/emoticons/kddi/1f360.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f362",
+    "code": "U+1F362",
+    "glyph": "🍢",
+    "name": "oden",
+    "group": "Food & Drink",
+    "subgroup": "food-asian",
+    "src": "/emoticons/kddi/1f362.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f363",
+    "code": "U+1F363",
+    "glyph": "🍣",
+    "name": "sushi",
+    "group": "Food & Drink",
+    "subgroup": "food-asian",
+    "src": "/emoticons/kddi/1f363.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f364",
+    "code": "U+1F364",
+    "glyph": "🍤",
+    "name": "fried shrimp",
+    "group": "Food & Drink",
+    "subgroup": "food-asian",
+    "src": "/emoticons/kddi/1f364.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f365",
+    "code": "U+1F365",
+    "glyph": "🍥",
+    "name": "fish cake with swirl",
+    "group": "Food & Drink",
+    "subgroup": "food-asian",
+    "src": "/emoticons/kddi/1f365.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f361",
+    "code": "U+1F361",
+    "glyph": "🍡",
+    "name": "dango",
+    "group": "Food & Drink",
+    "subgroup": "food-asian",
+    "src": "/emoticons/kddi/1f361.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f366",
+    "code": "U+1F366",
+    "glyph": "🍦",
+    "name": "soft ice cream",
+    "group": "Food & Drink",
+    "subgroup": "food-sweet",
+    "src": "/emoticons/kddi/1f366.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f367",
+    "code": "U+1F367",
+    "glyph": "🍧",
+    "name": "shaved ice",
+    "group": "Food & Drink",
+    "subgroup": "food-sweet",
+    "src": "/emoticons/kddi/1f367.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f368",
+    "code": "U+1F368",
+    "glyph": "🍨",
+    "name": "ice cream",
+    "group": "Food & Drink",
+    "subgroup": "food-sweet",
+    "src": "/emoticons/kddi/1f368.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f369",
+    "code": "U+1F369",
+    "glyph": "🍩",
+    "name": "doughnut",
+    "group": "Food & Drink",
+    "subgroup": "food-sweet",
+    "src": "/emoticons/kddi/1f369.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f36a",
+    "code": "U+1F36A",
+    "glyph": "🍪",
+    "name": "cookie",
+    "group": "Food & Drink",
+    "subgroup": "food-sweet",
+    "src": "/emoticons/kddi/1f36a.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f382",
+    "code": "U+1F382",
+    "glyph": "🎂",
+    "name": "birthday cake",
+    "group": "Food & Drink",
+    "subgroup": "food-sweet",
+    "src": "/emoticons/kddi/1f382.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f370",
+    "code": "U+1F370",
+    "glyph": "🍰",
+    "name": "shortcake",
+    "group": "Food & Drink",
+    "subgroup": "food-sweet",
+    "src": "/emoticons/kddi/1f370.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f36b",
+    "code": "U+1F36B",
+    "glyph": "🍫",
+    "name": "chocolate bar",
+    "group": "Food & Drink",
+    "subgroup": "food-sweet",
+    "src": "/emoticons/kddi/1f36b.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f36c",
+    "code": "U+1F36C",
+    "glyph": "🍬",
+    "name": "candy",
+    "group": "Food & Drink",
+    "subgroup": "food-sweet",
+    "src": "/emoticons/kddi/1f36c.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f36d",
+    "code": "U+1F36D",
+    "glyph": "🍭",
+    "name": "lollipop",
+    "group": "Food & Drink",
+    "subgroup": "food-sweet",
+    "src": "/emoticons/kddi/1f36d.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f36e",
+    "code": "U+1F36E",
+    "glyph": "🍮",
+    "name": "custard",
+    "group": "Food & Drink",
+    "subgroup": "food-sweet",
+    "src": "/emoticons/kddi/1f36e.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f36f",
+    "code": "U+1F36F",
+    "glyph": "🍯",
+    "name": "honey pot",
+    "group": "Food & Drink",
+    "subgroup": "food-sweet",
+    "src": "/emoticons/kddi/1f36f.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "2615",
+    "code": "U+2615",
+    "glyph": "☕",
+    "name": "hot beverage",
+    "group": "Food & Drink",
+    "subgroup": "drink",
+    "src": "/emoticons/kddi/2615.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f375",
+    "code": "U+1F375",
+    "glyph": "🍵",
+    "name": "teacup without handle",
+    "group": "Food & Drink",
+    "subgroup": "drink",
+    "src": "/emoticons/kddi/1f375.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f376",
+    "code": "U+1F376",
+    "glyph": "🍶",
+    "name": "sake",
+    "group": "Food & Drink",
+    "subgroup": "drink",
+    "src": "/emoticons/kddi/1f376.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f377",
+    "code": "U+1F377",
+    "glyph": "🍷",
+    "name": "wine glass",
+    "group": "Food & Drink",
+    "subgroup": "drink",
+    "src": "/emoticons/kddi/1f377.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f378",
+    "code": "U+1F378",
+    "glyph": "🍸",
+    "name": "cocktail glass",
+    "group": "Food & Drink",
+    "subgroup": "drink",
+    "src": "/emoticons/kddi/1f378.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f379",
+    "code": "U+1F379",
+    "glyph": "🍹",
+    "name": "tropical drink",
+    "group": "Food & Drink",
+    "subgroup": "drink",
+    "src": "/emoticons/kddi/1f379.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f37a",
+    "code": "U+1F37A",
+    "glyph": "🍺",
+    "name": "beer mug",
+    "group": "Food & Drink",
+    "subgroup": "drink",
+    "src": "/emoticons/kddi/1f37a.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f37b",
+    "code": "U+1F37B",
+    "glyph": "🍻",
+    "name": "clinking beer mugs",
+    "group": "Food & Drink",
+    "subgroup": "drink",
+    "src": "/emoticons/kddi/1f37b.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f374",
+    "code": "U+1F374",
+    "glyph": "🍴",
+    "name": "fork and knife",
+    "group": "Food & Drink",
+    "subgroup": "dishware",
+    "src": "/emoticons/kddi/1f374.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f52a",
+    "code": "U+1F52A",
+    "glyph": "🔪",
+    "name": "kitchen knife",
+    "group": "Food & Drink",
+    "subgroup": "dishware",
+    "src": "/emoticons/kddi/1f52a.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f30f",
+    "code": "U+1F30F",
+    "glyph": "🌏",
+    "name": "globe showing Asia-Australia",
+    "group": "Travel & Places",
+    "subgroup": "place-map",
+    "src": "/emoticons/kddi/1f30f.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f5fe",
+    "code": "U+1F5FE",
+    "glyph": "🗾",
+    "name": "map of Japan",
+    "group": "Travel & Places",
+    "subgroup": "place-map",
+    "src": "/emoticons/kddi/1f5fe.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f30b",
+    "code": "U+1F30B",
+    "glyph": "🌋",
+    "name": "volcano",
+    "group": "Travel & Places",
+    "subgroup": "place-geographic",
+    "src": "/emoticons/kddi/1f30b.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f5fb",
+    "code": "U+1F5FB",
+    "glyph": "🗻",
+    "name": "mount fuji",
+    "group": "Travel & Places",
+    "subgroup": "place-geographic",
+    "src": "/emoticons/kddi/1f5fb.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f3e0",
+    "code": "U+1F3E0",
+    "glyph": "🏠",
+    "name": "house",
+    "group": "Travel & Places",
+    "subgroup": "place-building",
+    "src": "/emoticons/kddi/1f3e0.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f3e1",
+    "code": "U+1F3E1",
+    "glyph": "🏡",
+    "name": "house with garden",
+    "group": "Travel & Places",
+    "subgroup": "place-building",
+    "src": "/emoticons/kddi/1f3e1.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f3e2",
+    "code": "U+1F3E2",
+    "glyph": "🏢",
+    "name": "office building",
+    "group": "Travel & Places",
+    "subgroup": "place-building",
+    "src": "/emoticons/kddi/1f3e2.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f3e3",
+    "code": "U+1F3E3",
+    "glyph": "🏣",
+    "name": "Japanese post office",
+    "group": "Travel & Places",
+    "subgroup": "place-building",
+    "src": "/emoticons/kddi/1f3e3.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f3e5",
+    "code": "U+1F3E5",
+    "glyph": "🏥",
+    "name": "hospital",
+    "group": "Travel & Places",
+    "subgroup": "place-building",
+    "src": "/emoticons/kddi/1f3e5.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f3e6",
+    "code": "U+1F3E6",
+    "glyph": "🏦",
+    "name": "bank",
+    "group": "Travel & Places",
+    "subgroup": "place-building",
+    "src": "/emoticons/kddi/1f3e6.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f3e8",
+    "code": "U+1F3E8",
+    "glyph": "🏨",
+    "name": "hotel",
+    "group": "Travel & Places",
+    "subgroup": "place-building",
+    "src": "/emoticons/kddi/1f3e8.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f3e9",
+    "code": "U+1F3E9",
+    "glyph": "🏩",
+    "name": "love hotel",
+    "group": "Travel & Places",
+    "subgroup": "place-building",
+    "src": "/emoticons/kddi/1f3e9.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f3ea",
+    "code": "U+1F3EA",
+    "glyph": "🏪",
+    "name": "convenience store",
+    "group": "Travel & Places",
+    "subgroup": "place-building",
+    "src": "/emoticons/kddi/1f3ea.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f3eb",
+    "code": "U+1F3EB",
+    "glyph": "🏫",
+    "name": "school",
+    "group": "Travel & Places",
+    "subgroup": "place-building",
+    "src": "/emoticons/kddi/1f3eb.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f3ec",
+    "code": "U+1F3EC",
+    "glyph": "🏬",
+    "name": "department store",
+    "group": "Travel & Places",
+    "subgroup": "place-building",
+    "src": "/emoticons/kddi/1f3ec.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f3ed",
+    "code": "U+1F3ED",
+    "glyph": "🏭",
+    "name": "factory",
+    "group": "Travel & Places",
+    "subgroup": "place-building",
+    "src": "/emoticons/kddi/1f3ed.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f3ef",
+    "code": "U+1F3EF",
+    "glyph": "🏯",
+    "name": "Japanese castle",
+    "group": "Travel & Places",
+    "subgroup": "place-building",
+    "src": "/emoticons/kddi/1f3ef.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f3f0",
+    "code": "U+1F3F0",
+    "glyph": "🏰",
+    "name": "castle",
+    "group": "Travel & Places",
+    "subgroup": "place-building",
+    "src": "/emoticons/kddi/1f3f0.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f5fc",
+    "code": "U+1F5FC",
+    "glyph": "🗼",
+    "name": "Tokyo tower",
+    "group": "Travel & Places",
+    "subgroup": "place-building",
+    "src": "/emoticons/kddi/1f5fc.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "26ea",
+    "code": "U+26EA",
+    "glyph": "⛪",
+    "name": "church",
+    "group": "Travel & Places",
+    "subgroup": "place-religious",
+    "src": "/emoticons/kddi/26ea.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "26f2",
+    "code": "U+26F2",
+    "glyph": "⛲",
+    "name": "fountain",
+    "group": "Travel & Places",
+    "subgroup": "place-other",
+    "src": "/emoticons/kddi/26f2.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "26fa",
+    "code": "U+26FA",
+    "glyph": "⛺",
+    "name": "tent",
+    "group": "Travel & Places",
+    "subgroup": "place-other",
+    "src": "/emoticons/kddi/26fa.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f301",
+    "code": "U+1F301",
+    "glyph": "🌁",
+    "name": "foggy",
+    "group": "Travel & Places",
+    "subgroup": "place-other",
+    "src": "/emoticons/kddi/1f301.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f303",
+    "code": "U+1F303",
+    "glyph": "🌃",
+    "name": "night with stars",
+    "group": "Travel & Places",
+    "subgroup": "place-other",
+    "src": "/emoticons/kddi/1f303.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f305",
+    "code": "U+1F305",
+    "glyph": "🌅",
+    "name": "sunrise",
+    "group": "Travel & Places",
+    "subgroup": "place-other",
+    "src": "/emoticons/kddi/1f305.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f306",
+    "code": "U+1F306",
+    "glyph": "🌆",
+    "name": "cityscape at dusk",
+    "group": "Travel & Places",
+    "subgroup": "place-other",
+    "src": "/emoticons/kddi/1f306.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f309",
+    "code": "U+1F309",
+    "glyph": "🌉",
+    "name": "bridge at night",
+    "group": "Travel & Places",
+    "subgroup": "place-other",
+    "src": "/emoticons/kddi/1f309.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "2668",
+    "code": "U+2668",
+    "glyph": "♨",
+    "name": "hot springs",
+    "group": "Travel & Places",
+    "subgroup": "place-other",
+    "src": "/emoticons/kddi/2668.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f3a1",
+    "code": "U+1F3A1",
+    "glyph": "🎡",
+    "name": "ferris wheel",
+    "group": "Travel & Places",
+    "subgroup": "place-other",
+    "src": "/emoticons/kddi/1f3a1.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f3a2",
+    "code": "U+1F3A2",
+    "glyph": "🎢",
+    "name": "roller coaster",
+    "group": "Travel & Places",
+    "subgroup": "place-other",
+    "src": "/emoticons/kddi/1f3a2.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f488",
+    "code": "U+1F488",
+    "glyph": "💈",
+    "name": "barber pole",
+    "group": "Travel & Places",
+    "subgroup": "place-other",
+    "src": "/emoticons/kddi/1f488.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f3aa",
+    "code": "U+1F3AA",
+    "glyph": "🎪",
+    "name": "circus tent",
+    "group": "Travel & Places",
+    "subgroup": "place-other",
+    "src": "/emoticons/kddi/1f3aa.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f683",
+    "code": "U+1F683",
+    "glyph": "🚃",
+    "name": "railway car",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground",
+    "src": "/emoticons/kddi/1f683.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f685",
+    "code": "U+1F685",
+    "glyph": "🚅",
+    "name": "bullet train",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground",
+    "src": "/emoticons/kddi/1f685.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f687",
+    "code": "U+1F687",
+    "glyph": "🚇",
+    "name": "metro",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground",
+    "src": "/emoticons/kddi/1f687.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f689",
+    "code": "U+1F689",
+    "glyph": "🚉",
+    "name": "station",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground",
+    "src": "/emoticons/kddi/1f689.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f68c",
+    "code": "U+1F68C",
+    "glyph": "🚌",
+    "name": "bus",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground",
+    "src": "/emoticons/kddi/1f68c.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f691",
+    "code": "U+1F691",
+    "glyph": "🚑",
+    "name": "ambulance",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground",
+    "src": "/emoticons/kddi/1f691.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f692",
+    "code": "U+1F692",
+    "glyph": "🚒",
+    "name": "fire engine",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground",
+    "src": "/emoticons/kddi/1f692.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f693",
+    "code": "U+1F693",
+    "glyph": "🚓",
+    "name": "police car",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground",
+    "src": "/emoticons/kddi/1f693.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f697",
+    "code": "U+1F697",
+    "glyph": "🚗",
+    "name": "automobile",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground",
+    "src": "/emoticons/kddi/1f697.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f69a",
+    "code": "U+1F69A",
+    "glyph": "🚚",
+    "name": "delivery truck",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground",
+    "src": "/emoticons/kddi/1f69a.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f6b2",
+    "code": "U+1F6B2",
+    "glyph": "🚲",
+    "name": "bicycle",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground",
+    "src": "/emoticons/kddi/1f6b2.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f68f",
+    "code": "U+1F68F",
+    "glyph": "🚏",
+    "name": "bus stop",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground",
+    "src": "/emoticons/kddi/1f68f.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "26fd",
+    "code": "U+26FD",
+    "glyph": "⛽",
+    "name": "fuel pump",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground",
+    "src": "/emoticons/kddi/26fd.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f6a8",
+    "code": "U+1F6A8",
+    "glyph": "🚨",
+    "name": "police car light",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground",
+    "src": "/emoticons/kddi/1f6a8.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f6a5",
+    "code": "U+1F6A5",
+    "glyph": "🚥",
+    "name": "horizontal traffic light",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground",
+    "src": "/emoticons/kddi/1f6a5.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f6a7",
+    "code": "U+1F6A7",
+    "glyph": "🚧",
+    "name": "construction",
+    "group": "Travel & Places",
+    "subgroup": "transport-ground",
+    "src": "/emoticons/kddi/1f6a7.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "2693",
+    "code": "U+2693",
+    "glyph": "⚓",
+    "name": "anchor",
+    "group": "Travel & Places",
+    "subgroup": "transport-water",
+    "src": "/emoticons/kddi/2693.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "26f5",
+    "code": "U+26F5",
+    "glyph": "⛵",
+    "name": "sailboat",
+    "group": "Travel & Places",
+    "subgroup": "transport-water",
+    "src": "/emoticons/kddi/26f5.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f6a2",
+    "code": "U+1F6A2",
+    "glyph": "🚢",
+    "name": "ship",
+    "group": "Travel & Places",
+    "subgroup": "transport-water",
+    "src": "/emoticons/kddi/1f6a2.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "2708",
+    "code": "U+2708",
+    "glyph": "✈",
+    "name": "airplane",
+    "group": "Travel & Places",
+    "subgroup": "transport-air",
+    "src": "/emoticons/kddi/2708.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f680",
+    "code": "U+1F680",
+    "glyph": "🚀",
+    "name": "rocket",
+    "group": "Travel & Places",
+    "subgroup": "transport-air",
+    "src": "/emoticons/kddi/1f680.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "231b",
+    "code": "U+231B",
+    "glyph": "⌛",
+    "name": "hourglass done",
+    "group": "Travel & Places",
+    "subgroup": "time",
+    "src": "/emoticons/kddi/231b.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "23f3",
+    "code": "U+23F3",
+    "glyph": "⏳",
+    "name": "hourglass not done",
+    "group": "Travel & Places",
+    "subgroup": "time",
+    "src": "/emoticons/kddi/23f3.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "231a",
+    "code": "U+231A",
+    "glyph": "⌚",
+    "name": "watch",
+    "group": "Travel & Places",
+    "subgroup": "time",
+    "src": "/emoticons/kddi/231a.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "23f0",
+    "code": "U+23F0",
+    "glyph": "⏰",
+    "name": "alarm clock",
+    "group": "Travel & Places",
+    "subgroup": "time",
+    "src": "/emoticons/kddi/23f0.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f311",
+    "code": "U+1F311",
+    "glyph": "🌑",
+    "name": "new moon",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather",
+    "src": "/emoticons/kddi/1f311.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f313",
+    "code": "U+1F313",
+    "glyph": "🌓",
+    "name": "first quarter moon",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather",
+    "src": "/emoticons/kddi/1f313.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f314",
+    "code": "U+1F314",
+    "glyph": "🌔",
+    "name": "waxing gibbous moon",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather",
+    "src": "/emoticons/kddi/1f314.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f319",
+    "code": "U+1F319",
+    "glyph": "🌙",
+    "name": "crescent moon",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather",
+    "src": "/emoticons/kddi/1f319.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f31b",
+    "code": "U+1F31B",
+    "glyph": "🌛",
+    "name": "first quarter moon face",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather",
+    "src": "/emoticons/kddi/1f31b.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "2600",
+    "code": "U+2600",
+    "glyph": "☀",
+    "name": "sun",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather",
+    "src": "/emoticons/kddi/2600.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "2b50",
+    "code": "U+2B50",
+    "glyph": "⭐",
+    "name": "star",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather",
+    "src": "/emoticons/kddi/2b50.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f320",
+    "code": "U+1F320",
+    "glyph": "🌠",
+    "name": "shooting star",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather",
+    "src": "/emoticons/kddi/1f320.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f30c",
+    "code": "U+1F30C",
+    "glyph": "🌌",
+    "name": "milky way",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather",
+    "src": "/emoticons/kddi/1f30c.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "2601",
+    "code": "U+2601",
+    "glyph": "☁",
+    "name": "cloud",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather",
+    "src": "/emoticons/kddi/2601.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "26c5",
+    "code": "U+26C5",
+    "glyph": "⛅",
+    "name": "sun behind cloud",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather",
+    "src": "/emoticons/kddi/26c5.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f300",
+    "code": "U+1F300",
+    "glyph": "🌀",
+    "name": "cyclone",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather",
+    "src": "/emoticons/kddi/1f300.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f308",
+    "code": "U+1F308",
+    "glyph": "🌈",
+    "name": "rainbow",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather",
+    "src": "/emoticons/kddi/1f308.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f302",
+    "code": "U+1F302",
+    "glyph": "🌂",
+    "name": "closed umbrella",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather",
+    "src": "/emoticons/kddi/1f302.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "2614",
+    "code": "U+2614",
+    "glyph": "☔",
+    "name": "umbrella with rain drops",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather",
+    "src": "/emoticons/kddi/2614.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "26a1",
+    "code": "U+26A1",
+    "glyph": "⚡",
+    "name": "high voltage",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather",
+    "src": "/emoticons/kddi/26a1.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "2744",
+    "code": "U+2744",
+    "glyph": "❄",
+    "name": "snowflake",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather",
+    "src": "/emoticons/kddi/2744.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "26c4",
+    "code": "U+26C4",
+    "glyph": "⛄",
+    "name": "snowman without snow",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather",
+    "src": "/emoticons/kddi/26c4.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f525",
+    "code": "U+1F525",
+    "glyph": "🔥",
+    "name": "fire",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather",
+    "src": "/emoticons/kddi/1f525.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4a7",
+    "code": "U+1F4A7",
+    "glyph": "💧",
+    "name": "droplet",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather",
+    "src": "/emoticons/kddi/1f4a7.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f30a",
+    "code": "U+1F30A",
+    "glyph": "🌊",
+    "name": "water wave",
+    "group": "Travel & Places",
+    "subgroup": "sky & weather",
+    "src": "/emoticons/kddi/1f30a.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f383",
+    "code": "U+1F383",
+    "glyph": "🎃",
+    "name": "jack-o-lantern",
+    "group": "Activities",
+    "subgroup": "event",
+    "src": "/emoticons/kddi/1f383.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f384",
+    "code": "U+1F384",
+    "glyph": "🎄",
+    "name": "Christmas tree",
+    "group": "Activities",
+    "subgroup": "event",
+    "src": "/emoticons/kddi/1f384.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f386",
+    "code": "U+1F386",
+    "glyph": "🎆",
+    "name": "fireworks",
+    "group": "Activities",
+    "subgroup": "event",
+    "src": "/emoticons/kddi/1f386.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f387",
+    "code": "U+1F387",
+    "glyph": "🎇",
+    "name": "sparkler",
+    "group": "Activities",
+    "subgroup": "event",
+    "src": "/emoticons/kddi/1f387.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "2728",
+    "code": "U+2728",
+    "glyph": "✨",
+    "name": "sparkles",
+    "group": "Activities",
+    "subgroup": "event",
+    "src": "/emoticons/kddi/2728.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f388",
+    "code": "U+1F388",
+    "glyph": "🎈",
+    "name": "balloon",
+    "group": "Activities",
+    "subgroup": "event",
+    "src": "/emoticons/kddi/1f388.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f389",
+    "code": "U+1F389",
+    "glyph": "🎉",
+    "name": "party popper",
+    "group": "Activities",
+    "subgroup": "event",
+    "src": "/emoticons/kddi/1f389.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f38a",
+    "code": "U+1F38A",
+    "glyph": "🎊",
+    "name": "confetti ball",
+    "group": "Activities",
+    "subgroup": "event",
+    "src": "/emoticons/kddi/1f38a.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f38b",
+    "code": "U+1F38B",
+    "glyph": "🎋",
+    "name": "tanabata tree",
+    "group": "Activities",
+    "subgroup": "event",
+    "src": "/emoticons/kddi/1f38b.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f38d",
+    "code": "U+1F38D",
+    "glyph": "🎍",
+    "name": "pine decoration",
+    "group": "Activities",
+    "subgroup": "event",
+    "src": "/emoticons/kddi/1f38d.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f38e",
+    "code": "U+1F38E",
+    "glyph": "🎎",
+    "name": "Japanese dolls",
+    "group": "Activities",
+    "subgroup": "event",
+    "src": "/emoticons/kddi/1f38e.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f38f",
+    "code": "U+1F38F",
+    "glyph": "🎏",
+    "name": "carp streamer",
+    "group": "Activities",
+    "subgroup": "event",
+    "src": "/emoticons/kddi/1f38f.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f390",
+    "code": "U+1F390",
+    "glyph": "🎐",
+    "name": "wind chime",
+    "group": "Activities",
+    "subgroup": "event",
+    "src": "/emoticons/kddi/1f390.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f391",
+    "code": "U+1F391",
+    "glyph": "🎑",
+    "name": "moon viewing ceremony",
+    "group": "Activities",
+    "subgroup": "event",
+    "src": "/emoticons/kddi/1f391.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f380",
+    "code": "U+1F380",
+    "glyph": "🎀",
+    "name": "ribbon",
+    "group": "Activities",
+    "subgroup": "event",
+    "src": "/emoticons/kddi/1f380.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f381",
+    "code": "U+1F381",
+    "glyph": "🎁",
+    "name": "wrapped gift",
+    "group": "Activities",
+    "subgroup": "event",
+    "src": "/emoticons/kddi/1f381.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f3ab",
+    "code": "U+1F3AB",
+    "glyph": "🎫",
+    "name": "ticket",
+    "group": "Activities",
+    "subgroup": "event",
+    "src": "/emoticons/kddi/1f3ab.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f3c6",
+    "code": "U+1F3C6",
+    "glyph": "🏆",
+    "name": "trophy",
+    "group": "Activities",
+    "subgroup": "award-medal",
+    "src": "/emoticons/kddi/1f3c6.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "26bd",
+    "code": "U+26BD",
+    "glyph": "⚽",
+    "name": "soccer ball",
+    "group": "Activities",
+    "subgroup": "sport",
+    "src": "/emoticons/kddi/26bd.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "26be",
+    "code": "U+26BE",
+    "glyph": "⚾",
+    "name": "baseball",
+    "group": "Activities",
+    "subgroup": "sport",
+    "src": "/emoticons/kddi/26be.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f3c0",
+    "code": "U+1F3C0",
+    "glyph": "🏀",
+    "name": "basketball",
+    "group": "Activities",
+    "subgroup": "sport",
+    "src": "/emoticons/kddi/1f3c0.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f3c8",
+    "code": "U+1F3C8",
+    "glyph": "🏈",
+    "name": "american football",
+    "group": "Activities",
+    "subgroup": "sport",
+    "src": "/emoticons/kddi/1f3c8.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f3be",
+    "code": "U+1F3BE",
+    "glyph": "🎾",
+    "name": "tennis",
+    "group": "Activities",
+    "subgroup": "sport",
+    "src": "/emoticons/kddi/1f3be.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f3b3",
+    "code": "U+1F3B3",
+    "glyph": "🎳",
+    "name": "bowling",
+    "group": "Activities",
+    "subgroup": "sport",
+    "src": "/emoticons/kddi/1f3b3.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "26f3",
+    "code": "U+26F3",
+    "glyph": "⛳",
+    "name": "flag in hole",
+    "group": "Activities",
+    "subgroup": "sport",
+    "src": "/emoticons/kddi/26f3.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f3a3",
+    "code": "U+1F3A3",
+    "glyph": "🎣",
+    "name": "fishing pole",
+    "group": "Activities",
+    "subgroup": "sport",
+    "src": "/emoticons/kddi/1f3a3.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f3bf",
+    "code": "U+1F3BF",
+    "glyph": "🎿",
+    "name": "skis",
+    "group": "Activities",
+    "subgroup": "sport",
+    "src": "/emoticons/kddi/1f3bf.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f3af",
+    "code": "U+1F3AF",
+    "glyph": "🎯",
+    "name": "bullseye",
+    "group": "Activities",
+    "subgroup": "game",
+    "src": "/emoticons/kddi/1f3af.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f52b",
+    "code": "U+1F52B",
+    "glyph": "🔫",
+    "name": "water pistol",
+    "group": "Activities",
+    "subgroup": "game",
+    "src": "/emoticons/kddi/1f52b.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f3b1",
+    "code": "U+1F3B1",
+    "glyph": "🎱",
+    "name": "pool 8 ball",
+    "group": "Activities",
+    "subgroup": "game",
+    "src": "/emoticons/kddi/1f3b1.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f52e",
+    "code": "U+1F52E",
+    "glyph": "🔮",
+    "name": "crystal ball",
+    "group": "Activities",
+    "subgroup": "game",
+    "src": "/emoticons/kddi/1f52e.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f3ae",
+    "code": "U+1F3AE",
+    "glyph": "🎮",
+    "name": "video game",
+    "group": "Activities",
+    "subgroup": "game",
+    "src": "/emoticons/kddi/1f3ae.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f3b0",
+    "code": "U+1F3B0",
+    "glyph": "🎰",
+    "name": "slot machine",
+    "group": "Activities",
+    "subgroup": "game",
+    "src": "/emoticons/kddi/1f3b0.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f3b2",
+    "code": "U+1F3B2",
+    "glyph": "🎲",
+    "name": "game die",
+    "group": "Activities",
+    "subgroup": "game",
+    "src": "/emoticons/kddi/1f3b2.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "2660",
+    "code": "U+2660",
+    "glyph": "♠",
+    "name": "spade suit",
+    "group": "Activities",
+    "subgroup": "game",
+    "src": "/emoticons/kddi/2660.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "2665",
+    "code": "U+2665",
+    "glyph": "♥",
+    "name": "heart suit",
+    "group": "Activities",
+    "subgroup": "game",
+    "src": "/emoticons/kddi/2665.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "2666",
+    "code": "U+2666",
+    "glyph": "♦",
+    "name": "diamond suit",
+    "group": "Activities",
+    "subgroup": "game",
+    "src": "/emoticons/kddi/2666.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "2663",
+    "code": "U+2663",
+    "glyph": "♣",
+    "name": "club suit",
+    "group": "Activities",
+    "subgroup": "game",
+    "src": "/emoticons/kddi/2663.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f0cf",
+    "code": "U+1F0CF",
+    "glyph": "🃏",
+    "name": "joker",
+    "group": "Activities",
+    "subgroup": "game",
+    "src": "/emoticons/kddi/1f0cf.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f004",
+    "code": "U+1F004",
+    "glyph": "🀄",
+    "name": "mahjong red dragon",
+    "group": "Activities",
+    "subgroup": "game",
+    "src": "/emoticons/kddi/1f004.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f3b4",
+    "code": "U+1F3B4",
+    "glyph": "🎴",
+    "name": "flower playing cards",
+    "group": "Activities",
+    "subgroup": "game",
+    "src": "/emoticons/kddi/1f3b4.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f3ad",
+    "code": "U+1F3AD",
+    "glyph": "🎭",
+    "name": "performing arts",
+    "group": "Activities",
+    "subgroup": "arts & crafts",
+    "src": "/emoticons/kddi/1f3ad.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f3a8",
+    "code": "U+1F3A8",
+    "glyph": "🎨",
+    "name": "artist palette",
+    "group": "Activities",
+    "subgroup": "arts & crafts",
+    "src": "/emoticons/kddi/1f3a8.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f453",
+    "code": "U+1F453",
+    "glyph": "👓",
+    "name": "glasses",
+    "group": "Objects",
+    "subgroup": "clothing",
+    "src": "/emoticons/kddi/1f453.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f454",
+    "code": "U+1F454",
+    "glyph": "👔",
+    "name": "necktie",
+    "group": "Objects",
+    "subgroup": "clothing",
+    "src": "/emoticons/kddi/1f454.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f455",
+    "code": "U+1F455",
+    "glyph": "👕",
+    "name": "t-shirt",
+    "group": "Objects",
+    "subgroup": "clothing",
+    "src": "/emoticons/kddi/1f455.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f456",
+    "code": "U+1F456",
+    "glyph": "👖",
+    "name": "jeans",
+    "group": "Objects",
+    "subgroup": "clothing",
+    "src": "/emoticons/kddi/1f456.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f457",
+    "code": "U+1F457",
+    "glyph": "👗",
+    "name": "dress",
+    "group": "Objects",
+    "subgroup": "clothing",
+    "src": "/emoticons/kddi/1f457.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f458",
+    "code": "U+1F458",
+    "glyph": "👘",
+    "name": "kimono",
+    "group": "Objects",
+    "subgroup": "clothing",
+    "src": "/emoticons/kddi/1f458.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f459",
+    "code": "U+1F459",
+    "glyph": "👙",
+    "name": "bikini",
+    "group": "Objects",
+    "subgroup": "clothing",
+    "src": "/emoticons/kddi/1f459.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f45a",
+    "code": "U+1F45A",
+    "glyph": "👚",
+    "name": "woman’s clothes",
+    "group": "Objects",
+    "subgroup": "clothing",
+    "src": "/emoticons/kddi/1f45a.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f45b",
+    "code": "U+1F45B",
+    "glyph": "👛",
+    "name": "purse",
+    "group": "Objects",
+    "subgroup": "clothing",
+    "src": "/emoticons/kddi/1f45b.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f45c",
+    "code": "U+1F45C",
+    "glyph": "👜",
+    "name": "handbag",
+    "group": "Objects",
+    "subgroup": "clothing",
+    "src": "/emoticons/kddi/1f45c.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f392",
+    "code": "U+1F392",
+    "glyph": "🎒",
+    "name": "backpack",
+    "group": "Objects",
+    "subgroup": "clothing",
+    "src": "/emoticons/kddi/1f392.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f45e",
+    "code": "U+1F45E",
+    "glyph": "👞",
+    "name": "man’s shoe",
+    "group": "Objects",
+    "subgroup": "clothing",
+    "src": "/emoticons/kddi/1f45e.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f45f",
+    "code": "U+1F45F",
+    "glyph": "👟",
+    "name": "running shoe",
+    "group": "Objects",
+    "subgroup": "clothing",
+    "src": "/emoticons/kddi/1f45f.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f460",
+    "code": "U+1F460",
+    "glyph": "👠",
+    "name": "high-heeled shoe",
+    "group": "Objects",
+    "subgroup": "clothing",
+    "src": "/emoticons/kddi/1f460.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f462",
+    "code": "U+1F462",
+    "glyph": "👢",
+    "name": "woman’s boot",
+    "group": "Objects",
+    "subgroup": "clothing",
+    "src": "/emoticons/kddi/1f462.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f451",
+    "code": "U+1F451",
+    "glyph": "👑",
+    "name": "crown",
+    "group": "Objects",
+    "subgroup": "clothing",
+    "src": "/emoticons/kddi/1f451.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f452",
+    "code": "U+1F452",
+    "glyph": "👒",
+    "name": "woman’s hat",
+    "group": "Objects",
+    "subgroup": "clothing",
+    "src": "/emoticons/kddi/1f452.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f3a9",
+    "code": "U+1F3A9",
+    "glyph": "🎩",
+    "name": "top hat",
+    "group": "Objects",
+    "subgroup": "clothing",
+    "src": "/emoticons/kddi/1f3a9.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f393",
+    "code": "U+1F393",
+    "glyph": "🎓",
+    "name": "graduation cap",
+    "group": "Objects",
+    "subgroup": "clothing",
+    "src": "/emoticons/kddi/1f393.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f484",
+    "code": "U+1F484",
+    "glyph": "💄",
+    "name": "lipstick",
+    "group": "Objects",
+    "subgroup": "clothing",
+    "src": "/emoticons/kddi/1f484.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f48d",
+    "code": "U+1F48D",
+    "glyph": "💍",
+    "name": "ring",
+    "group": "Objects",
+    "subgroup": "clothing",
+    "src": "/emoticons/kddi/1f48d.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f50a",
+    "code": "U+1F50A",
+    "glyph": "🔊",
+    "name": "speaker high volume",
+    "group": "Objects",
+    "subgroup": "sound",
+    "src": "/emoticons/kddi/1f50a.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f514",
+    "code": "U+1F514",
+    "glyph": "🔔",
+    "name": "bell",
+    "group": "Objects",
+    "subgroup": "sound",
+    "src": "/emoticons/kddi/1f514.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f3bc",
+    "code": "U+1F3BC",
+    "glyph": "🎼",
+    "name": "musical score",
+    "group": "Objects",
+    "subgroup": "music",
+    "src": "/emoticons/kddi/1f3bc.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f3b5",
+    "code": "U+1F3B5",
+    "glyph": "🎵",
+    "name": "musical note",
+    "group": "Objects",
+    "subgroup": "music",
+    "src": "/emoticons/kddi/1f3b5.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f3b6",
+    "code": "U+1F3B6",
+    "glyph": "🎶",
+    "name": "musical notes",
+    "group": "Objects",
+    "subgroup": "music",
+    "src": "/emoticons/kddi/1f3b6.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f3a4",
+    "code": "U+1F3A4",
+    "glyph": "🎤",
+    "name": "microphone",
+    "group": "Objects",
+    "subgroup": "music",
+    "src": "/emoticons/kddi/1f3a4.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f3a7",
+    "code": "U+1F3A7",
+    "glyph": "🎧",
+    "name": "headphone",
+    "group": "Objects",
+    "subgroup": "music",
+    "src": "/emoticons/kddi/1f3a7.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4fb",
+    "code": "U+1F4FB",
+    "glyph": "📻",
+    "name": "radio",
+    "group": "Objects",
+    "subgroup": "music",
+    "src": "/emoticons/kddi/1f4fb.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f3ba",
+    "code": "U+1F3BA",
+    "glyph": "🎺",
+    "name": "trumpet",
+    "group": "Objects",
+    "subgroup": "musical-instrument",
+    "src": "/emoticons/kddi/1f3ba.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f3b8",
+    "code": "U+1F3B8",
+    "glyph": "🎸",
+    "name": "guitar",
+    "group": "Objects",
+    "subgroup": "musical-instrument",
+    "src": "/emoticons/kddi/1f3b8.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f3b9",
+    "code": "U+1F3B9",
+    "glyph": "🎹",
+    "name": "musical keyboard",
+    "group": "Objects",
+    "subgroup": "musical-instrument",
+    "src": "/emoticons/kddi/1f3b9.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f3bb",
+    "code": "U+1F3BB",
+    "glyph": "🎻",
+    "name": "violin",
+    "group": "Objects",
+    "subgroup": "musical-instrument",
+    "src": "/emoticons/kddi/1f3bb.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4f1",
+    "code": "U+1F4F1",
+    "glyph": "📱",
+    "name": "mobile phone",
+    "group": "Objects",
+    "subgroup": "phone",
+    "src": "/emoticons/kddi/1f4f1.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4f2",
+    "code": "U+1F4F2",
+    "glyph": "📲",
+    "name": "mobile phone with arrow",
+    "group": "Objects",
+    "subgroup": "phone",
+    "src": "/emoticons/kddi/1f4f2.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "260e",
+    "code": "U+260E",
+    "glyph": "☎",
+    "name": "telephone",
+    "group": "Objects",
+    "subgroup": "phone",
+    "src": "/emoticons/kddi/260e.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4de",
+    "code": "U+1F4DE",
+    "glyph": "📞",
+    "name": "telephone receiver",
+    "group": "Objects",
+    "subgroup": "phone",
+    "src": "/emoticons/kddi/1f4de.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4df",
+    "code": "U+1F4DF",
+    "glyph": "📟",
+    "name": "pager",
+    "group": "Objects",
+    "subgroup": "phone",
+    "src": "/emoticons/kddi/1f4df.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4e0",
+    "code": "U+1F4E0",
+    "glyph": "📠",
+    "name": "fax machine",
+    "group": "Objects",
+    "subgroup": "phone",
+    "src": "/emoticons/kddi/1f4e0.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f50b",
+    "code": "U+1F50B",
+    "glyph": "🔋",
+    "name": "battery",
+    "group": "Objects",
+    "subgroup": "computer",
+    "src": "/emoticons/kddi/1f50b.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f50c",
+    "code": "U+1F50C",
+    "glyph": "🔌",
+    "name": "electric plug",
+    "group": "Objects",
+    "subgroup": "computer",
+    "src": "/emoticons/kddi/1f50c.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4bb",
+    "code": "U+1F4BB",
+    "glyph": "💻",
+    "name": "laptop",
+    "group": "Objects",
+    "subgroup": "computer",
+    "src": "/emoticons/kddi/1f4bb.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4bd",
+    "code": "U+1F4BD",
+    "glyph": "💽",
+    "name": "computer disk",
+    "group": "Objects",
+    "subgroup": "computer",
+    "src": "/emoticons/kddi/1f4bd.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4be",
+    "code": "U+1F4BE",
+    "glyph": "💾",
+    "name": "floppy disk",
+    "group": "Objects",
+    "subgroup": "computer",
+    "src": "/emoticons/kddi/1f4be.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4bf",
+    "code": "U+1F4BF",
+    "glyph": "💿",
+    "name": "optical disk",
+    "group": "Objects",
+    "subgroup": "computer",
+    "src": "/emoticons/kddi/1f4bf.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f3a5",
+    "code": "U+1F3A5",
+    "glyph": "🎥",
+    "name": "movie camera",
+    "group": "Objects",
+    "subgroup": "light & video",
+    "src": "/emoticons/kddi/1f3a5.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f3ac",
+    "code": "U+1F3AC",
+    "glyph": "🎬",
+    "name": "clapper board",
+    "group": "Objects",
+    "subgroup": "light & video",
+    "src": "/emoticons/kddi/1f3ac.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4fa",
+    "code": "U+1F4FA",
+    "glyph": "📺",
+    "name": "television",
+    "group": "Objects",
+    "subgroup": "light & video",
+    "src": "/emoticons/kddi/1f4fa.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4f7",
+    "code": "U+1F4F7",
+    "glyph": "📷",
+    "name": "camera",
+    "group": "Objects",
+    "subgroup": "light & video",
+    "src": "/emoticons/kddi/1f4f7.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4f9",
+    "code": "U+1F4F9",
+    "glyph": "📹",
+    "name": "video camera",
+    "group": "Objects",
+    "subgroup": "light & video",
+    "src": "/emoticons/kddi/1f4f9.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4fc",
+    "code": "U+1F4FC",
+    "glyph": "📼",
+    "name": "videocassette",
+    "group": "Objects",
+    "subgroup": "light & video",
+    "src": "/emoticons/kddi/1f4fc.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f50d",
+    "code": "U+1F50D",
+    "glyph": "🔍",
+    "name": "magnifying glass tilted left",
+    "group": "Objects",
+    "subgroup": "light & video",
+    "src": "/emoticons/kddi/1f50d.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f50e",
+    "code": "U+1F50E",
+    "glyph": "🔎",
+    "name": "magnifying glass tilted right",
+    "group": "Objects",
+    "subgroup": "light & video",
+    "src": "/emoticons/kddi/1f50e.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4a1",
+    "code": "U+1F4A1",
+    "glyph": "💡",
+    "name": "light bulb",
+    "group": "Objects",
+    "subgroup": "light & video",
+    "src": "/emoticons/kddi/1f4a1.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f526",
+    "code": "U+1F526",
+    "glyph": "🔦",
+    "name": "flashlight",
+    "group": "Objects",
+    "subgroup": "light & video",
+    "src": "/emoticons/kddi/1f526.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f3ee",
+    "code": "U+1F3EE",
+    "glyph": "🏮",
+    "name": "red paper lantern",
+    "group": "Objects",
+    "subgroup": "light & video",
+    "src": "/emoticons/kddi/1f3ee.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4d4",
+    "code": "U+1F4D4",
+    "glyph": "📔",
+    "name": "notebook with decorative cover",
+    "group": "Objects",
+    "subgroup": "book-paper",
+    "src": "/emoticons/kddi/1f4d4.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4d5",
+    "code": "U+1F4D5",
+    "glyph": "📕",
+    "name": "closed book",
+    "group": "Objects",
+    "subgroup": "book-paper",
+    "src": "/emoticons/kddi/1f4d5.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4d6",
+    "code": "U+1F4D6",
+    "glyph": "📖",
+    "name": "open book",
+    "group": "Objects",
+    "subgroup": "book-paper",
+    "src": "/emoticons/kddi/1f4d6.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4d7",
+    "code": "U+1F4D7",
+    "glyph": "📗",
+    "name": "green book",
+    "group": "Objects",
+    "subgroup": "book-paper",
+    "src": "/emoticons/kddi/1f4d7.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4d8",
+    "code": "U+1F4D8",
+    "glyph": "📘",
+    "name": "blue book",
+    "group": "Objects",
+    "subgroup": "book-paper",
+    "src": "/emoticons/kddi/1f4d8.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4d9",
+    "code": "U+1F4D9",
+    "glyph": "📙",
+    "name": "orange book",
+    "group": "Objects",
+    "subgroup": "book-paper",
+    "src": "/emoticons/kddi/1f4d9.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4da",
+    "code": "U+1F4DA",
+    "glyph": "📚",
+    "name": "books",
+    "group": "Objects",
+    "subgroup": "book-paper",
+    "src": "/emoticons/kddi/1f4da.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4d3",
+    "code": "U+1F4D3",
+    "glyph": "📓",
+    "name": "notebook",
+    "group": "Objects",
+    "subgroup": "book-paper",
+    "src": "/emoticons/kddi/1f4d3.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4d2",
+    "code": "U+1F4D2",
+    "glyph": "📒",
+    "name": "ledger",
+    "group": "Objects",
+    "subgroup": "book-paper",
+    "src": "/emoticons/kddi/1f4d2.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4c3",
+    "code": "U+1F4C3",
+    "glyph": "📃",
+    "name": "page with curl",
+    "group": "Objects",
+    "subgroup": "book-paper",
+    "src": "/emoticons/kddi/1f4c3.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4dc",
+    "code": "U+1F4DC",
+    "glyph": "📜",
+    "name": "scroll",
+    "group": "Objects",
+    "subgroup": "book-paper",
+    "src": "/emoticons/kddi/1f4dc.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4c4",
+    "code": "U+1F4C4",
+    "glyph": "📄",
+    "name": "page facing up",
+    "group": "Objects",
+    "subgroup": "book-paper",
+    "src": "/emoticons/kddi/1f4c4.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4f0",
+    "code": "U+1F4F0",
+    "glyph": "📰",
+    "name": "newspaper",
+    "group": "Objects",
+    "subgroup": "book-paper",
+    "src": "/emoticons/kddi/1f4f0.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4d1",
+    "code": "U+1F4D1",
+    "glyph": "📑",
+    "name": "bookmark tabs",
+    "group": "Objects",
+    "subgroup": "book-paper",
+    "src": "/emoticons/kddi/1f4d1.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f516",
+    "code": "U+1F516",
+    "glyph": "🔖",
+    "name": "bookmark",
+    "group": "Objects",
+    "subgroup": "book-paper",
+    "src": "/emoticons/kddi/1f516.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4b0",
+    "code": "U+1F4B0",
+    "glyph": "💰",
+    "name": "money bag",
+    "group": "Objects",
+    "subgroup": "money",
+    "src": "/emoticons/kddi/1f4b0.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4b4",
+    "code": "U+1F4B4",
+    "glyph": "💴",
+    "name": "yen banknote",
+    "group": "Objects",
+    "subgroup": "money",
+    "src": "/emoticons/kddi/1f4b4.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4b5",
+    "code": "U+1F4B5",
+    "glyph": "💵",
+    "name": "dollar banknote",
+    "group": "Objects",
+    "subgroup": "money",
+    "src": "/emoticons/kddi/1f4b5.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4b8",
+    "code": "U+1F4B8",
+    "glyph": "💸",
+    "name": "money with wings",
+    "group": "Objects",
+    "subgroup": "money",
+    "src": "/emoticons/kddi/1f4b8.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4b3",
+    "code": "U+1F4B3",
+    "glyph": "💳",
+    "name": "credit card",
+    "group": "Objects",
+    "subgroup": "money",
+    "src": "/emoticons/kddi/1f4b3.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4b9",
+    "code": "U+1F4B9",
+    "glyph": "💹",
+    "name": "chart increasing with yen",
+    "group": "Objects",
+    "subgroup": "money",
+    "src": "/emoticons/kddi/1f4b9.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "2709",
+    "code": "U+2709",
+    "glyph": "✉",
+    "name": "envelope",
+    "group": "Objects",
+    "subgroup": "mail",
+    "src": "/emoticons/kddi/2709.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4e7",
+    "code": "U+1F4E7",
+    "glyph": "📧",
+    "name": "e-mail",
+    "group": "Objects",
+    "subgroup": "mail",
+    "src": "/emoticons/kddi/1f4e7.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4e8",
+    "code": "U+1F4E8",
+    "glyph": "📨",
+    "name": "incoming envelope",
+    "group": "Objects",
+    "subgroup": "mail",
+    "src": "/emoticons/kddi/1f4e8.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4e9",
+    "code": "U+1F4E9",
+    "glyph": "📩",
+    "name": "envelope with arrow",
+    "group": "Objects",
+    "subgroup": "mail",
+    "src": "/emoticons/kddi/1f4e9.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4e4",
+    "code": "U+1F4E4",
+    "glyph": "📤",
+    "name": "outbox tray",
+    "group": "Objects",
+    "subgroup": "mail",
+    "src": "/emoticons/kddi/1f4e4.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4e5",
+    "code": "U+1F4E5",
+    "glyph": "📥",
+    "name": "inbox tray",
+    "group": "Objects",
+    "subgroup": "mail",
+    "src": "/emoticons/kddi/1f4e5.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4e6",
+    "code": "U+1F4E6",
+    "glyph": "📦",
+    "name": "package",
+    "group": "Objects",
+    "subgroup": "mail",
+    "src": "/emoticons/kddi/1f4e6.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4eb",
+    "code": "U+1F4EB",
+    "glyph": "📫",
+    "name": "closed mailbox with raised flag",
+    "group": "Objects",
+    "subgroup": "mail",
+    "src": "/emoticons/kddi/1f4eb.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4ea",
+    "code": "U+1F4EA",
+    "glyph": "📪",
+    "name": "closed mailbox with lowered flag",
+    "group": "Objects",
+    "subgroup": "mail",
+    "src": "/emoticons/kddi/1f4ea.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "270f",
+    "code": "U+270F",
+    "glyph": "✏",
+    "name": "pencil",
+    "group": "Objects",
+    "subgroup": "writing",
+    "src": "/emoticons/kddi/270f.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "2712",
+    "code": "U+2712",
+    "glyph": "✒",
+    "name": "black nib",
+    "group": "Objects",
+    "subgroup": "writing",
+    "src": "/emoticons/kddi/2712.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4dd",
+    "code": "U+1F4DD",
+    "glyph": "📝",
+    "name": "memo",
+    "group": "Objects",
+    "subgroup": "writing",
+    "src": "/emoticons/kddi/1f4dd.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4bc",
+    "code": "U+1F4BC",
+    "glyph": "💼",
+    "name": "briefcase",
+    "group": "Objects",
+    "subgroup": "office",
+    "src": "/emoticons/kddi/1f4bc.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4c1",
+    "code": "U+1F4C1",
+    "glyph": "📁",
+    "name": "file folder",
+    "group": "Objects",
+    "subgroup": "office",
+    "src": "/emoticons/kddi/1f4c1.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4c2",
+    "code": "U+1F4C2",
+    "glyph": "📂",
+    "name": "open file folder",
+    "group": "Objects",
+    "subgroup": "office",
+    "src": "/emoticons/kddi/1f4c2.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4c5",
+    "code": "U+1F4C5",
+    "glyph": "📅",
+    "name": "calendar",
+    "group": "Objects",
+    "subgroup": "office",
+    "src": "/emoticons/kddi/1f4c5.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4c6",
+    "code": "U+1F4C6",
+    "glyph": "📆",
+    "name": "tear-off calendar",
+    "group": "Objects",
+    "subgroup": "office",
+    "src": "/emoticons/kddi/1f4c6.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4c7",
+    "code": "U+1F4C7",
+    "glyph": "📇",
+    "name": "card index",
+    "group": "Objects",
+    "subgroup": "office",
+    "src": "/emoticons/kddi/1f4c7.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4c8",
+    "code": "U+1F4C8",
+    "glyph": "📈",
+    "name": "chart increasing",
+    "group": "Objects",
+    "subgroup": "office",
+    "src": "/emoticons/kddi/1f4c8.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4c9",
+    "code": "U+1F4C9",
+    "glyph": "📉",
+    "name": "chart decreasing",
+    "group": "Objects",
+    "subgroup": "office",
+    "src": "/emoticons/kddi/1f4c9.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4ca",
+    "code": "U+1F4CA",
+    "glyph": "📊",
+    "name": "bar chart",
+    "group": "Objects",
+    "subgroup": "office",
+    "src": "/emoticons/kddi/1f4ca.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4cb",
+    "code": "U+1F4CB",
+    "glyph": "📋",
+    "name": "clipboard",
+    "group": "Objects",
+    "subgroup": "office",
+    "src": "/emoticons/kddi/1f4cb.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4cc",
+    "code": "U+1F4CC",
+    "glyph": "📌",
+    "name": "pushpin",
+    "group": "Objects",
+    "subgroup": "office",
+    "src": "/emoticons/kddi/1f4cc.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4cd",
+    "code": "U+1F4CD",
+    "glyph": "📍",
+    "name": "round pushpin",
+    "group": "Objects",
+    "subgroup": "office",
+    "src": "/emoticons/kddi/1f4cd.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4ce",
+    "code": "U+1F4CE",
+    "glyph": "📎",
+    "name": "paperclip",
+    "group": "Objects",
+    "subgroup": "office",
+    "src": "/emoticons/kddi/1f4ce.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4cf",
+    "code": "U+1F4CF",
+    "glyph": "📏",
+    "name": "straight ruler",
+    "group": "Objects",
+    "subgroup": "office",
+    "src": "/emoticons/kddi/1f4cf.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4d0",
+    "code": "U+1F4D0",
+    "glyph": "📐",
+    "name": "triangular ruler",
+    "group": "Objects",
+    "subgroup": "office",
+    "src": "/emoticons/kddi/1f4d0.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "2702",
+    "code": "U+2702",
+    "glyph": "✂",
+    "name": "scissors",
+    "group": "Objects",
+    "subgroup": "office",
+    "src": "/emoticons/kddi/2702.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f512",
+    "code": "U+1F512",
+    "glyph": "🔒",
+    "name": "locked",
+    "group": "Objects",
+    "subgroup": "lock",
+    "src": "/emoticons/kddi/1f512.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f50f",
+    "code": "U+1F50F",
+    "glyph": "🔏",
+    "name": "locked with pen",
+    "group": "Objects",
+    "subgroup": "lock",
+    "src": "/emoticons/kddi/1f50f.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f510",
+    "code": "U+1F510",
+    "glyph": "🔐",
+    "name": "locked with key",
+    "group": "Objects",
+    "subgroup": "lock",
+    "src": "/emoticons/kddi/1f510.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f511",
+    "code": "U+1F511",
+    "glyph": "🔑",
+    "name": "key",
+    "group": "Objects",
+    "subgroup": "lock",
+    "src": "/emoticons/kddi/1f511.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f528",
+    "code": "U+1F528",
+    "glyph": "🔨",
+    "name": "hammer",
+    "group": "Objects",
+    "subgroup": "tool",
+    "src": "/emoticons/kddi/1f528.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4a3",
+    "code": "U+1F4A3",
+    "glyph": "💣",
+    "name": "bomb",
+    "group": "Objects",
+    "subgroup": "tool",
+    "src": "/emoticons/kddi/1f4a3.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f527",
+    "code": "U+1F527",
+    "glyph": "🔧",
+    "name": "wrench",
+    "group": "Objects",
+    "subgroup": "tool",
+    "src": "/emoticons/kddi/1f527.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f529",
+    "code": "U+1F529",
+    "glyph": "🔩",
+    "name": "nut and bolt",
+    "group": "Objects",
+    "subgroup": "tool",
+    "src": "/emoticons/kddi/1f529.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f517",
+    "code": "U+1F517",
+    "glyph": "🔗",
+    "name": "link",
+    "group": "Objects",
+    "subgroup": "tool",
+    "src": "/emoticons/kddi/1f517.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4e1",
+    "code": "U+1F4E1",
+    "glyph": "📡",
+    "name": "satellite antenna",
+    "group": "Objects",
+    "subgroup": "science",
+    "src": "/emoticons/kddi/1f4e1.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f489",
+    "code": "U+1F489",
+    "glyph": "💉",
+    "name": "syringe",
+    "group": "Objects",
+    "subgroup": "medical",
+    "src": "/emoticons/kddi/1f489.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f48a",
+    "code": "U+1F48A",
+    "glyph": "💊",
+    "name": "pill",
+    "group": "Objects",
+    "subgroup": "medical",
+    "src": "/emoticons/kddi/1f48a.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f6ac",
+    "code": "U+1F6AC",
+    "glyph": "🚬",
+    "name": "cigarette",
+    "group": "Objects",
+    "subgroup": "other-object",
+    "src": "/emoticons/kddi/1f6ac.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f5ff",
+    "code": "U+1F5FF",
+    "glyph": "🗿",
+    "name": "moai",
+    "group": "Objects",
+    "subgroup": "other-object",
+    "src": "/emoticons/kddi/1f5ff.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f3e7",
+    "code": "U+1F3E7",
+    "glyph": "🏧",
+    "name": "ATM sign",
+    "group": "Symbols",
+    "subgroup": "transport-sign",
+    "src": "/emoticons/kddi/1f3e7.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "267f",
+    "code": "U+267F",
+    "glyph": "♿",
+    "name": "wheelchair symbol",
+    "group": "Symbols",
+    "subgroup": "transport-sign",
+    "src": "/emoticons/kddi/267f.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f6bb",
+    "code": "U+1F6BB",
+    "glyph": "🚻",
+    "name": "restroom",
+    "group": "Symbols",
+    "subgroup": "transport-sign",
+    "src": "/emoticons/kddi/1f6bb.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "26a0",
+    "code": "U+26A0",
+    "glyph": "⚠",
+    "name": "warning",
+    "group": "Symbols",
+    "subgroup": "warning",
+    "src": "/emoticons/kddi/26a0.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "26d4",
+    "code": "U+26D4",
+    "glyph": "⛔",
+    "name": "no entry",
+    "group": "Symbols",
+    "subgroup": "warning",
+    "src": "/emoticons/kddi/26d4.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f6ab",
+    "code": "U+1F6AB",
+    "glyph": "🚫",
+    "name": "prohibited",
+    "group": "Symbols",
+    "subgroup": "warning",
+    "src": "/emoticons/kddi/1f6ab.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f6ad",
+    "code": "U+1F6AD",
+    "glyph": "🚭",
+    "name": "no smoking",
+    "group": "Symbols",
+    "subgroup": "warning",
+    "src": "/emoticons/kddi/1f6ad.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f51e",
+    "code": "U+1F51E",
+    "glyph": "🔞",
+    "name": "no one under eighteen",
+    "group": "Symbols",
+    "subgroup": "warning",
+    "src": "/emoticons/kddi/1f51e.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "2b06",
+    "code": "U+2B06",
+    "glyph": "⬆",
+    "name": "up arrow",
+    "group": "Symbols",
+    "subgroup": "arrow",
+    "src": "/emoticons/kddi/2b06.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "2197",
+    "code": "U+2197",
+    "glyph": "↗",
+    "name": "up-right arrow",
+    "group": "Symbols",
+    "subgroup": "arrow",
+    "src": "/emoticons/kddi/2197.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "27a1",
+    "code": "U+27A1",
+    "glyph": "➡",
+    "name": "right arrow",
+    "group": "Symbols",
+    "subgroup": "arrow",
+    "src": "/emoticons/kddi/27a1.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "2198",
+    "code": "U+2198",
+    "glyph": "↘",
+    "name": "down-right arrow",
+    "group": "Symbols",
+    "subgroup": "arrow",
+    "src": "/emoticons/kddi/2198.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "2b07",
+    "code": "U+2B07",
+    "glyph": "⬇",
+    "name": "down arrow",
+    "group": "Symbols",
+    "subgroup": "arrow",
+    "src": "/emoticons/kddi/2b07.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "2199",
+    "code": "U+2199",
+    "glyph": "↙",
+    "name": "down-left arrow",
+    "group": "Symbols",
+    "subgroup": "arrow",
+    "src": "/emoticons/kddi/2199.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "2b05",
+    "code": "U+2B05",
+    "glyph": "⬅",
+    "name": "left arrow",
+    "group": "Symbols",
+    "subgroup": "arrow",
+    "src": "/emoticons/kddi/2b05.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "2196",
+    "code": "U+2196",
+    "glyph": "↖",
+    "name": "up-left arrow",
+    "group": "Symbols",
+    "subgroup": "arrow",
+    "src": "/emoticons/kddi/2196.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "2195",
+    "code": "U+2195",
+    "glyph": "↕",
+    "name": "up-down arrow",
+    "group": "Symbols",
+    "subgroup": "arrow",
+    "src": "/emoticons/kddi/2195.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "2194",
+    "code": "U+2194",
+    "glyph": "↔",
+    "name": "left-right arrow",
+    "group": "Symbols",
+    "subgroup": "arrow",
+    "src": "/emoticons/kddi/2194.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "21a9",
+    "code": "U+21A9",
+    "glyph": "↩",
+    "name": "right arrow curving left",
+    "group": "Symbols",
+    "subgroup": "arrow",
+    "src": "/emoticons/kddi/21a9.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "21aa",
+    "code": "U+21AA",
+    "glyph": "↪",
+    "name": "left arrow curving right",
+    "group": "Symbols",
+    "subgroup": "arrow",
+    "src": "/emoticons/kddi/21aa.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "2934",
+    "code": "U+2934",
+    "glyph": "⤴",
+    "name": "right arrow curving up",
+    "group": "Symbols",
+    "subgroup": "arrow",
+    "src": "/emoticons/kddi/2934.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "2935",
+    "code": "U+2935",
+    "glyph": "⤵",
+    "name": "right arrow curving down",
+    "group": "Symbols",
+    "subgroup": "arrow",
+    "src": "/emoticons/kddi/2935.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f503",
+    "code": "U+1F503",
+    "glyph": "🔃",
+    "name": "clockwise vertical arrows",
+    "group": "Symbols",
+    "subgroup": "arrow",
+    "src": "/emoticons/kddi/1f503.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f519",
+    "code": "U+1F519",
+    "glyph": "🔙",
+    "name": "BACK arrow",
+    "group": "Symbols",
+    "subgroup": "arrow",
+    "src": "/emoticons/kddi/1f519.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "2648",
+    "code": "U+2648",
+    "glyph": "♈",
+    "name": "Aries",
+    "group": "Symbols",
+    "subgroup": "zodiac",
+    "src": "/emoticons/kddi/2648.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "2649",
+    "code": "U+2649",
+    "glyph": "♉",
+    "name": "Taurus",
+    "group": "Symbols",
+    "subgroup": "zodiac",
+    "src": "/emoticons/kddi/2649.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "264a",
+    "code": "U+264A",
+    "glyph": "♊",
+    "name": "Gemini",
+    "group": "Symbols",
+    "subgroup": "zodiac",
+    "src": "/emoticons/kddi/264a.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "264b",
+    "code": "U+264B",
+    "glyph": "♋",
+    "name": "Cancer",
+    "group": "Symbols",
+    "subgroup": "zodiac",
+    "src": "/emoticons/kddi/264b.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "264c",
+    "code": "U+264C",
+    "glyph": "♌",
+    "name": "Leo",
+    "group": "Symbols",
+    "subgroup": "zodiac",
+    "src": "/emoticons/kddi/264c.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "264d",
+    "code": "U+264D",
+    "glyph": "♍",
+    "name": "Virgo",
+    "group": "Symbols",
+    "subgroup": "zodiac",
+    "src": "/emoticons/kddi/264d.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "264e",
+    "code": "U+264E",
+    "glyph": "♎",
+    "name": "Libra",
+    "group": "Symbols",
+    "subgroup": "zodiac",
+    "src": "/emoticons/kddi/264e.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "264f",
+    "code": "U+264F",
+    "glyph": "♏",
+    "name": "Scorpio",
+    "group": "Symbols",
+    "subgroup": "zodiac",
+    "src": "/emoticons/kddi/264f.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "2650",
+    "code": "U+2650",
+    "glyph": "♐",
+    "name": "Sagittarius",
+    "group": "Symbols",
+    "subgroup": "zodiac",
+    "src": "/emoticons/kddi/2650.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "2651",
+    "code": "U+2651",
+    "glyph": "♑",
+    "name": "Capricorn",
+    "group": "Symbols",
+    "subgroup": "zodiac",
+    "src": "/emoticons/kddi/2651.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "2652",
+    "code": "U+2652",
+    "glyph": "♒",
+    "name": "Aquarius",
+    "group": "Symbols",
+    "subgroup": "zodiac",
+    "src": "/emoticons/kddi/2652.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "2653",
+    "code": "U+2653",
+    "glyph": "♓",
+    "name": "Pisces",
+    "group": "Symbols",
+    "subgroup": "zodiac",
+    "src": "/emoticons/kddi/2653.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "26ce",
+    "code": "U+26CE",
+    "glyph": "⛎",
+    "name": "Ophiuchus",
+    "group": "Symbols",
+    "subgroup": "zodiac",
+    "src": "/emoticons/kddi/26ce.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "25b6",
+    "code": "U+25B6",
+    "glyph": "▶",
+    "name": "play button",
+    "group": "Symbols",
+    "subgroup": "av-symbol",
+    "src": "/emoticons/kddi/25b6.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "23e9",
+    "code": "U+23E9",
+    "glyph": "⏩",
+    "name": "fast-forward button",
+    "group": "Symbols",
+    "subgroup": "av-symbol",
+    "src": "/emoticons/kddi/23e9.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "25c0",
+    "code": "U+25C0",
+    "glyph": "◀",
+    "name": "reverse button",
+    "group": "Symbols",
+    "subgroup": "av-symbol",
+    "src": "/emoticons/kddi/25c0.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "23ea",
+    "code": "U+23EA",
+    "glyph": "⏪",
+    "name": "fast reverse button",
+    "group": "Symbols",
+    "subgroup": "av-symbol",
+    "src": "/emoticons/kddi/23ea.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f53c",
+    "code": "U+1F53C",
+    "glyph": "🔼",
+    "name": "upwards button",
+    "group": "Symbols",
+    "subgroup": "av-symbol",
+    "src": "/emoticons/kddi/1f53c.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "23eb",
+    "code": "U+23EB",
+    "glyph": "⏫",
+    "name": "fast up button",
+    "group": "Symbols",
+    "subgroup": "av-symbol",
+    "src": "/emoticons/kddi/23eb.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f53d",
+    "code": "U+1F53D",
+    "glyph": "🔽",
+    "name": "downwards button",
+    "group": "Symbols",
+    "subgroup": "av-symbol",
+    "src": "/emoticons/kddi/1f53d.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "23ec",
+    "code": "U+23EC",
+    "glyph": "⏬",
+    "name": "fast down button",
+    "group": "Symbols",
+    "subgroup": "av-symbol",
+    "src": "/emoticons/kddi/23ec.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4f6",
+    "code": "U+1F4F6",
+    "glyph": "📶",
+    "name": "antenna bars",
+    "group": "Symbols",
+    "subgroup": "av-symbol",
+    "src": "/emoticons/kddi/1f4f6.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4f3",
+    "code": "U+1F4F3",
+    "glyph": "📳",
+    "name": "vibration mode",
+    "group": "Symbols",
+    "subgroup": "av-symbol",
+    "src": "/emoticons/kddi/1f4f3.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4f4",
+    "code": "U+1F4F4",
+    "glyph": "📴",
+    "name": "mobile phone off",
+    "group": "Symbols",
+    "subgroup": "av-symbol",
+    "src": "/emoticons/kddi/1f4f4.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "2716",
+    "code": "U+2716",
+    "glyph": "✖",
+    "name": "multiply",
+    "group": "Symbols",
+    "subgroup": "math",
+    "src": "/emoticons/kddi/2716.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "2795",
+    "code": "U+2795",
+    "glyph": "➕",
+    "name": "plus",
+    "group": "Symbols",
+    "subgroup": "math",
+    "src": "/emoticons/kddi/2795.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "2796",
+    "code": "U+2796",
+    "glyph": "➖",
+    "name": "minus",
+    "group": "Symbols",
+    "subgroup": "math",
+    "src": "/emoticons/kddi/2796.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "2797",
+    "code": "U+2797",
+    "glyph": "➗",
+    "name": "divide",
+    "group": "Symbols",
+    "subgroup": "math",
+    "src": "/emoticons/kddi/2797.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "203c",
+    "code": "U+203C",
+    "glyph": "‼",
+    "name": "double exclamation mark",
+    "group": "Symbols",
+    "subgroup": "punctuation",
+    "src": "/emoticons/kddi/203c.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "2049",
+    "code": "U+2049",
+    "glyph": "⁉",
+    "name": "exclamation question mark",
+    "group": "Symbols",
+    "subgroup": "punctuation",
+    "src": "/emoticons/kddi/2049.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "2753",
+    "code": "U+2753",
+    "glyph": "❓",
+    "name": "red question mark",
+    "group": "Symbols",
+    "subgroup": "punctuation",
+    "src": "/emoticons/kddi/2753.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "2757",
+    "code": "U+2757",
+    "glyph": "❗",
+    "name": "red exclamation mark",
+    "group": "Symbols",
+    "subgroup": "punctuation",
+    "src": "/emoticons/kddi/2757.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4b2",
+    "code": "U+1F4B2",
+    "glyph": "💲",
+    "name": "heavy dollar sign",
+    "group": "Symbols",
+    "subgroup": "currency",
+    "src": "/emoticons/kddi/1f4b2.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "267b",
+    "code": "U+267B",
+    "glyph": "♻",
+    "name": "recycling symbol",
+    "group": "Symbols",
+    "subgroup": "other-symbol",
+    "src": "/emoticons/kddi/267b.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f4db",
+    "code": "U+1F4DB",
+    "glyph": "📛",
+    "name": "name badge",
+    "group": "Symbols",
+    "subgroup": "other-symbol",
+    "src": "/emoticons/kddi/1f4db.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f530",
+    "code": "U+1F530",
+    "glyph": "🔰",
+    "name": "Japanese symbol for beginner",
+    "group": "Symbols",
+    "subgroup": "other-symbol",
+    "src": "/emoticons/kddi/1f530.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "2b55",
+    "code": "U+2B55",
+    "glyph": "⭕",
+    "name": "hollow red circle",
+    "group": "Symbols",
+    "subgroup": "other-symbol",
+    "src": "/emoticons/kddi/2b55.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "2705",
+    "code": "U+2705",
+    "glyph": "✅",
+    "name": "check mark button",
+    "group": "Symbols",
+    "subgroup": "other-symbol",
+    "src": "/emoticons/kddi/2705.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "2611",
+    "code": "U+2611",
+    "glyph": "☑",
+    "name": "check box with check",
+    "group": "Symbols",
+    "subgroup": "other-symbol",
+    "src": "/emoticons/kddi/2611.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "2714",
+    "code": "U+2714",
+    "glyph": "✔",
+    "name": "check mark",
+    "group": "Symbols",
+    "subgroup": "other-symbol",
+    "src": "/emoticons/kddi/2714.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "274c",
+    "code": "U+274C",
+    "glyph": "❌",
+    "name": "cross mark",
+    "group": "Symbols",
+    "subgroup": "other-symbol",
+    "src": "/emoticons/kddi/274c.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "274e",
+    "code": "U+274E",
+    "glyph": "❎",
+    "name": "cross mark button",
+    "group": "Symbols",
+    "subgroup": "other-symbol",
+    "src": "/emoticons/kddi/274e.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "27b0",
+    "code": "U+27B0",
+    "glyph": "➰",
+    "name": "curly loop",
+    "group": "Symbols",
+    "subgroup": "other-symbol",
+    "src": "/emoticons/kddi/27b0.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "2733",
+    "code": "U+2733",
+    "glyph": "✳",
+    "name": "eight-spoked asterisk",
+    "group": "Symbols",
+    "subgroup": "other-symbol",
+    "src": "/emoticons/kddi/2733.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "2734",
+    "code": "U+2734",
+    "glyph": "✴",
+    "name": "eight-pointed star",
+    "group": "Symbols",
+    "subgroup": "other-symbol",
+    "src": "/emoticons/kddi/2734.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "2747",
+    "code": "U+2747",
+    "glyph": "❇",
+    "name": "sparkle",
+    "group": "Symbols",
+    "subgroup": "other-symbol",
+    "src": "/emoticons/kddi/2747.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "00a9",
+    "code": "U+00A9",
+    "glyph": "©",
+    "name": "copyright",
+    "group": "Symbols",
+    "subgroup": "other-symbol",
+    "src": "/emoticons/kddi/00a9.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "00ae",
+    "code": "U+00AE",
+    "glyph": "®",
+    "name": "registered",
+    "group": "Symbols",
+    "subgroup": "other-symbol",
+    "src": "/emoticons/kddi/00ae.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "2122",
+    "code": "U+2122",
+    "glyph": "™",
+    "name": "trade mark",
+    "group": "Symbols",
+    "subgroup": "other-symbol",
+    "src": "/emoticons/kddi/2122.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "0023_fe0f_20e3",
+    "code": "U+0023 U+FE0F U+20E3",
+    "glyph": "#️⃣",
+    "name": "keycap: #",
+    "group": "Symbols",
+    "subgroup": "keycap",
+    "src": "/emoticons/kddi/0023_fe0f_20e3.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "0030_fe0f_20e3",
+    "code": "U+0030 U+FE0F U+20E3",
+    "glyph": "0️⃣",
+    "name": "keycap: 0",
+    "group": "Symbols",
+    "subgroup": "keycap",
+    "src": "/emoticons/kddi/0030_fe0f_20e3.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "0031_fe0f_20e3",
+    "code": "U+0031 U+FE0F U+20E3",
+    "glyph": "1️⃣",
+    "name": "keycap: 1",
+    "group": "Symbols",
+    "subgroup": "keycap",
+    "src": "/emoticons/kddi/0031_fe0f_20e3.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "0032_fe0f_20e3",
+    "code": "U+0032 U+FE0F U+20E3",
+    "glyph": "2️⃣",
+    "name": "keycap: 2",
+    "group": "Symbols",
+    "subgroup": "keycap",
+    "src": "/emoticons/kddi/0032_fe0f_20e3.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "0033_fe0f_20e3",
+    "code": "U+0033 U+FE0F U+20E3",
+    "glyph": "3️⃣",
+    "name": "keycap: 3",
+    "group": "Symbols",
+    "subgroup": "keycap",
+    "src": "/emoticons/kddi/0033_fe0f_20e3.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "0034_fe0f_20e3",
+    "code": "U+0034 U+FE0F U+20E3",
+    "glyph": "4️⃣",
+    "name": "keycap: 4",
+    "group": "Symbols",
+    "subgroup": "keycap",
+    "src": "/emoticons/kddi/0034_fe0f_20e3.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "0035_fe0f_20e3",
+    "code": "U+0035 U+FE0F U+20E3",
+    "glyph": "5️⃣",
+    "name": "keycap: 5",
+    "group": "Symbols",
+    "subgroup": "keycap",
+    "src": "/emoticons/kddi/0035_fe0f_20e3.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "0036_fe0f_20e3",
+    "code": "U+0036 U+FE0F U+20E3",
+    "glyph": "6️⃣",
+    "name": "keycap: 6",
+    "group": "Symbols",
+    "subgroup": "keycap",
+    "src": "/emoticons/kddi/0036_fe0f_20e3.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "0037_fe0f_20e3",
+    "code": "U+0037 U+FE0F U+20E3",
+    "glyph": "7️⃣",
+    "name": "keycap: 7",
+    "group": "Symbols",
+    "subgroup": "keycap",
+    "src": "/emoticons/kddi/0037_fe0f_20e3.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "0038_fe0f_20e3",
+    "code": "U+0038 U+FE0F U+20E3",
+    "glyph": "8️⃣",
+    "name": "keycap: 8",
+    "group": "Symbols",
+    "subgroup": "keycap",
+    "src": "/emoticons/kddi/0038_fe0f_20e3.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "0039_fe0f_20e3",
+    "code": "U+0039 U+FE0F U+20E3",
+    "glyph": "9️⃣",
+    "name": "keycap: 9",
+    "group": "Symbols",
+    "subgroup": "keycap",
+    "src": "/emoticons/kddi/0039_fe0f_20e3.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f51f",
+    "code": "U+1F51F",
+    "glyph": "🔟",
+    "name": "keycap: 10",
+    "group": "Symbols",
+    "subgroup": "keycap",
+    "src": "/emoticons/kddi/1f51f.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f520",
+    "code": "U+1F520",
+    "glyph": "🔠",
+    "name": "input latin uppercase",
+    "group": "Symbols",
+    "subgroup": "alphanum",
+    "src": "/emoticons/kddi/1f520.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f521",
+    "code": "U+1F521",
+    "glyph": "🔡",
+    "name": "input latin lowercase",
+    "group": "Symbols",
+    "subgroup": "alphanum",
+    "src": "/emoticons/kddi/1f521.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f522",
+    "code": "U+1F522",
+    "glyph": "🔢",
+    "name": "input numbers",
+    "group": "Symbols",
+    "subgroup": "alphanum",
+    "src": "/emoticons/kddi/1f522.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f523",
+    "code": "U+1F523",
+    "glyph": "🔣",
+    "name": "input symbols",
+    "group": "Symbols",
+    "subgroup": "alphanum",
+    "src": "/emoticons/kddi/1f523.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f524",
+    "code": "U+1F524",
+    "glyph": "🔤",
+    "name": "input latin letters",
+    "group": "Symbols",
+    "subgroup": "alphanum",
+    "src": "/emoticons/kddi/1f524.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f170",
+    "code": "U+1F170",
+    "glyph": "🅰",
+    "name": "A button (blood type)",
+    "group": "Symbols",
+    "subgroup": "alphanum",
+    "src": "/emoticons/kddi/1f170.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f18e",
+    "code": "U+1F18E",
+    "glyph": "🆎",
+    "name": "AB button (blood type)",
+    "group": "Symbols",
+    "subgroup": "alphanum",
+    "src": "/emoticons/kddi/1f18e.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f171",
+    "code": "U+1F171",
+    "glyph": "🅱",
+    "name": "B button (blood type)",
+    "group": "Symbols",
+    "subgroup": "alphanum",
+    "src": "/emoticons/kddi/1f171.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f191",
+    "code": "U+1F191",
+    "glyph": "🆑",
+    "name": "CL button",
+    "group": "Symbols",
+    "subgroup": "alphanum",
+    "src": "/emoticons/kddi/1f191.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f192",
+    "code": "U+1F192",
+    "glyph": "🆒",
+    "name": "COOL button",
+    "group": "Symbols",
+    "subgroup": "alphanum",
+    "src": "/emoticons/kddi/1f192.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f193",
+    "code": "U+1F193",
+    "glyph": "🆓",
+    "name": "FREE button",
+    "group": "Symbols",
+    "subgroup": "alphanum",
+    "src": "/emoticons/kddi/1f193.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "2139",
+    "code": "U+2139",
+    "glyph": "ℹ",
+    "name": "information",
+    "group": "Symbols",
+    "subgroup": "alphanum",
+    "src": "/emoticons/kddi/2139.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f194",
+    "code": "U+1F194",
+    "glyph": "🆔",
+    "name": "ID button",
+    "group": "Symbols",
+    "subgroup": "alphanum",
+    "src": "/emoticons/kddi/1f194.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f195",
+    "code": "U+1F195",
+    "glyph": "🆕",
+    "name": "NEW button",
+    "group": "Symbols",
+    "subgroup": "alphanum",
+    "src": "/emoticons/kddi/1f195.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f17e",
+    "code": "U+1F17E",
+    "glyph": "🅾",
+    "name": "O button (blood type)",
+    "group": "Symbols",
+    "subgroup": "alphanum",
+    "src": "/emoticons/kddi/1f17e.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f197",
+    "code": "U+1F197",
+    "glyph": "🆗",
+    "name": "OK button",
+    "group": "Symbols",
+    "subgroup": "alphanum",
+    "src": "/emoticons/kddi/1f197.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f17f",
+    "code": "U+1F17F",
+    "glyph": "🅿",
+    "name": "P button",
+    "group": "Symbols",
+    "subgroup": "alphanum",
+    "src": "/emoticons/kddi/1f17f.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f198",
+    "code": "U+1F198",
+    "glyph": "🆘",
+    "name": "SOS button",
+    "group": "Symbols",
+    "subgroup": "alphanum",
+    "src": "/emoticons/kddi/1f198.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f199",
+    "code": "U+1F199",
+    "glyph": "🆙",
+    "name": "UP! button",
+    "group": "Symbols",
+    "subgroup": "alphanum",
+    "src": "/emoticons/kddi/1f199.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f19a",
+    "code": "U+1F19A",
+    "glyph": "🆚",
+    "name": "VS button",
+    "group": "Symbols",
+    "subgroup": "alphanum",
+    "src": "/emoticons/kddi/1f19a.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f202",
+    "code": "U+1F202",
+    "glyph": "🈂",
+    "name": "Japanese “service charge” button",
+    "group": "Symbols",
+    "subgroup": "alphanum",
+    "src": "/emoticons/kddi/1f202.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f22f",
+    "code": "U+1F22F",
+    "glyph": "🈯",
+    "name": "Japanese “reserved” button",
+    "group": "Symbols",
+    "subgroup": "alphanum",
+    "src": "/emoticons/kddi/1f22f.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f250",
+    "code": "U+1F250",
+    "glyph": "🉐",
+    "name": "Japanese “bargain” button",
+    "group": "Symbols",
+    "subgroup": "alphanum",
+    "src": "/emoticons/kddi/1f250.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f239",
+    "code": "U+1F239",
+    "glyph": "🈹",
+    "name": "Japanese “discount” button",
+    "group": "Symbols",
+    "subgroup": "alphanum",
+    "src": "/emoticons/kddi/1f239.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f251",
+    "code": "U+1F251",
+    "glyph": "🉑",
+    "name": "Japanese “acceptable” button",
+    "group": "Symbols",
+    "subgroup": "alphanum",
+    "src": "/emoticons/kddi/1f251.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f233",
+    "code": "U+1F233",
+    "glyph": "🈳",
+    "name": "Japanese “vacancy” button",
+    "group": "Symbols",
+    "subgroup": "alphanum",
+    "src": "/emoticons/kddi/1f233.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "3297",
+    "code": "U+3297",
+    "glyph": "㊗",
+    "name": "Japanese “congratulations” button",
+    "group": "Symbols",
+    "subgroup": "alphanum",
+    "src": "/emoticons/kddi/3297.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "3299",
+    "code": "U+3299",
+    "glyph": "㊙",
+    "name": "Japanese “secret” button",
+    "group": "Symbols",
+    "subgroup": "alphanum",
+    "src": "/emoticons/kddi/3299.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f23a",
+    "code": "U+1F23A",
+    "glyph": "🈺",
+    "name": "Japanese “open for business” button",
+    "group": "Symbols",
+    "subgroup": "alphanum",
+    "src": "/emoticons/kddi/1f23a.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f235",
+    "code": "U+1F235",
+    "glyph": "🈵",
+    "name": "Japanese “no vacancy” button",
+    "group": "Symbols",
+    "subgroup": "alphanum",
+    "src": "/emoticons/kddi/1f235.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f534",
+    "code": "U+1F534",
+    "glyph": "🔴",
+    "name": "red circle",
+    "group": "Symbols",
+    "subgroup": "geometric",
+    "src": "/emoticons/kddi/1f534.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f535",
+    "code": "U+1F535",
+    "glyph": "🔵",
+    "name": "blue circle",
+    "group": "Symbols",
+    "subgroup": "geometric",
+    "src": "/emoticons/kddi/1f535.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "26ab",
+    "code": "U+26AB",
+    "glyph": "⚫",
+    "name": "black circle",
+    "group": "Symbols",
+    "subgroup": "geometric",
+    "src": "/emoticons/kddi/26ab.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "26aa",
+    "code": "U+26AA",
+    "glyph": "⚪",
+    "name": "white circle",
+    "group": "Symbols",
+    "subgroup": "geometric",
+    "src": "/emoticons/kddi/26aa.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "2b1b",
+    "code": "U+2B1B",
+    "glyph": "⬛",
+    "name": "black large square",
+    "group": "Symbols",
+    "subgroup": "geometric",
+    "src": "/emoticons/kddi/2b1b.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "2b1c",
+    "code": "U+2B1C",
+    "glyph": "⬜",
+    "name": "white large square",
+    "group": "Symbols",
+    "subgroup": "geometric",
+    "src": "/emoticons/kddi/2b1c.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "25fc",
+    "code": "U+25FC",
+    "glyph": "◼",
+    "name": "black medium square",
+    "group": "Symbols",
+    "subgroup": "geometric",
+    "src": "/emoticons/kddi/25fc.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "25fb",
+    "code": "U+25FB",
+    "glyph": "◻",
+    "name": "white medium square",
+    "group": "Symbols",
+    "subgroup": "geometric",
+    "src": "/emoticons/kddi/25fb.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "25fe",
+    "code": "U+25FE",
+    "glyph": "◾",
+    "name": "black medium-small square",
+    "group": "Symbols",
+    "subgroup": "geometric",
+    "src": "/emoticons/kddi/25fe.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "25fd",
+    "code": "U+25FD",
+    "glyph": "◽",
+    "name": "white medium-small square",
+    "group": "Symbols",
+    "subgroup": "geometric",
+    "src": "/emoticons/kddi/25fd.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "25aa",
+    "code": "U+25AA",
+    "glyph": "▪",
+    "name": "black small square",
+    "group": "Symbols",
+    "subgroup": "geometric",
+    "src": "/emoticons/kddi/25aa.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "25ab",
+    "code": "U+25AB",
+    "glyph": "▫",
+    "name": "white small square",
+    "group": "Symbols",
+    "subgroup": "geometric",
+    "src": "/emoticons/kddi/25ab.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f536",
+    "code": "U+1F536",
+    "glyph": "🔶",
+    "name": "large orange diamond",
+    "group": "Symbols",
+    "subgroup": "geometric",
+    "src": "/emoticons/kddi/1f536.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f537",
+    "code": "U+1F537",
+    "glyph": "🔷",
+    "name": "large blue diamond",
+    "group": "Symbols",
+    "subgroup": "geometric",
+    "src": "/emoticons/kddi/1f537.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f538",
+    "code": "U+1F538",
+    "glyph": "🔸",
+    "name": "small orange diamond",
+    "group": "Symbols",
+    "subgroup": "geometric",
+    "src": "/emoticons/kddi/1f538.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f539",
+    "code": "U+1F539",
+    "glyph": "🔹",
+    "name": "small blue diamond",
+    "group": "Symbols",
+    "subgroup": "geometric",
+    "src": "/emoticons/kddi/1f539.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f53a",
+    "code": "U+1F53A",
+    "glyph": "🔺",
+    "name": "red triangle pointed up",
+    "group": "Symbols",
+    "subgroup": "geometric",
+    "src": "/emoticons/kddi/1f53a.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f53b",
+    "code": "U+1F53B",
+    "glyph": "🔻",
+    "name": "red triangle pointed down",
+    "group": "Symbols",
+    "subgroup": "geometric",
+    "src": "/emoticons/kddi/1f53b.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f518",
+    "code": "U+1F518",
+    "glyph": "🔘",
+    "name": "radio button",
+    "group": "Symbols",
+    "subgroup": "geometric",
+    "src": "/emoticons/kddi/1f518.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f3c1",
+    "code": "U+1F3C1",
+    "glyph": "🏁",
+    "name": "chequered flag",
+    "group": "Flags",
+    "subgroup": "flag",
+    "src": "/emoticons/kddi/1f3c1.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f6a9",
+    "code": "U+1F6A9",
+    "glyph": "🚩",
+    "name": "triangular flag",
+    "group": "Flags",
+    "subgroup": "flag",
+    "src": "/emoticons/kddi/1f6a9.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f38c",
+    "code": "U+1F38C",
+    "glyph": "🎌",
+    "name": "crossed flags",
+    "group": "Flags",
+    "subgroup": "flag",
+    "src": "/emoticons/kddi/1f38c.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f1e8_1f1f3",
+    "code": "U+1F1E8 U+1F1F3",
+    "glyph": "🇨🇳",
+    "name": "flag: China",
+    "group": "Flags",
+    "subgroup": "country-flag",
+    "src": "/emoticons/kddi/1f1e8_1f1f3.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f1e9_1f1ea",
+    "code": "U+1F1E9 U+1F1EA",
+    "glyph": "🇩🇪",
+    "name": "flag: Germany",
+    "group": "Flags",
+    "subgroup": "country-flag",
+    "src": "/emoticons/kddi/1f1e9_1f1ea.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f1ea_1f1f8",
+    "code": "U+1F1EA U+1F1F8",
+    "glyph": "🇪🇸",
+    "name": "flag: Spain",
+    "group": "Flags",
+    "subgroup": "country-flag",
+    "src": "/emoticons/kddi/1f1ea_1f1f8.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f1eb_1f1f7",
+    "code": "U+1F1EB U+1F1F7",
+    "glyph": "🇫🇷",
+    "name": "flag: France",
+    "group": "Flags",
+    "subgroup": "country-flag",
+    "src": "/emoticons/kddi/1f1eb_1f1f7.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f1ec_1f1e7",
+    "code": "U+1F1EC U+1F1E7",
+    "glyph": "🇬🇧",
+    "name": "flag: United Kingdom",
+    "group": "Flags",
+    "subgroup": "country-flag",
+    "src": "/emoticons/kddi/1f1ec_1f1e7.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f1ee_1f1f9",
+    "code": "U+1F1EE U+1F1F9",
+    "glyph": "🇮🇹",
+    "name": "flag: Italy",
+    "group": "Flags",
+    "subgroup": "country-flag",
+    "src": "/emoticons/kddi/1f1ee_1f1f9.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f1ef_1f1f5",
+    "code": "U+1F1EF U+1F1F5",
+    "glyph": "🇯🇵",
+    "name": "flag: Japan",
+    "group": "Flags",
+    "subgroup": "country-flag",
+    "src": "/emoticons/kddi/1f1ef_1f1f5.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f1f0_1f1f7",
+    "code": "U+1F1F0 U+1F1F7",
+    "glyph": "🇰🇷",
+    "name": "flag: South Korea",
+    "group": "Flags",
+    "subgroup": "country-flag",
+    "src": "/emoticons/kddi/1f1f0_1f1f7.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f1f7_1f1fa",
+    "code": "U+1F1F7 U+1F1FA",
+    "glyph": "🇷🇺",
+    "name": "flag: Russia",
+    "group": "Flags",
+    "subgroup": "country-flag",
+    "src": "/emoticons/kddi/1f1f7_1f1fa.gif",
+    "source": "kddi"
+  },
+  {
+    "id": "1f1fa_1f1f8",
+    "code": "U+1F1FA U+1F1F8",
+    "glyph": "🇺🇸",
+    "name": "flag: United States",
+    "group": "Flags",
+    "subgroup": "country-flag",
+    "src": "/emoticons/kddi/1f1fa_1f1f8.gif",
+    "source": "kddi"
+  }
+]

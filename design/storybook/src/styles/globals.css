@@ -116,6 +116,32 @@
   transform-origin: center;
 }
 
+@keyframes sparkling-star-twinkle {
+  0%,
+  100% {
+    opacity: 0.82;
+    transform: scale(0.92) rotate(-6deg);
+  }
+  35% {
+    opacity: 1;
+    transform: scale(1.08) rotate(8deg);
+  }
+  65% {
+    opacity: 0.9;
+    transform: scale(0.98) rotate(-3deg);
+  }
+}
+
+.sparkling-star {
+  animation: sparkling-star-twinkle 1.8s ease-in-out infinite;
+  transform-origin: center;
+}
+
+.sparkling-star__icon {
+  display: block;
+  overflow: visible;
+}
+
 .skydiiv-logo {
   position: relative;
   display: inline-block;
@@ -278,5 +304,9 @@
 
   .spinner-pixel [data-tick]:nth-child(-n + 3) {
     opacity: 1;
+  }
+
+  .sparkling-star {
+    animation: none;
   }
 }
