@@ -12,7 +12,6 @@ const meta = {
   },
   args: {
     children: 'continue',
-    icon: ArrowRight,
     iconPosition: 'left',
     onClick: fn(),
   },
@@ -42,7 +41,7 @@ export const Default: Story = {
     const canvas = within(canvasElement)
     const button = canvas.getByRole('button', { name: 'continue' })
     await expect(button).toBeVisible()
-    await expect(button.querySelector('svg')).toBeTruthy()
+    await expect(button.querySelector('svg')).toBeFalsy()
     await userEvent.click(button)
     await expect(args.onClick).toHaveBeenCalled()
   },
@@ -89,6 +88,7 @@ export const Icons: Story = {
       <Button size="icon-sm" icon={Plus} aria-label="add small" />
       <Button size="icon" icon={Plus} aria-label="add" />
       <Button size="icon-lg" icon={Plus} aria-label="add large" />
+      <Button>label only</Button>
       <Button icon={Plus}>with label</Button>
       <Button icon={ArrowRight} iconPosition="right">
         access
@@ -97,6 +97,8 @@ export const Icons: Story = {
   ),
   play: async ({ canvasElement }) => {
     const canvas = within(canvasElement)
+    const labelOnly = canvas.getByRole('button', { name: 'label only' })
+    await expect(labelOnly.querySelector('svg')).toBeFalsy()
     const access = canvas.getByRole('button', { name: 'access' })
     await expect(access.querySelector('svg')).toBe(access.lastElementChild)
   },
@@ -106,6 +108,5 @@ export const Disabled: Story = {
   args: {
     disabled: true,
     children: 'unavailable',
-    icon: ArrowRight,
   },
 }

@@ -44,7 +44,7 @@ function Button({
 }: React.ComponentProps<'button'> &
   VariantProps<typeof buttonVariants> & {
     asChild?: boolean
-    icon: Icon
+    icon?: Icon
     iconPosition?: 'left' | 'right'
   }) {
   const Comp = asChild ? Slot : 'button'
@@ -61,12 +61,12 @@ function Button({
     )
   }
 
-  const mark = <Icon weight="light" aria-hidden />
+  const mark = Icon ? <Icon weight="light" aria-hidden /> : null
 
   return (
     <Comp
       data-slot="button"
-      data-icon-position={iconPosition}
+      data-icon-position={Icon ? iconPosition : undefined}
       className={cn(buttonVariants({ variant, size, className }))}
       {...props}
     >
