@@ -2,13 +2,22 @@ import * as React from 'react'
 
 import { cn } from '@/lib/utils'
 
-const TICK_COUNT = 12
-
 const sizeClass = {
   sm: 'size-4',
-  default: 'size-5',
+  default: 'size-6',
   lg: 'size-8',
 } as const
+
+const TICKS = [
+  { x: 1, y: 0 },
+  { x: 2, y: 0 },
+  { x: 3, y: 1 },
+  { x: 3, y: 2 },
+  { x: 2, y: 3 },
+  { x: 1, y: 3 },
+  { x: 0, y: 2 },
+  { x: 0, y: 1 },
+] as const
 
 function Spinner({
   className,
@@ -24,24 +33,27 @@ function Spinner({
   return (
     <svg
       data-slot="spinner"
-      viewBox="0 0 24 24"
-      fill="currentColor"
       role={hidden ? undefined : 'status'}
       aria-label={hidden ? undefined : label}
-      className={cn(sizeClass[size], 'text-foreground', className)}
+      viewBox="0 0 4 4"
+      fill="currentColor"
+      shapeRendering="crispEdges"
+      className={cn(
+        'spinner-pixel text-muted-foreground',
+        sizeClass[size],
+        className,
+      )}
       {...props}
     >
-      {Array.from({ length: TICK_COUNT }, (_, index) => (
+      {TICKS.map((cell, index) => (
         <rect
-          key={index}
-          className="loading-spinner__tick"
-          x="10.85"
-          y="1.6"
-          width="2.3"
-          height="5.4"
-          rx="1.15"
-          transform={`rotate(${index * (360 / TICK_COUNT)} 12 12)`}
-          style={{ animationDelay: `${-index / TICK_COUNT}s` }}
+          key={`${cell.x}-${cell.y}`}
+          data-tick
+          x={cell.x}
+          y={cell.y}
+          width={1}
+          height={1}
+          style={{ animationDelay: `${(-index * 0.8) / TICKS.length}s` }}
         />
       ))}
     </svg>

@@ -59,6 +59,33 @@
   opacity: var(--grain-surface-opacity);
 }
 
+.spinner-pixel {
+  display: inline-block;
+  overflow: visible;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+
+@keyframes spinner-pixel-tick {
+  0% {
+    opacity: 1;
+  }
+  12.5% {
+    opacity: 0.7;
+  }
+  25% {
+    opacity: 0.42;
+  }
+  37.5%,
+  100% {
+    opacity: 0.2;
+  }
+}
+
+.spinner-pixel [data-tick] {
+  animation: spinner-pixel-tick 0.8s steps(1, end) infinite;
+}
+
 .loading-earth__mark {
   image-rendering: auto;
 }
@@ -87,32 +114,6 @@
 .loading-earth__sparkle {
   animation: loading-earth-sparkle 1.9s ease-in-out infinite;
   transform-origin: center;
-}
-
-@keyframes loading-spinner-tick {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0.12;
-  }
-}
-
-.loading-spinner__tick {
-  animation: loading-spinner-tick 1s linear infinite;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .loading-spinner__tick {
-    animation: none;
-    opacity: 0.4;
-  }
-
-  .loading-spinner__tick:nth-child(1),
-  .loading-spinner__tick:nth-child(2),
-  .loading-spinner__tick:nth-child(12) {
-    opacity: 0.85;
-  }
 }
 
 .skydiiv-logo {
@@ -268,5 +269,14 @@
 
   .cursor-plus {
     transition: none;
+  }
+
+  .spinner-pixel [data-tick] {
+    animation: none;
+    opacity: 0.2;
+  }
+
+  .spinner-pixel [data-tick]:nth-child(-n + 3) {
+    opacity: 1;
   }
 }
