@@ -6,7 +6,7 @@ import * as TabsStories from './Tabs.stories'
 
 # Tabs
 
-Quiet section switcher. Inactive labels stay muted. The active tab uses a hairline in slate gray. No pill track and no elevation. Copy stays short.
+A row of paper labels, like permalinks on a quiet page. Inactive stays muted type. The active label is a scrap: stone hairline, page fill. Hover takes the same quiet border and page fill as menu items. No shared bar, no pill track, no elevation. Copy stays short.
 
 <table>
   <thead>
@@ -18,7 +18,7 @@ Quiet section switcher. Inactive labels stay muted. The active tab uses a hairli
   <tbody>
     <tr>
       <td>List</td>
-      <td>row of tabs with a shared hairline</td>
+      <td>loose row of labels; no shared hairline</td>
     </tr>
     <tr>
       <td>Trigger</td>
@@ -36,6 +36,10 @@ Quiet section switcher. Inactive labels stay muted. The active tab uses a hairli
 ## With icons
 
 <Canvas of={TabsStories.WithIcons} />
+
+## On a surface
+
+<Canvas of={TabsStories.OnASurface} />
 
 ## Disabled
 

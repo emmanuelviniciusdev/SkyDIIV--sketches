@@ -2,6 +2,13 @@ import type { Meta, StoryObj } from '@storybook/nextjs-vite'
 import { expect, within, userEvent } from 'storybook/test'
 import { Images, Note, TShirt } from '@phosphor-icons/react'
 
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from '@/components/ui/card'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 
 const meta = {
@@ -64,6 +71,35 @@ export const WithIcons: Story = {
       <TabsContent value="looks">composed outfits and capsules.</TabsContent>
       <TabsContent value="notes">short remarks beside the work.</TabsContent>
     </Tabs>
+  ),
+}
+
+export const OnASurface: Story = {
+  render: () => (
+    <Card className="w-80">
+      <CardHeader>
+        <CardTitle>archive</CardTitle>
+        <CardDescription>sections of a quiet page</CardDescription>
+      </CardHeader>
+      <CardContent>
+        <Tabs defaultValue="pieces">
+          <TabsList>
+            <TabsTrigger value="pieces">pieces</TabsTrigger>
+            <TabsTrigger value="looks">looks</TabsTrigger>
+            <TabsTrigger value="notes">notes</TabsTrigger>
+          </TabsList>
+          <TabsContent value="pieces" className="pt-3">
+            saved garments in this space.
+          </TabsContent>
+          <TabsContent value="looks" className="pt-3">
+            composed outfits and capsules.
+          </TabsContent>
+          <TabsContent value="notes" className="pt-3">
+            short remarks beside the work.
+          </TabsContent>
+        </Tabs>
+      </CardContent>
+    </Card>
   ),
 }
 
