@@ -36,7 +36,7 @@ env:
 jobs:
   build:
     name: Build
-    if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository
+    if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -63,21 +63,19 @@ jobs:
       - name: Build Storybook
         run: pnpm build-storybook
 
-      - name: Upload static build
-        if: github.event_name != 'pull_request'
-        uses: actions/upload-artifact@v4
-        with:
-          name: storybook-static
-          path: design/storybook/storybook-static
-
   deploy:
-    name: Deploy production
-    needs: build
+    name: Build and deploy production
     if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     environment:
       name: production
+    defaults:
+      run:
+        working-directory: design/storybook
     steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
       - name: Check Cloudflare credentials
         env:
           CLOUDFLARE_PAGES_API_TOKEN: ${{ secrets.CLOUDFLARE_PAGES_API_TOKEN }}
@@ -88,11 +86,23 @@ jobs:
             exit 1
           fi
 
-      - name: Download static build
-        uses: actions/download-artifact@v4
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
         with:
-          name: storybook-static
-          path: design/storybook/storybook-static
+          package_json_file: design/storybook/package.json
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: design/storybook/pnpm-lock.yaml
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build Storybook
+        run: pnpm build-storybook
 
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v4
@@ -100,4 +110,5 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_PAGES_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           workingDirectory: design/storybook
+          packageManager: pnpm
           command: pages deploy storybook-static --project-name=${{ env.CLOUDFLARE_PAGES_PROJECT }} --branch=main
