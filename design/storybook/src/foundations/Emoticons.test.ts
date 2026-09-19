@@ -5,7 +5,7 @@ import {
   emoticonGroups,
   emoticons,
   kddiEmoticons,
-} from './emoticons'
+} from './Emoticons'
 
 describe('emoticon repository', () => {
   it('keeps every KDDI mark', () => {
@@ -20,9 +20,10 @@ describe('emoticon repository', () => {
 
   it('does not catalog the sparkling star as a KDDI image', () => {
     expect(emoticonById('sparkling-star')).toBeUndefined()
-    expect(emoticonById('2728')).toMatchObject({
+    expect(emoticonById('sparkles')).toMatchObject({
       name: 'sparkles',
-      src: '/emoticons/kddi/2728.gif',
+      code: 'U+2728',
+      src: '/emoticons/kddi/sparkles.gif',
       source: 'kddi',
     })
   })

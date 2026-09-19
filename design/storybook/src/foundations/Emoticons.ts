@@ -1,4 +1,4 @@
-import catalog from './emoticons.json'
+import catalog from './Emoticons.json'
 
 export const emoticonSources = ['kddi'] as const
 

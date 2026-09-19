@@ -1,6 +1,6 @@
 import { SparklingStar } from '@/components/ui/sparkling-star'
 
-import { emoticonGroups, kddiEmoticons, type Emoticon } from '../emoticons'
+import { emoticonGroups, kddiEmoticons, type Emoticon } from '../Emoticons'
 import { colors, radius, spacing, typography } from '../tokens'
 import { FoundationFrame, FoundationNote, FoundationTitle } from './FoundationFrame'
 
