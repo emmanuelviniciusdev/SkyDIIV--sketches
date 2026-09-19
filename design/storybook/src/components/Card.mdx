@@ -1,0 +1,60 @@
+import { Canvas, Meta } from '@storybook/addon-docs/blocks'
+
+import * as CardStories from './Card.stories'
+
+<Meta of={CardStories} />
+
+# Card
+
+Cards are quiet surfaces for grouped content. Use them when a block needs a clear boundary — not as default page scaffolding. Radius stays at 6px. Padding is 20px. No drop shadow. Titles use regular body weight; descriptions use muted text.
+
+<table>
+  <thead>
+    <tr>
+      <th>Part</th>
+      <th>Role</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Card</td>
+      <td>surface: card fill, border, rounded corners</td>
+    </tr>
+    <tr>
+      <td>Card header</td>
+      <td>title row; supports an optional action slot</td>
+    </tr>
+    <tr>
+      <td>Card title</td>
+      <td>short heading</td>
+    </tr>
+    <tr>
+      <td>Card description</td>
+      <td>supporting line under the title</td>
+    </tr>
+    <tr>
+      <td>Card action</td>
+      <td>aligned control in the header</td>
+    </tr>
+    <tr>
+      <td>Card content</td>
+      <td>primary body</td>
+    </tr>
+    <tr>
+      <td>Card footer</td>
+      <td>actions or meta at the bottom</td>
+    </tr>
+  </tbody>
+</table>
+
+## Basic
+
+<Canvas of={CardStories.Basic} />
+
+## With action
+
+<Canvas of={CardStories.WithAction} />
+
+## Content only
+
+<Canvas of={CardStories.ContentOnly} />

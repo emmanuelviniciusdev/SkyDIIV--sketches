@@ -1,0 +1,101 @@
+import { Canvas, Meta, Controls } from '@storybook/addon-docs/blocks'
+
+import * as ButtonStories from './Button.stories'
+
+<Meta of={ButtonStories} />
+
+# Button
+
+Default is a quiet bordered control. Primary is the filled emphasis, using the accessible fill with on-primary text. Outline keeps a stone border on the page color. Ghost stays text-only with no hover fill. Weight stays regular, never bold. Size is 13px with wide tracking.
+
+Every action button includes a Phosphor icon at light weight. The icon sits on the left by default. Use the right for forward actions. Icon-only controls always provide an accessible name.
+
+<table>
+  <thead>
+    <tr>
+      <th>Variant</th>
+      <th>Use</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>default</td>
+      <td>quiet bordered control</td>
+    </tr>
+    <tr>
+      <td>primary</td>
+      <td>filled emphasis or active state</td>
+    </tr>
+    <tr>
+      <td>outline</td>
+      <td>neutral bordered control</td>
+    </tr>
+    <tr>
+      <td>ghost</td>
+      <td>quiet text action; no hover background</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Size</th>
+      <th>Use</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>sm</td>
+      <td>compact toolbars and dense forms</td>
+    </tr>
+    <tr>
+      <td>default</td>
+      <td>standard actions</td>
+    </tr>
+    <tr>
+      <td>lg</td>
+      <td>emphasis in sparse layouts</td>
+    </tr>
+    <tr>
+      <td>icon / icon-sm / icon-lg</td>
+      <td>icon-only controls; always provide an accessible name</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Icon position</th>
+      <th>Use</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>left</td>
+      <td>default; the mark leads the label</td>
+    </tr>
+    <tr>
+      <td>right</td>
+      <td>forward actions; the mark trails the label</td>
+    </tr>
+  </tbody>
+</table>
+
+## Variants
+
+<Canvas of={ButtonStories.Variants} />
+
+## Sizes
+
+<Canvas of={ButtonStories.Sizes} />
+
+## Icons
+
+<Canvas of={ButtonStories.Icons} />
+
+## Playground
+
+<Canvas of={ButtonStories.Default} />
+<Controls of={ButtonStories.Default} />

@@ -1,0 +1,106 @@
+import { Canvas, Meta } from '@storybook/addon-docs/blocks'
+
+import * as AvatarStories from './Avatar.stories'
+
+<Meta of={AvatarStories} />
+
+# Avatar
+
+A square profile mark with a compact corner. With a photo, the image fills the frame. Without a photo, the first letter of the name is shown. An algorithm assigns a fill from the logo letter colors, so each letter keeps a stable color. The letter stays a capital.
+
+<table>
+  <thead>
+    <tr>
+      <th>State</th>
+      <th>Use</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>photo</td>
+      <td>when a profile image is set</td>
+    </tr>
+    <tr>
+      <td>initial</td>
+      <td>when there is no photo; first letter of the name</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Size</th>
+      <th>Use</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>sm</td>
+      <td>compact headers and menus</td>
+    </tr>
+    <tr>
+      <td>default</td>
+      <td>standard identity mark</td>
+    </tr>
+    <tr>
+      <td>lg</td>
+      <td>emphasis on a profile surface</td>
+    </tr>
+  </tbody>
+</table>
+
+## Photo
+
+<Canvas of={AvatarStories.Photo} />
+
+## Initial
+
+<span className="brand-name">yelyahwilliams</span> shows **Y**. Because **Y** matches the wordmark letter **y**, the fill is that letter's color.
+
+<Canvas of={AvatarStories.Initial} />
+
+## Letter color
+
+The fill is not arbitrary. The initial is mapped to the SkyDIIV letter palette. A letter that appears in the wordmark uses that letter's color. Other letters still draw from the same palette. The same letter always receives the same fill.
+
+<table className="brand-name">
+  <thead>
+    <tr>
+      <th>Letter</th>
+      <th>Fill</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>S</td>
+      <td>#AC7C76</td>
+    </tr>
+    <tr>
+      <td>k</td>
+      <td>#CAA07F</td>
+    </tr>
+    <tr>
+      <td>y</td>
+      <td>#B1B1A4</td>
+    </tr>
+    <tr>
+      <td>D</td>
+      <td>#7496AD</td>
+    </tr>
+    <tr>
+      <td>I</td>
+      <td>#85A5BF</td>
+    </tr>
+    <tr>
+      <td>V</td>
+      <td>#A39BBF</td>
+    </tr>
+  </tbody>
+</table>
+
+<Canvas of={AvatarStories.LetterColors} />
+
+## Sizes
+
+<Canvas of={AvatarStories.Sizes} />

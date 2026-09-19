@@ -6,7 +6,7 @@ import * as TypographyStories from './Typography.stories'
 
 # Typography
 
-The primary typeface is Inter.
+The primary typeface is Inter. Headings stay light or regular, never bold. Quotations may be italic.
 
 ## Scale
 
@@ -77,8 +77,10 @@ The primary typeface is Inter.
 
 All text is lowercase, except:
 
-- Product name **SkyDIIV**
-- Wordmark **SkyCHNNLS**
+- Product name **<span className="brand-name">SkyDIIV</span>**
+- Wordmark **<span className="brand-name">SkyCHNNLS</span>**
 - Emails and other names where capitalization is part of the data
+
+Wordmarks are identity, not running text.
 
 <Canvas of={TypographyStories.Specimen} />

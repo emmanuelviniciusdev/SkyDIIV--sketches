@@ -1,0 +1,71 @@
+import { Canvas, Meta } from '@storybook/addon-docs/blocks'
+
+import * as LogosStories from './Logos.stories'
+
+<Meta of={LogosStories} />
+
+# Logos
+
+Wordmarks are identity, not running text. They keep mixed case. A hash prefixes both marks.
+
+## <span className="brand-name">SkyDIIV</span>
+
+The product wordmark. Weight is regular. Each letter has its own vertical fade, warm at the start and cooler toward the end. Crumpled paper grain sits on the glyphs. Use the large scale for display and a smaller scale in compact headers.
+
+## <span className="brand-name">SkyCHNNLS</span>
+
+The channels wordmark. <span className="brand-name">Sky</span> reuses the product letter fades, a step heavier. <span className="brand-name">CHNNLS</span> is analog snow, extra bold, with slightly tighter tracking.
+
+<table className="brand-name">
+  <thead>
+    <tr>
+      <th>Glyph</th>
+      <th>Top</th>
+      <th>Bottom</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>#</td>
+      <td>#C8CCD2</td>
+      <td>#E2E5E9</td>
+    </tr>
+    <tr>
+      <td>S</td>
+      <td>#AC7C76</td>
+      <td>#C69689</td>
+    </tr>
+    <tr>
+      <td>k</td>
+      <td>#CAA07F</td>
+      <td>#E4BC96</td>
+    </tr>
+    <tr>
+      <td>y</td>
+      <td>#B1B1A4</td>
+      <td>#D0C3A9</td>
+    </tr>
+    <tr>
+      <td>D</td>
+      <td>#7496AD</td>
+      <td>#9DB0BF</td>
+    </tr>
+    <tr>
+      <td>I</td>
+      <td>#85A5BF</td>
+      <td>#AAB7C8</td>
+    </tr>
+    <tr>
+      <td>I</td>
+      <td>#B4BFD5</td>
+      <td>#C5C0CD</td>
+    </tr>
+    <tr>
+      <td>V</td>
+      <td>#A39BBF</td>
+      <td>#BDADC4</td>
+    </tr>
+  </tbody>
+</table>
+
+<Canvas of={LogosStories.Marks} />

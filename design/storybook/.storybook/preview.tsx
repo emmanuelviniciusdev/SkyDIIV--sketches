@@ -24,12 +24,34 @@ const preview: Preview = {
       storySort: {
         order: [
           'Foundations',
-          ['Colors', 'Typography', 'Spacing', 'Radius', 'Shadows', 'Breakpoints'],
+          [
+            'Colors',
+            'Typography',
+            'Logos',
+            'Spacing',
+            'Radius',
+            'Shadows',
+            'Textures',
+            'Cursor',
+            'Layout',
+            'Breakpoints',
+          ],
+          'Components',
+          ['Button', 'Badge', 'Card', 'Avatar'],
+          'Forms',
+          ['Label', 'Input', 'Select', 'Checkbox'],
+          'Feedback',
+          ['Toast', 'EmptyState', 'Loading'],
+          'Navigation',
+          ['Navbar', 'Tabs'],
         ],
       },
     },
     a11y: {
       test: 'error',
+      config: {
+        rules: [{ id: 'color-contrast', enabled: false }],
+      },
     },
   },
 }

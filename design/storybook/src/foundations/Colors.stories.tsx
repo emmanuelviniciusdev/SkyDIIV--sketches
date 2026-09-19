@@ -21,7 +21,7 @@ export const Palette: Story = {
     await expect(canvas.getByText('--background')).toBeVisible()
     await expect(canvas.getByText('--text-body')).toBeVisible()
     await expect(canvas.getAllByText('#F4F4F2').length).toBeGreaterThan(0)
-    await expect(canvas.getAllByText('#626A77').length).toBeGreaterThan(0)
+    await expect(canvas.getAllByText('#B5BAC2').length).toBeGreaterThan(0)
     await expect(canvas.getByText('text-body on background')).toBeVisible()
   },
 }

@@ -18,6 +18,7 @@ export function FoundationFrame({
         background: colors.background,
         color: colors.text.body,
         fontFamily: typography.fontFamily.sans,
+        textTransform: 'lowercase',
         ...style,
       }}
     >

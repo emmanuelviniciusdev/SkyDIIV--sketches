@@ -1,0 +1,17 @@
+import { Canvas, Meta } from '@storybook/addon-docs/blocks'
+
+import * as CheckboxStories from './Checkbox.stories'
+
+<Meta of={CheckboxStories} />
+
+# Checkbox
+
+Quiet square with a stone border. Checked uses the accessible primary fill and a light check. Pair with Label. Invalid uses the destructive border.
+
+<Canvas of={CheckboxStories.Default} />
+
+## States
+
+<Canvas of={CheckboxStories.Checked} />
+<Canvas of={CheckboxStories.Invalid} />
+<Canvas of={CheckboxStories.Disabled} />

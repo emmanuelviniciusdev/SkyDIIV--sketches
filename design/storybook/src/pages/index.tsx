@@ -6,8 +6,9 @@ export default function Home() {
         margin: 0,
         padding: '40px 24px',
         background: 'var(--background)',
-        color: 'var(--text-body)',
+        color: 'var(--foreground)',
         fontFamily: 'var(--font-sans)',
+        textTransform: 'lowercase',
       }}
     >
       <h1

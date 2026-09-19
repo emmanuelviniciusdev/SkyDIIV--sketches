@@ -23,10 +23,11 @@ export function TypeSpecimen() {
     <FoundationFrame>
       <FoundationTitle>typography</FoundationTitle>
       <FoundationNote>
-        Primary family: Inter.
+        Primary family: Inter. Headings stay light or regular. Quotations may be italic.
       </FoundationNote>
 
       <p
+        className="typeface-name"
         style={{
           margin: `0 0 ${spacing[4]}px`,
           fontSize: resolvedSize(typography.scale.display.fontSize),
@@ -135,6 +136,35 @@ export function TypeSpecimen() {
             {brandNames.product} / {brandNames.channels}
           </p>
         </div>
+      </section>
+
+      <section style={{ marginTop: spacing[4] }}>
+        <h2
+          style={{
+            margin: `0 0 ${spacing[2]}px`,
+            fontSize: typography.scale.h2.fontSize,
+            fontWeight: typography.scale.h2.fontWeight,
+            letterSpacing: typography.scale.h2.letterSpacing,
+            lineHeight: typography.scale.h2.lineHeight,
+            textTransform: 'lowercase',
+          }}
+        >
+          quotation
+        </h2>
+        <p
+          style={{
+            margin: 0,
+            maxWidth: 640,
+            fontSize: typography.scale.body.fontSize,
+            fontWeight: typography.fontWeight.light,
+            letterSpacing: typography.scale.body.letterSpacing,
+            lineHeight: typography.scale.body.lineHeight,
+            fontStyle: 'italic',
+            color: colors.text.muted,
+          }}
+        >
+          quiet. intentional. slightly nostalgic.
+        </p>
       </section>
     </FoundationFrame>
   )

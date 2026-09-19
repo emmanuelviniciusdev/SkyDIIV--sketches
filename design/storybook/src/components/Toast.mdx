@@ -1,0 +1,69 @@
+import { Canvas, Meta } from '@storybook/addon-docs/blocks'
+
+import * as ToastStories from './Toast.stories'
+
+<Meta of={ToastStories} />
+
+# Toast
+
+Quiet notification for short confirmations and errors. Card surface, stone border, no drop shadow. Keep the title to a few words. Description stays light and muted.
+
+<table>
+  <thead>
+    <tr>
+      <th>Part</th>
+      <th>Role</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Toast</td>
+      <td>notification surface</td>
+    </tr>
+    <tr>
+      <td>Title</td>
+      <td>short confirmation or error</td>
+    </tr>
+    <tr>
+      <td>Description</td>
+      <td>optional supporting line</td>
+    </tr>
+    <tr>
+      <td>Action</td>
+      <td>optional follow-up, such as undo</td>
+    </tr>
+    <tr>
+      <td>Close</td>
+      <td>dismiss control; always provide an accessible name</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Variant</th>
+      <th>Use</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>default</td>
+      <td>confirmation or status</td>
+    </tr>
+    <tr>
+      <td>destructive</td>
+      <td>error; rose border</td>
+    </tr>
+  </tbody>
+</table>
+
+<Canvas of={ToastStories.Default} />
+
+## Destructive
+
+<Canvas of={ToastStories.Destructive} />
+
+## With action
+
+<Canvas of={ToastStories.WithAction} />

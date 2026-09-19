@@ -1,0 +1,16 @@
+import { Canvas, Meta, Controls } from '@storybook/addon-docs/blocks'
+
+import * as LabelStories from './Label.stories'
+
+<Meta of={LabelStories} />
+
+# Label
+
+Light weight. Always associate a label with its control. Copy stays short.
+
+<Canvas of={LabelStories.WithControl} />
+
+## Playground
+
+<Canvas of={LabelStories.Default} />
+<Controls of={LabelStories.Default} />

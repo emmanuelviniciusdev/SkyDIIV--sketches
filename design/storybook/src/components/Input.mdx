@@ -1,0 +1,22 @@
+import { Canvas, Meta, Controls } from '@storybook/addon-docs/blocks'
+
+import * as InputStories from './Input.stories'
+
+<Meta of={InputStories} />
+
+# Input
+
+Page fill, stone border, regular weight. Placeholder uses stone at reduced opacity. Focus changes the border to slate gray. Invalid uses the destructive border. Pair with Label.
+
+<Canvas of={InputStories.WithLabel} />
+
+## States
+
+<Canvas of={InputStories.Default} />
+<Canvas of={InputStories.Invalid} />
+<Canvas of={InputStories.Disabled} />
+
+## Playground
+
+<Canvas of={InputStories.Default} />
+<Controls of={InputStories.Default} />

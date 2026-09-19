@@ -1,4 +1,4 @@
-import { contrastRatio, semanticContrastPairs, wcagAaMinimum } from '../contrast'
+import { contrastRatio, controlContrastPairs, defaultTextPairs } from '../contrast'
 import { colors, radius, spacing, typography } from '../tokens'
 import { FoundationFrame, FoundationNote, FoundationTitle } from './FoundationFrame'
 
@@ -17,12 +17,30 @@ const brandSwatches = [
   { token: '--dusty', hex: colors.dusty, label: 'dusty blue' },
 ] as const
 
-const semanticSwatches = [
+const textSwatches = [
   { token: '--text-body', hex: colors.text.body, label: 'body text' },
   { token: '--text-muted', hex: colors.text.muted, label: 'secondary text' },
-  { token: '--text-display', hex: colors.text.display, label: 'display (large text)' },
-  { token: '--text-on-primary', hex: colors.text.onPrimary, label: 'text on action' },
-  { token: '--primary-accessible', hex: colors.primaryAccessible, label: 'AA primary action' },
+  { token: '--text-display', hex: colors.text.display, label: 'display' },
+  { token: '--text-on-primary', hex: colors.text.onPrimary, label: 'text on filled control' },
+] as const
+
+const controlSwatches = [
+  { token: '--primary-accessible', hex: colors.primaryAccessible, label: 'primary fill' },
+  {
+    token: '--secondary-accessible',
+    hex: colors.secondaryAccessible,
+    label: 'secondary fill',
+  },
+  {
+    token: '--destructive-accessible',
+    hex: colors.destructiveAccessible,
+    label: 'destructive fill',
+  },
+  {
+    token: '--accent-accessible',
+    hex: colors.accentAccessible,
+    label: 'accent fill',
+  },
 ] as const
 
 function SwatchList({
@@ -116,49 +134,53 @@ function SwatchList({
   )
 }
 
-export function ColorSwatches() {
+function PairTable({
+  heading,
+  caption,
+  pairs,
+  showControl,
+}: {
+  heading: string
+  caption: string
+  pairs: readonly { name: string; foreground: string; background: string; largeText: boolean }[]
+  showControl?: boolean
+}) {
   return (
-    <FoundationFrame>
-      <FoundationTitle>colors</FoundationTitle>
-      <FoundationNote>
-        The brand palette stays faded. Interface text uses semantic colors.
-      </FoundationNote>
-      <SwatchList heading="brand palette" items={brandSwatches} />
-      <SwatchList heading="semantic text" items={semanticSwatches} />
-      <section>
-        <h2
+    <section style={{ marginBottom: spacing[4] }}>
+      <h2
+        style={{
+          margin: `0 0 ${spacing[2]}px`,
+          fontSize: typography.scale.h2.fontSize,
+          fontWeight: typography.scale.h2.fontWeight,
+          letterSpacing: typography.scale.h2.letterSpacing,
+          lineHeight: typography.scale.h2.lineHeight,
+          textTransform: 'lowercase',
+        }}
+      >
+        {heading}
+      </h2>
+      <table
+        style={{
+          width: '100%',
+          borderCollapse: 'collapse',
+          fontSize: typography.scale.small.fontSize,
+          letterSpacing: typography.scale.small.letterSpacing,
+        }}
+      >
+        <caption
           style={{
-            margin: `0 0 ${spacing[2]}px`,
-            fontSize: typography.scale.h2.fontSize,
-            fontWeight: typography.scale.h2.fontWeight,
-            letterSpacing: typography.scale.h2.letterSpacing,
-            lineHeight: typography.scale.h2.lineHeight,
-            textTransform: 'lowercase',
+            captionSide: 'bottom',
+            textAlign: 'left',
+            paddingTop: spacing[1],
+            color: colors.text.muted,
           }}
         >
-          contrast pairs
-        </h2>
-        <table
-          style={{
-            width: '100%',
-            borderCollapse: 'collapse',
-            fontSize: typography.scale.small.fontSize,
-            letterSpacing: typography.scale.small.letterSpacing,
-          }}
-        >
-          <caption
-            style={{
-              captionSide: 'bottom',
-              textAlign: 'left',
-              paddingTop: spacing[1],
-              color: colors.text.muted,
-            }}
-          >
-            Allowed semantic pairs for text. The brand palette must not be used as body text.
-          </caption>
-          <thead>
-            <tr>
-              {['pair', 'foreground', 'background', 'ratio', 'minimum', 'result'].map((header) => (
+          {caption}
+        </caption>
+        <thead>
+          <tr>
+            {['pair', 'foreground', 'background', 'ratio', ...(showControl ? ['control'] : [])].map(
+              (header) => (
                 <th
                   key={header}
                   scope="col"
@@ -172,44 +194,69 @@ export function ColorSwatches() {
                 >
                   {header}
                 </th>
-              ))}
-            </tr>
-          </thead>
-          <tbody>
-            {semanticContrastPairs.map((pair) => {
-              const ratio = contrastRatio(pair.foreground, pair.background)
-              const minimum = wcagAaMinimum(pair.largeText)
-              const passes = ratio >= minimum
-              return (
-                <tr key={pair.name}>
-                  <th
-                    scope="row"
-                    style={{
-                      textAlign: 'left',
-                      padding: `${spacing[1]}px`,
-                      fontWeight: typography.fontWeight.regular,
-                      color: colors.text.body,
-                    }}
-                  >
-                    {pair.name}
-                  </th>
-                  <td style={{ padding: `${spacing[1]}px` }}>
-                    <code>{pair.foreground}</code>
-                  </td>
-                  <td style={{ padding: `${spacing[1]}px` }}>
-                    <code>{pair.background}</code>
-                  </td>
-                  <td style={{ padding: `${spacing[1]}px` }}>{ratio.toFixed(2)}:1</td>
-                  <td style={{ padding: `${spacing[1]}px` }}>{minimum}:1</td>
+              ),
+            )}
+          </tr>
+        </thead>
+        <tbody>
+          {pairs.map((pair) => {
+            const ratio = contrastRatio(pair.foreground, pair.background)
+            return (
+              <tr key={pair.name}>
+                <th
+                  scope="row"
+                  style={{
+                    textAlign: 'left',
+                    padding: `${spacing[1]}px`,
+                    fontWeight: typography.fontWeight.regular,
+                    color: colors.text.body,
+                  }}
+                >
+                  {pair.name}
+                </th>
+                <td style={{ padding: `${spacing[1]}px` }}>
+                  <code>{pair.foreground}</code>
+                </td>
+                <td style={{ padding: `${spacing[1]}px` }}>
+                  <code>{pair.background}</code>
+                </td>
+                <td style={{ padding: `${spacing[1]}px` }}>{ratio.toFixed(2)}:1</td>
+                {showControl ? (
                   <td style={{ padding: `${spacing[1]}px`, color: colors.text.body }}>
-                    {passes ? 'passes AA' : 'fails AA'}
+                    compact fill
                   </td>
-                </tr>
-              )
-            })}
-          </tbody>
-        </table>
-      </section>
+                ) : null}
+              </tr>
+            )
+          })}
+        </tbody>
+      </table>
+    </section>
+  )
+}
+
+export function ColorSwatches() {
+  return (
+    <FoundationFrame>
+      <FoundationTitle>colors</FoundationTitle>
+      <FoundationNote>
+        The brand palette stays faded. Default interface text uses slate gray and stone warm.
+        Compact filled controls use the accessible fills.
+      </FoundationNote>
+      <SwatchList heading="brand palette" items={brandSwatches} />
+      <SwatchList heading="default text" items={textSwatches} />
+      <SwatchList heading="compact control fills" items={controlSwatches} />
+      <PairTable
+        heading="default text pairs"
+        caption="Slate and stone on page and surface. These are the default reading colors."
+        pairs={defaultTextPairs}
+      />
+      <PairTable
+        heading="compact control pairs"
+        caption="Accessible fills with on-primary text for compact filled actions."
+        pairs={controlContrastPairs}
+        showControl
+      />
     </FoundationFrame>
   )
 }

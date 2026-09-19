@@ -1,0 +1,80 @@
+import { Canvas, Meta, Controls } from '@storybook/addon-docs/blocks'
+
+import * as LoadingStories from './Loading.stories'
+
+<Meta of={LoadingStories} />
+
+# Loading
+
+Spinner is the compact wait for controls, inline copy, and surfaces. Twelve fading petals. Earth is the mark for a full page or a section with no layout yet. Pair either with a short status line when the wait is not obvious.
+
+<table>
+  <thead>
+    <tr>
+      <th>Variant</th>
+      <th>Use</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Spinner</td>
+      <td>compact wait inside chrome and copy</td>
+    </tr>
+    <tr>
+      <td>With label</td>
+      <td>spinner plus a short status line</td>
+    </tr>
+    <tr>
+      <td>On card</td>
+      <td>spinner standing in for content on a surface</td>
+    </tr>
+    <tr>
+      <td>Earth</td>
+      <td>full-page or section wait</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Size</th>
+      <th>Use</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>sm</td>
+      <td>inline with small controls</td>
+    </tr>
+    <tr>
+      <td>default</td>
+      <td>standard chrome</td>
+    </tr>
+    <tr>
+      <td>lg</td>
+      <td>a surface or empty region</td>
+    </tr>
+  </tbody>
+</table>
+
+## Spinner
+
+<Canvas of={LoadingStories.Default} />
+<Controls of={LoadingStories.Default} />
+
+## Sizes
+
+<Canvas of={LoadingStories.Sizes} />
+
+## With label
+
+<Canvas of={LoadingStories.WithLabel} />
+
+## On card
+
+<Canvas of={LoadingStories.OnCard} />
+
+## Earth
+
+<Canvas of={LoadingStories.Earth} />

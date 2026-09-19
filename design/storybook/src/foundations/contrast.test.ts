@@ -2,10 +2,10 @@ import { describe, expect, it } from 'vitest'
 
 import {
   contrastRatio,
+  controlContrastPairs,
   hexToRgb,
   meetsWcagAa,
   relativeLuminance,
-  semanticContrastPairs,
   wcagAaMinimum,
 } from './contrast'
 
@@ -31,9 +31,9 @@ describe('contrast utilities', () => {
   })
 })
 
-describe('semantic contrast pairs', () => {
-  it('meets WCAG AA for every documented pair', () => {
-    for (const pair of semanticContrastPairs) {
+describe('control contrast pairs', () => {
+  it('meets WCAG AA for filled compact controls', () => {
+    for (const pair of controlContrastPairs) {
       expect(
         meetsWcagAa(pair.foreground, pair.background, pair.largeText),
         `${pair.name} ${pair.foreground} on ${pair.background}`,

@@ -42,7 +42,7 @@ export function ShadowLayers() {
               letterSpacing: typography.scale.small.letterSpacing,
             }}
           >
-            background {colors.background} · shadow-none
+            background <code>{colors.background}</code> · shadow-none
           </p>
         </article>
         <article
@@ -72,7 +72,7 @@ export function ShadowLayers() {
               letterSpacing: typography.scale.small.letterSpacing,
             }}
           >
-            card {colors.card} · shadow-none
+            card <code>{colors.card}</code> · shadow-none
           </p>
         </article>
       </div>

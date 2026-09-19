@@ -1,12 +1,15 @@
 import { describe, expect, it } from 'vitest'
 
 import {
+  brandNames,
   breakpoints,
   colors,
   layout,
+  logo,
   radius,
   shadow,
   spacing,
+  texture,
   typography,
 } from './tokens'
 
@@ -45,10 +48,19 @@ describe('foundation tokens', () => {
       colors.text.display,
       colors.text.onPrimary,
       colors.primaryAccessible,
+      colors.secondaryAccessible,
+      colors.destructiveAccessible,
+      colors.accentAccessible,
     ]
 
     expect(hexValues).not.toContain('#000000')
     expect(hexValues).not.toContain('#FFFFFF')
+  })
+
+  it('uses brand slate and stone for default interface text', () => {
+    expect(colors.text.body).toBe('#B5BAC2')
+    expect(colors.text.muted).toBe('#C2BCA8')
+    expect(colors.text.display).toBe('#B5BAC2')
   })
 
   it('uses Inter with a grotesque fallback stack', () => {
@@ -102,6 +114,12 @@ describe('foundation tokens', () => {
     expect(shadow.none).toBe('none')
   })
 
+  it('keeps paper grain at page and surface opacities', () => {
+    expect(texture.grainSize).toBe(90)
+    expect(texture.pageOpacity).toBe(0.04)
+    expect(texture.surfaceOpacity).toBe(0.4)
+  })
+
   it('keeps the breakpoint and layout scale', () => {
     expect(breakpoints.sm).toBe(640)
     expect(breakpoints.md).toBe(768)
@@ -111,5 +129,20 @@ describe('foundation tokens', () => {
     expect(layout.contentMaxWidth).toBe(1120)
     expect(layout.columns).toBe(12)
     expect(layout.gutter).toBe(24)
+    expect(layout.headerHeight).toBe(56)
+  })
+
+  it('keeps mixed-case brand names', () => {
+    expect(brandNames.product).toBe('SkyDIIV')
+    expect(brandNames.channels).toBe('SkyCHNNLS')
+    expect(brandNames.channelsPrefix).toBe('Sky')
+    expect(brandNames.channelsSuffix).toBe('CHNNLS')
+  })
+
+  it('keeps per-letter logo fades', () => {
+    expect(logo.hash).toEqual({ ch: '#', top: '#C8CCD2', bottom: '#E2E5E9' })
+    expect(logo.letters.map((letter) => letter.ch).join('')).toBe('SkyDIIV')
+    expect(logo.letters[0]).toEqual({ ch: 'S', top: '#AC7C76', bottom: '#C69689' })
+    expect(logo.letters[6]).toEqual({ ch: 'V', top: '#A39BBF', bottom: '#BDADC4' })
   })
 })

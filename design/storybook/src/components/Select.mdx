@@ -1,0 +1,53 @@
+import { Canvas, Meta } from '@storybook/addon-docs/blocks'
+
+import * as SelectStories from './Select.stories'
+
+<Meta of={SelectStories} />
+
+# Select
+
+Same surface as Input: page fill, stone border, focus to slate gray. The menu sits on the card surface with no drop shadow. Pair with Label.
+
+<table>
+  <thead>
+    <tr>
+      <th>Part</th>
+      <th>Role</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Trigger</td>
+      <td>closed control; shows the current value or placeholder</td>
+    </tr>
+    <tr>
+      <td>Content</td>
+      <td>menu of options</td>
+    </tr>
+    <tr>
+      <td>Item</td>
+      <td>one option; selected state uses a light check</td>
+    </tr>
+    <tr>
+      <td>Group label</td>
+      <td>quiet heading inside the menu</td>
+    </tr>
+    <tr>
+      <td>Leading icon</td>
+      <td>optional; sits before the value in the trigger, light weight</td>
+    </tr>
+  </tbody>
+</table>
+
+<Canvas of={SelectStories.Default} />
+
+## With icon
+
+A compact trigger can lead with an icon. The caret stays on the right.
+
+<Canvas of={SelectStories.WithIcon} />
+
+## States
+
+<Canvas of={SelectStories.Invalid} />
+<Canvas of={SelectStories.Disabled} />

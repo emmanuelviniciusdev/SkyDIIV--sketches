@@ -21,5 +21,6 @@ export const Specimen: Story = {
     await expect(canvas.getByText('Inter')).toBeVisible()
     await expect(canvas.getByText(/SkyDIIV/)).toBeVisible()
     await expect(canvas.getByRole('heading', { name: 'lowercase' })).toBeVisible()
+    await expect(canvas.getByRole('heading', { name: 'quotation' })).toBeVisible()
   },
 }

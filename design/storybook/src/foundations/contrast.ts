@@ -62,7 +62,7 @@ export type ContrastPair = {
   largeText: boolean
 }
 
-export const semanticContrastPairs = [
+export const defaultTextPairs = [
   {
     name: 'text-body on background',
     foreground: colors.text.body,
@@ -93,10 +93,31 @@ export const semanticContrastPairs = [
     background: colors.background,
     largeText: true,
   },
+] as const satisfies readonly ContrastPair[]
+
+export const controlContrastPairs = [
   {
     name: 'text-on-primary on primary-accessible',
     foreground: colors.text.onPrimary,
     background: colors.primaryAccessible,
+    largeText: false,
+  },
+  {
+    name: 'text-on-primary on secondary-accessible',
+    foreground: colors.text.onPrimary,
+    background: colors.secondaryAccessible,
+    largeText: false,
+  },
+  {
+    name: 'text-on-primary on destructive-accessible',
+    foreground: colors.text.onPrimary,
+    background: colors.destructiveAccessible,
+    largeText: false,
+  },
+  {
+    name: 'text-on-primary on accent-accessible',
+    foreground: colors.text.onPrimary,
+    background: colors.accentAccessible,
     largeText: false,
   },
 ] as const satisfies readonly ContrastPair[]

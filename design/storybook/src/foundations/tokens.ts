@@ -16,10 +16,13 @@ export const colors = {
   destructiveForeground: '#F4F4F2',
   accentForeground: '#F4F4F2',
   primaryAccessible: '#50748C',
+  secondaryAccessible: '#886953',
+  destructiveAccessible: '#906561',
+  accentAccessible: '#746C81',
   text: {
-    body: '#626A77',
-    muted: '#71694F',
-    display: '#868E9B',
+    body: '#B5BAC2',
+    muted: '#C2BCA8',
+    display: '#B5BAC2',
     onPrimary: '#F4F4F2',
   },
 } as const
@@ -99,6 +102,17 @@ export const shadow = {
   none: 'none',
 } as const
 
+export const texture = {
+  grainSize: 90,
+  pageOpacity: 0.04,
+  surfaceOpacity: 0.4,
+} as const
+
+export const motion = {
+  durationMs: 200,
+  easing: 'ease',
+} as const
+
 export const breakpoints = {
   sm: 640,
   md: 768,
@@ -111,9 +125,29 @@ export const layout = {
   contentMaxWidth: 1120,
   columns: 12,
   gutter: spacing.gutter,
+  headerHeight: 56,
 } as const
 
 export const brandNames = {
   product: 'SkyDIIV',
   channels: 'SkyCHNNLS',
+  channelsPrefix: 'Sky',
+  channelsSuffix: 'CHNNLS',
+} as const
+
+export const logo = {
+  hash: {
+    ch: '#' as const,
+    top: '#C8CCD2',
+    bottom: '#E2E5E9',
+  },
+  letters: [
+    { ch: 'S', top: '#AC7C76', bottom: '#C69689' },
+    { ch: 'k', top: '#CAA07F', bottom: '#E4BC96' },
+    { ch: 'y', top: '#B1B1A4', bottom: '#D0C3A9' },
+    { ch: 'D', top: '#7496AD', bottom: '#9DB0BF' },
+    { ch: 'I', top: '#85A5BF', bottom: '#AAB7C8' },
+    { ch: 'I', top: '#B4BFD5', bottom: '#C5C0CD' },
+    { ch: 'V', top: '#A39BBF', bottom: '#BDADC4' },
+  ],
 } as const

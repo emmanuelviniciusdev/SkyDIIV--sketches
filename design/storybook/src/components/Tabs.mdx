@@ -1,0 +1,42 @@
+import { Canvas, Meta } from '@storybook/addon-docs/blocks'
+
+import * as TabsStories from './Tabs.stories'
+
+<Meta of={TabsStories} />
+
+# Tabs
+
+Quiet section switcher. Inactive labels stay muted. The active tab uses a hairline in slate gray. No pill track and no elevation. Copy stays short.
+
+<table>
+  <thead>
+    <tr>
+      <th>Part</th>
+      <th>Role</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>List</td>
+      <td>row of tabs with a shared hairline</td>
+    </tr>
+    <tr>
+      <td>Trigger</td>
+      <td>one section; optional leading icon</td>
+    </tr>
+    <tr>
+      <td>Content</td>
+      <td>the active panel</td>
+    </tr>
+  </tbody>
+</table>
+
+<Canvas of={TabsStories.Default} />
+
+## With icons
+
+<Canvas of={TabsStories.WithIcons} />
+
+## Disabled
+
+<Canvas of={TabsStories.Disabled} />

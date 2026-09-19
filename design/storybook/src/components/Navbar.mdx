@@ -1,0 +1,56 @@
+import { Canvas, Meta } from '@storybook/addon-docs/blocks'
+
+import * as NavbarStories from './Navbar.stories'
+
+<Meta of={NavbarStories} />
+
+# Navbar
+
+A thin header with a hairline. Page fill. Height stays 56. Brand keeps its written case. Controls on the right stay compact: a language select, a quiet action, or a menu button. Forward actions place the icon after the label.
+
+The menu is a compact panel anchored to the right, under the menu button. It does not span the full width. The panel opens with the profile photo and the user name, then the actions. Menu items take a stone hairline and a quiet page fill on hover.
+
+<table>
+  <thead>
+    <tr>
+      <th>Part</th>
+      <th>Role</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Navbar</td>
+      <td>header bar</td>
+    </tr>
+    <tr>
+      <td>Brand</td>
+      <td>product name; case is preserved</td>
+    </tr>
+    <tr>
+      <td>Start / End</td>
+      <td>left and right clusters</td>
+    </tr>
+    <tr>
+      <td>Menu button</td>
+      <td>opens and closes the menu; always named</td>
+    </tr>
+    <tr>
+      <td>Menu</td>
+      <td>compact panel anchored to the right, under the menu button; not full width</td>
+    </tr>
+    <tr>
+      <td>Menu user</td>
+      <td>profile photo and name at the top of the panel</td>
+    </tr>
+    <tr>
+      <td>Menu item</td>
+      <td>full-width action in the panel; stone hairline and quiet page fill on hover</td>
+    </tr>
+  </tbody>
+</table>
+
+<Canvas of={NavbarStories.Default} />
+
+## With menu
+
+<Canvas of={NavbarStories.WithMenu} />

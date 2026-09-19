@@ -3,13 +3,273 @@
 @import "@fontsource-variable/inter/wght-italic.css";
 @import "./tokens.css";
 
-html,
-body {
-  background: var(--background);
-  color: var(--text-body);
-  font-family: var(--font-sans);
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  html,
+  body {
+    background: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-sans);
+    font-weight: 400;
+    text-transform: lowercase;
+  }
+
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 50;
+    background-image: var(--grain-texture);
+    background-size: var(--grain-size) var(--grain-size);
+    background-repeat: repeat;
+    opacity: var(--grain-page-opacity);
+  }
+
+  code,
+  kbd,
+  samp {
+    text-transform: none;
+  }
 }
 
-.brand-name {
+.brand-name,
+.typeface-name {
   text-transform: none;
+}
+
+.grain-surface {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+}
+
+.grain-surface__overlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image: var(--grain-texture);
+  background-size: var(--grain-size) var(--grain-size);
+  background-position: center;
+  background-repeat: repeat;
+  mix-blend-mode: overlay;
+  opacity: var(--grain-surface-opacity);
+}
+
+.loading-earth__mark {
+  image-rendering: auto;
+}
+
+@keyframes loading-earth-sparkle {
+  0%,
+  72%,
+  100% {
+    opacity: 0.78;
+    transform: scale(0.92) rotate(-5deg);
+  }
+  12% {
+    opacity: 1;
+    transform: scale(1.14) rotate(7deg);
+  }
+  28% {
+    opacity: 0.88;
+    transform: scale(1) rotate(2deg);
+  }
+  48% {
+    opacity: 1;
+    transform: scale(1.1) rotate(-4deg);
+  }
+}
+
+.loading-earth__sparkle {
+  animation: loading-earth-sparkle 1.9s ease-in-out infinite;
+  transform-origin: center;
+}
+
+@keyframes loading-spinner-tick {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.12;
+  }
+}
+
+.loading-spinner__tick {
+  animation: loading-spinner-tick 1s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .loading-spinner__tick {
+    animation: none;
+    opacity: 0.4;
+  }
+
+  .loading-spinner__tick:nth-child(1),
+  .loading-spinner__tick:nth-child(2),
+  .loading-spinner__tick:nth-child(12) {
+    opacity: 0.85;
+  }
+}
+
+.skydiiv-logo {
+  position: relative;
+  display: inline-block;
+  letter-spacing: 0.3em;
+  margin-inline-end: -0.3em;
+  text-transform: none;
+  white-space: nowrap;
+  line-height: 1.2;
+  overflow: visible;
+  padding-bottom: 0.08em;
+}
+
+.skydiiv-logo__fill,
+.skydiiv-logo__grain {
+  display: inline-block;
+  overflow: visible;
+}
+
+.skydiiv-logo__letter {
+  display: inline-block;
+  overflow: visible;
+  background-size: 100% 130%;
+  background-repeat: no-repeat;
+  background-position: center top;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.skydiiv-logo .skydiiv-logo__hash {
+  display: inline-block;
+  font-size: 0.65em;
+  font-weight: 400;
+  vertical-align: baseline;
+}
+
+.skydiiv-logo__grain {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  background-image: var(--grain-texture);
+  background-size: var(--grain-size) var(--grain-size);
+  background-position: center;
+  background-repeat: repeat;
+  mix-blend-mode: overlay;
+  opacity: var(--grain-surface-opacity);
+}
+
+.sky-channels-logo {
+  position: relative;
+  display: inline-flex;
+  align-items: baseline;
+  letter-spacing: 0.14em;
+  margin-inline-end: -0.14em;
+  text-transform: none;
+  white-space: nowrap;
+  line-height: 1.2;
+  overflow: visible;
+  padding-bottom: 0.08em;
+}
+
+.sky-channels-logo .skydiiv-logo__hash {
+  display: inline-block;
+  font-size: 0.65em;
+  font-weight: 400;
+  vertical-align: baseline;
+}
+
+.sky-channels-logo__sky {
+  position: relative;
+  display: inline-block;
+}
+
+.sky-chnnls {
+  position: relative;
+  display: inline-block;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+  margin-inline-end: -0.12em;
+}
+
+.sky-chnnls__base {
+  position: relative;
+  display: inline-block;
+  font-weight: 900;
+  letter-spacing: 0.12em;
+  background-size: 240% 280%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  animation: sky-chnnls-snow 0.16s steps(4) infinite;
+}
+
+@keyframes sky-chnnls-snow {
+  0% {
+    background-position: 0% 0%;
+  }
+  25% {
+    background-position: 62% 18%;
+  }
+  50% {
+    background-position: 18% 74%;
+  }
+  75% {
+    background-position: 84% 42%;
+  }
+  100% {
+    background-position: 30% 96%;
+  }
+}
+
+.cursor-field {
+  position: relative;
+  overflow: hidden;
+}
+
+.cursor-plus,
+.cursor-plus-specimen {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-weight: 300;
+  text-transform: none;
+}
+
+.cursor-plus {
+  position: absolute;
+  z-index: 2;
+  pointer-events: none;
+  user-select: none;
+  line-height: 1;
+  color: var(--text-body);
+  opacity: 0.45;
+  transform: translate(-50%, -50%);
+  transition:
+    opacity 650ms ease-out,
+    transform 650ms ease-out;
+}
+
+.cursor-plus--leaving {
+  opacity: 0;
+  transform: translate(-50%, -50%) scale(1.6);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sky-chnnls__base {
+    animation: none;
+  }
+
+  .cursor-plus {
+    transition: none;
+  }
 }

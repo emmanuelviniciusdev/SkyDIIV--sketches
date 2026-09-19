@@ -1,0 +1,59 @@
+import { Canvas, Meta, Controls } from '@storybook/addon-docs/blocks'
+
+import * as BadgeStories from './Badge.stories'
+
+<Meta of={BadgeStories} />
+
+# Badge
+
+Badges label status and category. Keep copy short. Default chips use a tinted fill at low opacity with matching accent text. Outline badges are a quiet bordered chip.
+
+<table>
+  <thead>
+    <tr>
+      <th>Variant</th>
+      <th>Use</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>default</td>
+      <td>slate tint</td>
+    </tr>
+    <tr>
+      <td>secondary</td>
+      <td>terracotta tint</td>
+    </tr>
+    <tr>
+      <td>accent</td>
+      <td>lilac tint</td>
+    </tr>
+    <tr>
+      <td>cool</td>
+      <td>cool blue-gray tint</td>
+    </tr>
+    <tr>
+      <td>outline</td>
+      <td>bordered chip</td>
+    </tr>
+    <tr>
+      <td>destructive</td>
+      <td>rose tint — error or blocked</td>
+    </tr>
+  </tbody>
+</table>
+
+## Variants
+
+<Canvas of={BadgeStories.Variants} />
+
+## Tags
+
+Use tinted badges for category tags. Removable tags may include a small dismiss control with an accessible name.
+
+<Canvas of={BadgeStories.Tags} />
+
+## Playground
+
+<Canvas of={BadgeStories.Default} />
+<Controls of={BadgeStories.Default} />
