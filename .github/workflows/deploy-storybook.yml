@@ -1,7 +1,5 @@
-# Deploy the SkyDIIV Storybook static build to Cloudflare Pages.
-#
-# Production: push to main (and manual workflow_dispatch).
-# Preview: pull requests from this repository.
+# Build the SkyDIIV Storybook static site. Deploy to Cloudflare Pages only
+# after a merge to main (or a manual workflow_dispatch).
 #
 # Required secrets live on the GitHub Environment named production
 # (Settings → Environments → production):
@@ -31,35 +29,21 @@ concurrency:
 
 permissions:
   contents: read
-  deployments: write
 
 env:
   CLOUDFLARE_PAGES_PROJECT: skydiiv-storybook
 
 jobs:
-  deploy:
-    name: Build and deploy
+  build:
+    name: Build
     if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository
     runs-on: ubuntu-latest
-    environment:
-      name: production
-      url: ${{ steps.deploy.outputs.pages-deployment-alias-url || steps.deploy.outputs.deployment-url }}
     defaults:
       run:
         working-directory: design/storybook
     steps:
       - name: Checkout
         uses: actions/checkout@v7
-
-      - name: Check Cloudflare credentials
-        env:
-          CLOUDFLARE_PAGES_API_TOKEN: ${{ secrets.CLOUDFLARE_PAGES_API_TOKEN }}
-          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-        run: |
-          if [ -z "$CLOUDFLARE_PAGES_API_TOKEN" ] || [ -z "$CLOUDFLARE_ACCOUNT_ID" ]; then
-            echo "::error::Missing CLOUDFLARE_PAGES_API_TOKEN or CLOUDFLARE_ACCOUNT_ID on the production environment."
-            exit 1
-          fi
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
@@ -79,13 +63,41 @@ jobs:
       - name: Build Storybook
         run: pnpm build-storybook
 
+      - name: Upload static build
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-artifact@v4
+        with:
+          name: storybook-static
+          path: design/storybook/storybook-static
+
+  deploy:
+    name: Deploy production
+    needs: build
+    if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    environment:
+      name: production
+    steps:
+      - name: Check Cloudflare credentials
+        env:
+          CLOUDFLARE_PAGES_API_TOKEN: ${{ secrets.CLOUDFLARE_PAGES_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          if [ -z "$CLOUDFLARE_PAGES_API_TOKEN" ] || [ -z "$CLOUDFLARE_ACCOUNT_ID" ]; then
+            echo "::error::Missing CLOUDFLARE_PAGES_API_TOKEN or CLOUDFLARE_ACCOUNT_ID on the production environment."
+            exit 1
+          fi
+
+      - name: Download static build
+        uses: actions/download-artifact@v4
+        with:
+          name: storybook-static
+          path: design/storybook/storybook-static
+
       - name: Deploy to Cloudflare Pages
-        id: deploy
         uses: cloudflare/wrangler-action@v4
         with:
           apiToken: ${{ secrets.CLOUDFLARE_PAGES_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           workingDirectory: design/storybook
-          packageManager: pnpm
-          command: pages deploy storybook-static --project-name=${{ env.CLOUDFLARE_PAGES_PROJECT }}
-          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+          command: pages deploy storybook-static --project-name=${{ env.CLOUDFLARE_PAGES_PROJECT }} --branch=main
