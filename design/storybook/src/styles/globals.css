@@ -148,7 +148,7 @@
 .skydiiv-logo .skydiiv-logo__hash {
   display: inline-block;
   font-size: 0.65em;
-  font-weight: 400;
+  font-weight: 500;
   vertical-align: baseline;
 }
 
@@ -172,8 +172,8 @@
   position: relative;
   display: inline-flex;
   align-items: baseline;
-  letter-spacing: 0.14em;
-  margin-inline-end: -0.14em;
+  letter-spacing: 0.3em;
+  margin-inline-end: -0.3em;
   text-transform: none;
   white-space: nowrap;
   line-height: 1.2;
@@ -184,7 +184,7 @@
 .sky-channels-logo .skydiiv-logo__hash {
   display: inline-block;
   font-size: 0.65em;
-  font-weight: 400;
+  font-weight: 500;
   vertical-align: baseline;
 }
 
@@ -197,15 +197,12 @@
   position: relative;
   display: inline-block;
   font-weight: 900;
-  letter-spacing: 0.12em;
-  margin-inline-end: -0.12em;
 }
 
 .sky-chnnls__base {
   position: relative;
   display: inline-block;
   font-weight: 900;
-  letter-spacing: 0.12em;
   background-size: 240% 280%;
   background-repeat: repeat;
   -webkit-background-clip: text;

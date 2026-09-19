@@ -11,7 +11,7 @@ export function LogoMarks() {
       <FoundationNote>
         Wordmarks keep mixed case. A hash prefixes both marks. Each product letter
         has its own vertical fade, with crumpled paper grain on the glyphs. The
-        channels mark reuses the product prefix fades at the same regular weight;
+        channels mark reuses the product prefix fades at the same medium weight;
         the suffix is analog snow, extra bold.
       </FoundationNote>
 

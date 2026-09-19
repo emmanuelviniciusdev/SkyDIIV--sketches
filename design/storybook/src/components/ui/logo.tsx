@@ -25,7 +25,7 @@ function SkyDiivLogo({ className, ...props }: React.ComponentProps<'span'>) {
   return (
     <span
       data-slot="logo"
-      className={cn('skydiiv-logo font-normal', className)}
+      className={cn('skydiiv-logo font-medium', className)}
       aria-label={brandNames.product}
       role="img"
       {...props}
@@ -59,7 +59,7 @@ function SkyChannelsLogo({ className, ...props }: React.ComponentProps<'span'>) 
   return (
     <span
       data-slot="channels-logo"
-      className={cn('sky-channels-logo font-normal', className)}
+      className={cn('sky-channels-logo font-medium', className)}
       aria-label={`#${brandNames.channels}`}
       role="img"
       {...props}
