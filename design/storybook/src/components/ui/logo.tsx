@@ -75,14 +75,14 @@ function SkyChannelsLogo({ className, ...props }: React.ComponentProps<'span'>) 
           {skyLetters.map((letter, index) => (
             <span
               key={`${letter.ch}-${index}`}
-              className="skydiiv-logo__letter font-semibold"
+              className="skydiiv-logo__letter"
               style={letterFillStyle(letter.top, letter.bottom)}
             >
               {letter.ch}
             </span>
           ))}
         </span>
-        <span className="skydiiv-logo__grain font-semibold" aria-hidden="true">
+        <span className="skydiiv-logo__grain" aria-hidden="true">
           <span className="skydiiv-logo__hash">{logo.hash.ch}</span>
           {brandNames.channelsPrefix}
         </span>
