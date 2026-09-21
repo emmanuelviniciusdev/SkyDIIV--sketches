@@ -1,6 +1,0 @@
-allowBuilds:
-  esbuild: true
-  sharp: false
-  unrs-resolver: false
-  # wrangler-action installs wrangler, which needs workerd's postinstall.
-  workerd: true

@@ -23,7 +23,8 @@ export default function Home() {
         <span className="brand-name">SkyDIIV</span> design system
       </h1>
       <p style={{ margin: 0, maxWidth: 40 * 16, lineHeight: 1.6 }}>
-        Foundations live in Storybook. Run <code>pnpm storybook</code> in this package.
+        Foundations live in Storybook. Run <code>pnpm storybook</code> from the
+        repository root.
       </p>
     </main>
   )

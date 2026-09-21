@@ -1,0 +1,12 @@
+{
+  "name": "skydiiv-sketches",
+  "private": true,
+  "packageManager": "pnpm@12.4.2",
+  "scripts": {
+    "build": "pnpm --filter @emmanuelviniciusdev/SkyDIIV-UI build",
+    "test": "pnpm -r --if-present test",
+    "typecheck": "pnpm -r --if-present typecheck",
+    "storybook": "pnpm --filter SkyDIIV-Storybook storybook",
+    "build-storybook": "pnpm --filter SkyDIIV-Storybook build-storybook"
+  }
+}

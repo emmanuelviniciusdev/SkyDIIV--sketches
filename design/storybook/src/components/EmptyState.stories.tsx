@@ -2,14 +2,14 @@ import type { Meta, StoryObj } from '@storybook/nextjs-vite'
 import { expect, within, userEvent, fn } from 'storybook/test'
 import { MagnifyingGlass, Plus, TShirt } from '@phosphor-icons/react'
 
-import { Button } from '@/components/ui/button'
 import {
+  Button,
   EmptyState,
   EmptyStateAction,
   EmptyStateDescription,
   EmptyStateIcon,
   EmptyStateTitle,
-} from '@/components/ui/empty-state'
+} from '@emmanuelviniciusdev/SkyDIIV-UI'
 
 const onAddPieces = fn()
 

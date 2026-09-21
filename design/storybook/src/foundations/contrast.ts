@@ -1,4 +1,4 @@
-import { colors } from './tokens'
+import { colors } from '@emmanuelviniciusdev/SkyDIIV-UI'
 
 export type Rgb = readonly [number, number, number]
 

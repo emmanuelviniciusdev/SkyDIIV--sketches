@@ -1,8 +1,10 @@
 import type { Meta, StoryObj } from '@storybook/nextjs-vite'
 import { expect, within, userEvent } from 'storybook/test'
 
-import { Input } from '@/components/ui/input'
-import { Label } from '@/components/ui/label'
+import {
+  Input,
+  Label,
+} from '@emmanuelviniciusdev/SkyDIIV-UI'
 
 const meta = {
   title: 'Forms/Input',

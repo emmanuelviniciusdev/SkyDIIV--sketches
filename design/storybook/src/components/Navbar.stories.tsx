@@ -9,9 +9,9 @@ import {
   User,
 } from '@phosphor-icons/react'
 
-import { Avatar } from '@/components/ui/avatar'
-import { Button } from '@/components/ui/button'
 import {
+  Avatar,
+  Button,
   Navbar,
   NavbarBrand,
   NavbarEnd,
@@ -22,14 +22,12 @@ import {
   NavbarMenuUser,
   NavbarMenuUserName,
   NavbarStart,
-} from '@/components/ui/navbar'
-import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from '@/components/ui/select'
+} from '@emmanuelviniciusdev/SkyDIIV-UI'
 
 const meta = {
   title: 'Navigation/Navbar',

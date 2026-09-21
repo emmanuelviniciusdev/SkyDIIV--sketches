@@ -2,8 +2,8 @@ import type { Meta, StoryObj } from '@storybook/nextjs-vite'
 import { expect, within, userEvent, screen } from 'storybook/test'
 import { Globe } from '@phosphor-icons/react'
 
-import { Label } from '@/components/ui/label'
 import {
+  Label,
   Select,
   SelectContent,
   SelectGroup,
@@ -12,7 +12,7 @@ import {
   SelectSeparator,
   SelectTrigger,
   SelectValue,
-} from '@/components/ui/select'
+} from '@emmanuelviniciusdev/SkyDIIV-UI'
 
 const meta = {
   title: 'Forms/Select',

@@ -1,5 +1,11 @@
-import { CursorField } from '@/components/ui/cursor-field'
-import { colors, radius, spacing, typography } from '../tokens'
+import {
+  CursorField,
+  colors,
+  radius,
+  spacing,
+  typography,
+} from '@emmanuelviniciusdev/SkyDIIV-UI'
+
 import { FoundationFrame, FoundationNote, FoundationTitle } from './FoundationFrame'
 
 export function CursorTrail() {

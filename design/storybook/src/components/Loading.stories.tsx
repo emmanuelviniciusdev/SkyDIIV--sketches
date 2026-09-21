@@ -1,9 +1,11 @@
 import type { Meta, StoryObj } from '@storybook/nextjs-vite'
 import { expect, within } from 'storybook/test'
 
-import { Card } from '@/components/ui/card'
-import { LoadingEarth } from '@/components/ui/loading-earth'
-import { Spinner } from '@/components/ui/spinner'
+import {
+  Card,
+  LoadingEarth,
+  Spinner,
+} from '@emmanuelviniciusdev/SkyDIIV-UI'
 
 const meta = {
   title: 'Feedback/Loading',

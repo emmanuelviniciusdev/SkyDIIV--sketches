@@ -2,15 +2,15 @@ import type { Meta, StoryObj } from '@storybook/nextjs-vite'
 import { expect, within } from 'storybook/test'
 import { ArrowCounterClockwise } from '@phosphor-icons/react'
 
-import { Button } from '@/components/ui/button'
 import {
+  Button,
   Toast,
   ToastAction,
   ToastBody,
   ToastClose,
   ToastDescription,
   ToastTitle,
-} from '@/components/ui/toast'
+} from '@emmanuelviniciusdev/SkyDIIV-UI'
 
 const meta = {
   title: 'Feedback/Toast',

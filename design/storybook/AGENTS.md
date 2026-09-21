@@ -14,6 +14,10 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 
 All documentation, UI copy, comments, and source in this package MUST be written in **en-US**. Do not add Portuguese (or any other locale) to docs, stories, MDX, READMEs, or code comments.
 
+## Source of truth
+
+Component implementations, tokens, emoticons, and component styles live in `design/ui/`. This package documents and demonstrates them. Import from `@emmanuelviniciusdev/SkyDIIV-UI`. Do not add or edit component implementations here.
+
 ## Documentation
 
 Storybook docs describe the design system: tokens, scale, and usage principles. Do not mention packages, loaders, CSS properties, fallback stacks, current product screens, or one-off layout exceptions. Use HTML tables in MDX (GitHub-flavored Markdown tables do not render).

@@ -1,0 +1,65 @@
+# Publish @emmanuelviniciusdev/SkyDIIV-UI to GitHub Packages.
+# Skips when the current version is already on the registry.
+
+name: Publish UI package
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "design/ui/**"
+      - ".github/workflows/publish-ui.yml"
+  workflow_dispatch:
+
+concurrency:
+  group: publish-ui-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+  packages: write
+
+jobs:
+  publish:
+    name: Publish
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: pnpm-lock.yaml
+          registry-url: https://npm.pkg.github.com
+          scope: "@emmanuelviniciusdev"
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Test
+        run: pnpm --filter @emmanuelviniciusdev/SkyDIIV-UI test
+
+      - name: Typecheck
+        run: pnpm --filter @emmanuelviniciusdev/SkyDIIV-UI typecheck
+
+      - name: Build
+        run: pnpm --filter @emmanuelviniciusdev/SkyDIIV-UI build
+
+      - name: Publish
+        working-directory: design/ui
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          PACKAGE="$(node -p "require('./package.json').name")"
+          VERSION="$(node -p "require('./package.json').version")"
+          if npm view "$PACKAGE@$VERSION" version --registry=https://npm.pkg.github.com >/dev/null 2>&1; then
+            echo "Version $VERSION is already published"
+          else
+            pnpm publish --no-git-checks --access public
+          fi

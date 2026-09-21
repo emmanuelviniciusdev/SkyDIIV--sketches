@@ -1,5 +1,6 @@
-# Build the SkyDIIV Storybook static site. Deploy to Cloudflare Pages only
-# after a merge to main (or a manual workflow_dispatch).
+# Deploy the SkyDIIV Storybook static site to Cloudflare Pages after a merge
+# to main (or a manual workflow_dispatch). Storybook build verification lives
+# in ci.yml.
 #
 # Required secrets live on the GitHub Environment named production
 # (Settings → Environments → production):
@@ -15,16 +16,16 @@ on:
   push:
     branches: [main]
     paths:
+      - "design/ui/**"
       - "design/storybook/**"
-      - ".github/workflows/deploy-storybook.yml"
-  pull_request:
-    paths:
-      - "design/storybook/**"
+      - "package.json"
+      - "pnpm-lock.yaml"
+      - "pnpm-workspace.yaml"
       - ".github/workflows/deploy-storybook.yml"
   workflow_dispatch:
 
 concurrency:
-  group: deploy-storybook-${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  group: deploy-storybook-${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
 permissions:
@@ -34,44 +35,11 @@ env:
   CLOUDFLARE_PAGES_PROJECT: skydiiv-storybook
 
 jobs:
-  build:
-    name: Build
-    if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository
-    runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: design/storybook
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v7
-
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v4
-        with:
-          package_json_file: design/storybook/package.json
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 22
-          cache: pnpm
-          cache-dependency-path: design/storybook/pnpm-lock.yaml
-
-      - name: Install dependencies
-        run: pnpm install --frozen-lockfile
-
-      - name: Build Storybook
-        run: pnpm build-storybook
-
   deploy:
     name: Build and deploy production
-    if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     environment:
       name: production
-    defaults:
-      run:
-        working-directory: design/storybook
     steps:
       - name: Checkout
         uses: actions/checkout@v7
@@ -88,21 +56,19 @@ jobs:
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
-        with:
-          package_json_file: design/storybook/package.json
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: pnpm
-          cache-dependency-path: design/storybook/pnpm-lock.yaml
+          cache-dependency-path: pnpm-lock.yaml
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
       - name: Build Storybook
-        run: pnpm build-storybook
+        run: pnpm --filter SkyDIIV-Storybook build-storybook
 
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v4

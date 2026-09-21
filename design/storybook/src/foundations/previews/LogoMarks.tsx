@@ -1,5 +1,13 @@
-import { SkyChannelsLogo, SkyDiivLogo } from '@/components/ui/logo'
-import { colors, logo, radius, spacing, typography } from '../tokens'
+import {
+  SkyChannelsLogo,
+  SkyDiivLogo,
+  colors,
+  logo,
+  radius,
+  spacing,
+  typography,
+} from '@emmanuelviniciusdev/SkyDIIV-UI'
+
 import { FoundationFrame, FoundationNote, FoundationTitle } from './FoundationFrame'
 
 const letterRows = [logo.hash, ...logo.letters]

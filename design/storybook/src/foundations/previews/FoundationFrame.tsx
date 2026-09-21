@@ -1,6 +1,6 @@
 import type { CSSProperties, ReactNode } from 'react'
 
-import { colors, spacing, typography } from '../tokens'
+import { colors, spacing, typography } from '@emmanuelviniciusdev/SkyDIIV-UI'
 
 export function FoundationFrame({
   children,

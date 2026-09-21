@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/nextjs-vite'
 import { expect, within } from 'storybook/test'
 
-import { Avatar } from '@/components/ui/avatar'
+import { Avatar } from '@emmanuelviniciusdev/SkyDIIV-UI'
 
 const EXAMPLE_NAME = 'yelyahwilliams'
 const EXAMPLE_ALT = 'photo of yelyahwilliams'

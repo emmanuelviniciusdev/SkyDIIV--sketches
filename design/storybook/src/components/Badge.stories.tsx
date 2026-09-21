@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/nextjs-vite'
 import { expect, within } from 'storybook/test'
 import { X } from '@phosphor-icons/react'
 
-import { Badge } from '@/components/ui/badge'
+import { Badge } from '@emmanuelviniciusdev/SkyDIIV-UI'
 
 const meta = {
   title: 'Components/Badge',

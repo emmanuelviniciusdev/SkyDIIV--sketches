@@ -1,4 +1,5 @@
-import { brandNames, colors, radius, spacing, typography } from '../tokens'
+import { brandNames, colors, radius, spacing, typography } from '@emmanuelviniciusdev/SkyDIIV-UI'
+
 import { FoundationFrame, FoundationNote, FoundationTitle } from './FoundationFrame'
 
 const scaleEntries = [

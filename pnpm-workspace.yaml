@@ -1,0 +1,9 @@
+packages:
+  - design/ui
+  - design/storybook
+
+allowBuilds:
+  esbuild: true
+  sharp: false
+  unrs-resolver: false
+  workerd: true

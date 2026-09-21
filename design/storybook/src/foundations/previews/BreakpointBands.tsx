@@ -1,4 +1,5 @@
-import { breakpoints, colors, layout, radius, spacing, typography } from '../tokens'
+import { breakpoints, colors, layout, radius, spacing, typography } from '@emmanuelviniciusdev/SkyDIIV-UI'
+
 import { FoundationFrame, FoundationNote, FoundationTitle } from './FoundationFrame'
 
 const bands = [

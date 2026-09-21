@@ -1,4 +1,5 @@
-import { colors, radius, shadow, spacing, typography } from '../tokens'
+import { colors, radius, shadow, spacing, typography } from '@emmanuelviniciusdev/SkyDIIV-UI'
+
 import { FoundationFrame, FoundationNote, FoundationTitle } from './FoundationFrame'
 
 export function ShadowLayers() {

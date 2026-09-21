@@ -1,7 +1,14 @@
-import { SparklingStar } from '@/components/ui/sparkling-star'
+import {
+  SparklingStar,
+  colors,
+  emoticonGroups,
+  kddiEmoticons,
+  radius,
+  spacing,
+  typography,
+  type EmoticonItem,
+} from '@emmanuelviniciusdev/SkyDIIV-UI'
 
-import { emoticonGroups, kddiEmoticons, type Emoticon } from '../Emoticons'
-import { colors, radius, spacing, typography } from '../tokens'
 import { FoundationFrame, FoundationNote, FoundationTitle } from './FoundationFrame'
 
 const emoticonMarkSize = 32
@@ -12,7 +19,7 @@ const cardStyle = {
   borderRadius: radius.lg,
 } as const
 
-function EmoticonMark({ item }: { item: Emoticon }) {
+function EmoticonMark({ item }: { item: EmoticonItem }) {
   return (
     <img
       src={item.src}
@@ -29,7 +36,7 @@ function EmoticonMark({ item }: { item: Emoticon }) {
   )
 }
 
-function EmoticonTile({ item }: { item: Emoticon }) {
+function EmoticonTile({ item }: { item: EmoticonItem }) {
   return (
     <li
       style={{

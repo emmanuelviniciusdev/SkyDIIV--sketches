@@ -1,4 +1,5 @@
-import { colors, radius, spacing, typography } from '../tokens'
+import { colors, radius, spacing, typography } from '@emmanuelviniciusdev/SkyDIIV-UI'
+
 import { FoundationFrame, FoundationNote, FoundationTitle } from './FoundationFrame'
 
 const steps = [

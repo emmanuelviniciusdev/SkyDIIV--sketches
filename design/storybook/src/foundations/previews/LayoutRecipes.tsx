@@ -1,17 +1,21 @@
 import { ArrowSquareOut, FloppyDiskBack } from '@phosphor-icons/react'
 
-import { Badge } from '@/components/ui/badge'
-import { Button } from '@/components/ui/button'
 import {
+  Badge,
+  Button,
   Card,
   CardContent,
   CardDescription,
   CardFooter,
   CardHeader,
   CardTitle,
-} from '@/components/ui/card'
+  colors,
+  layout,
+  radius,
+  spacing,
+  typography,
+} from '@emmanuelviniciusdev/SkyDIIV-UI'
 
-import { colors, layout, radius, spacing, typography } from '../tokens'
 import { FoundationFrame, FoundationNote, FoundationTitle } from './FoundationFrame'
 
 export function LayoutRecipes() {

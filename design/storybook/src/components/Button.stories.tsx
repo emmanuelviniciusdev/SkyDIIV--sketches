@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/nextjs-vite'
 import { fn, expect, within, userEvent } from 'storybook/test'
 import { ArrowRight, Plus } from '@phosphor-icons/react'
 
-import { Button } from '@/components/ui/button'
+import { Button } from '@emmanuelviniciusdev/SkyDIIV-UI'
 
 const meta = {
   title: 'Components/Button',
