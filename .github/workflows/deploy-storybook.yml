@@ -1,6 +1,5 @@
-# Deploy the SkyDIIV Storybook static site to Cloudflare Pages after a merge
-# to main (or a manual workflow_dispatch). Storybook build verification lives
-# in ci.yml.
+# Verify skydiiv-storybook on pull requests. Deploy to Cloudflare Pages after
+# a merge to main (or a manual workflow_dispatch).
 #
 # Required secrets live on the GitHub Environment named production
 # (Settings → Environments → production):
@@ -22,11 +21,19 @@ on:
       - "pnpm-lock.yaml"
       - "pnpm-workspace.yaml"
       - ".github/workflows/deploy-storybook.yml"
+  pull_request:
+    paths:
+      - "design/ui/**"
+      - "design/storybook/**"
+      - "package.json"
+      - "pnpm-lock.yaml"
+      - "pnpm-workspace.yaml"
+      - ".github/workflows/deploy-storybook.yml"
   workflow_dispatch:
 
 concurrency:
-  group: deploy-storybook-${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: true
+  group: skydiiv-storybook-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
 
 permissions:
   contents: read
@@ -35,8 +42,39 @@ env:
   CLOUDFLARE_PAGES_PROJECT: skydiiv-storybook
 
 jobs:
+  verify:
+    name: Test and build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: pnpm-lock.yaml
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Install Playwright Chromium
+        run: pnpm --filter skydiiv-storybook exec playwright install --with-deps chromium
+
+      - name: Test
+        run: pnpm --filter skydiiv-storybook test
+
+      - name: Build
+        run: pnpm --filter skydiiv-storybook build-storybook
+
   deploy:
-    name: Build and deploy production
+    name: Deploy production
+    needs: verify
+    if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     environment:
       name: production
@@ -68,7 +106,7 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Build Storybook
-        run: pnpm --filter SkyDIIV-Storybook build-storybook
+        run: pnpm --filter skydiiv-storybook build-storybook
 
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v4

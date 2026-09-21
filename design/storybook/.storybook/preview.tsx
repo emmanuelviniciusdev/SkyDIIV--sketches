@@ -1,6 +1,6 @@
 import type { Preview } from '@storybook/nextjs-vite'
 
-import { colors } from '@emmanuelviniciusdev/SkyDIIV-UI'
+import { colors } from '@emmanuelviniciusdev/skydiiv-ui'
 
 import '../src/styles/globals.css'
 

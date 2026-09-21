@@ -1,5 +1,6 @@
-# Publish @emmanuelviniciusdev/SkyDIIV-UI to GitHub Packages.
-# Skips when the current version is already on the registry.
+# Verify skydiiv-ui on pull requests. Publish to GitHub Packages after a
+# merge to main (or a manual workflow_dispatch). Skips when the current
+# version is already on the registry.
 
 name: Publish UI package
 
@@ -8,21 +9,64 @@ on:
     branches: [main]
     paths:
       - "design/ui/**"
+      - "package.json"
+      - "pnpm-lock.yaml"
+      - "pnpm-workspace.yaml"
+      - ".github/workflows/publish-ui.yml"
+  pull_request:
+    paths:
+      - "design/ui/**"
+      - "package.json"
+      - "pnpm-lock.yaml"
+      - "pnpm-workspace.yaml"
       - ".github/workflows/publish-ui.yml"
   workflow_dispatch:
 
 concurrency:
-  group: publish-ui-${{ github.ref }}
-  cancel-in-progress: false
+  group: skydiiv-ui-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
 
 permissions:
   contents: read
-  packages: write
 
 jobs:
+  verify:
+    name: Test and build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+          cache-dependency-path: pnpm-lock.yaml
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Test
+        run: pnpm --filter @emmanuelviniciusdev/skydiiv-ui test
+
+      - name: Typecheck
+        run: pnpm --filter @emmanuelviniciusdev/skydiiv-ui typecheck
+
+      - name: Build
+        run: pnpm --filter @emmanuelviniciusdev/skydiiv-ui build
+
   publish:
     name: Publish
+    needs: verify
+    if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
     steps:
       - name: Checkout
         uses: actions/checkout@v7
@@ -41,15 +85,6 @@ jobs:
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
-
-      - name: Test
-        run: pnpm --filter @emmanuelviniciusdev/SkyDIIV-UI test
-
-      - name: Typecheck
-        run: pnpm --filter @emmanuelviniciusdev/SkyDIIV-UI typecheck
-
-      - name: Build
-        run: pnpm --filter @emmanuelviniciusdev/SkyDIIV-UI build
 
       - name: Publish
         working-directory: design/ui

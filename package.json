@@ -3,10 +3,10 @@
   "private": true,
   "packageManager": "pnpm@12.4.2",
   "scripts": {
-    "build": "pnpm --filter @emmanuelviniciusdev/SkyDIIV-UI build",
+    "build": "pnpm --filter @emmanuelviniciusdev/skydiiv-ui build",
     "test": "pnpm -r --if-present test",
     "typecheck": "pnpm -r --if-present typecheck",
-    "storybook": "pnpm --filter SkyDIIV-Storybook storybook",
-    "build-storybook": "pnpm --filter SkyDIIV-Storybook build-storybook"
+    "storybook": "pnpm --filter skydiiv-storybook storybook",
+    "build-storybook": "pnpm --filter skydiiv-storybook build-storybook"
   }
 }

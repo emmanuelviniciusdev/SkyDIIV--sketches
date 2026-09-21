@@ -4,7 +4,7 @@ import { expect, within, userEvent } from 'storybook/test'
 import {
   Checkbox,
   Label,
-} from '@emmanuelviniciusdev/SkyDIIV-UI'
+} from '@emmanuelviniciusdev/skydiiv-ui'
 
 const meta = {
   title: 'Forms/Checkbox',

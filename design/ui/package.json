@@ -1,7 +1,7 @@
 {
-  "name": "@emmanuelviniciusdev/SkyDIIV-UI",
+  "name": "@emmanuelviniciusdev/skydiiv-ui",
   "version": "1.0.0",
-  "description": "SkyDIIV-UI components, tokens, and styles.",
+  "description": "SkyDIIV design system components, tokens, and styles.",
   "license": "UNLICENSED",
   "repository": {
     "type": "git",

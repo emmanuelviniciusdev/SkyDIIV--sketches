@@ -11,7 +11,7 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from '@emmanuelviniciusdev/SkyDIIV-UI'
+} from '@emmanuelviniciusdev/skydiiv-ui'
 
 const meta = {
   title: 'Components/Card',

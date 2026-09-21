@@ -4,7 +4,7 @@ import { expect, within } from 'storybook/test'
 import {
   Input,
   Label,
-} from '@emmanuelviniciusdev/SkyDIIV-UI'
+} from '@emmanuelviniciusdev/skydiiv-ui'
 
 const meta = {
   title: 'Forms/Label',

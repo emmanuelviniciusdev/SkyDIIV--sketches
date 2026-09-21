@@ -10,7 +10,7 @@ import {
   ToastClose,
   ToastDescription,
   ToastTitle,
-} from '@emmanuelviniciusdev/SkyDIIV-UI'
+} from '@emmanuelviniciusdev/skydiiv-ui'
 
 const meta = {
   title: 'Feedback/Toast',

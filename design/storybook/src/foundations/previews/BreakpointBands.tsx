@@ -1,4 +1,4 @@
-import { breakpoints, colors, layout, radius, spacing, typography } from '@emmanuelviniciusdev/SkyDIIV-UI'
+import { breakpoints, colors, layout, radius, spacing, typography } from '@emmanuelviniciusdev/skydiiv-ui'
 
 import { FoundationFrame, FoundationNote, FoundationTitle } from './FoundationFrame'
 

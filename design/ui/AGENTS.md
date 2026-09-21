@@ -1,4 +1,4 @@
-# SkyDIIV-UI
+# skydiiv-ui
 
 ## Language
 

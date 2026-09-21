@@ -168,7 +168,7 @@ importers:
 
   design/storybook:
     dependencies:
-      '@emmanuelviniciusdev/SkyDIIV-UI':
+      '@emmanuelviniciusdev/skydiiv-ui':
         specifier: workspace:*
         version: link:../ui
       '@fontsource-variable/inter':

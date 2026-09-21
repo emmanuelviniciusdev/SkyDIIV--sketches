@@ -4,7 +4,7 @@ import {
   radius,
   spacing,
   typography,
-} from '@emmanuelviniciusdev/SkyDIIV-UI'
+} from '@emmanuelviniciusdev/skydiiv-ui'
 
 import { FoundationFrame, FoundationNote, FoundationTitle } from './FoundationFrame'
 

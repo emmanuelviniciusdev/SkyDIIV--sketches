@@ -1,4 +1,4 @@
-import { colors, radius, shadow, spacing, typography } from '@emmanuelviniciusdev/SkyDIIV-UI'
+import { colors, radius, shadow, spacing, typography } from '@emmanuelviniciusdev/skydiiv-ui'
 
 import { FoundationFrame, FoundationNote, FoundationTitle } from './FoundationFrame'
 

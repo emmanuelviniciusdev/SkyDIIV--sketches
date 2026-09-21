@@ -16,7 +16,7 @@ All documentation, UI copy, comments, and source in this package MUST be written
 
 ## Source of truth
 
-Component implementations, tokens, emoticons, and component styles live in `design/ui/`. This package documents and demonstrates them. Import from `@emmanuelviniciusdev/SkyDIIV-UI`. Do not add or edit component implementations here.
+Component implementations, tokens, emoticons, and component styles live in `design/ui/`. This package documents and demonstrates them. Import from `@emmanuelviniciusdev/skydiiv-ui`. Do not add or edit component implementations here.
 
 ## Documentation
 

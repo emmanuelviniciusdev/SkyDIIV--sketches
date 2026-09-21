@@ -12,7 +12,7 @@ import {
   SelectSeparator,
   SelectTrigger,
   SelectValue,
-} from '@emmanuelviniciusdev/SkyDIIV-UI'
+} from '@emmanuelviniciusdev/skydiiv-ui'
 
 const meta = {
   title: 'Forms/Select',

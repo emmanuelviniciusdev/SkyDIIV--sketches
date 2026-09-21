@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/nextjs-vite'
 import { expect, within } from 'storybook/test'
 
-import { kddiEmoticons } from '@emmanuelviniciusdev/SkyDIIV-UI'
+import { kddiEmoticons } from '@emmanuelviniciusdev/skydiiv-ui'
 import { EmoticonGrid } from './previews/EmoticonGrid'
 
 const meta = {

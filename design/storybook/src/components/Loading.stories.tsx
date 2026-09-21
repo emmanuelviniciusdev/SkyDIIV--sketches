@@ -5,7 +5,7 @@ import {
   Card,
   LoadingEarth,
   Spinner,
-} from '@emmanuelviniciusdev/SkyDIIV-UI'
+} from '@emmanuelviniciusdev/skydiiv-ui'
 
 const meta = {
   title: 'Feedback/Loading',

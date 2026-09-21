@@ -12,7 +12,7 @@ GitHub Packages needs a token with `read:packages`. Add a project `.npmrc`:
 ```
 
 ```sh
-pnpm add @emmanuelviniciusdev/SkyDIIV-UI
+pnpm add @emmanuelviniciusdev/skydiiv-ui
 ```
 
 Peer dependencies: `react`, `react-dom`, and Tailwind CSS v4.
@@ -21,7 +21,7 @@ The package ships TypeScript source. Next.js apps should transpile it:
 
 ```ts
 const nextConfig = {
-  transpilePackages: ['@emmanuelviniciusdev/SkyDIIV-UI'],
+  transpilePackages: ['@emmanuelviniciusdev/skydiiv-ui'],
 }
 ```
 
@@ -35,11 +35,11 @@ Import the stylesheet next to Tailwind, then import components from the package:
 @import "tailwindcss";
 @import "@fontsource-variable/inter/wght.css";
 @import "@fontsource-variable/inter/wght-italic.css";
-@import "@emmanuelviniciusdev/SkyDIIV-UI/styles.css";
+@import "@emmanuelviniciusdev/skydiiv-ui/styles.css";
 ```
 
 ```tsx
-import { Button } from '@emmanuelviniciusdev/SkyDIIV-UI'
+import { Button } from '@emmanuelviniciusdev/skydiiv-ui'
 
 export function Example() {
   return <Button variant="primary">continue</Button>
@@ -49,31 +49,31 @@ export function Example() {
 Tokens live in the same package:
 
 ```ts
-import { colors, spacing, typography } from '@emmanuelviniciusdev/SkyDIIV-UI'
+import { colors, spacing, typography } from '@emmanuelviniciusdev/skydiiv-ui'
 ```
 
 KDDI pixel emoticons ship with the package. `src` is a resolved asset URL.
 
 ```tsx
-import { Emoticon, emoticonById, emoticons } from '@emmanuelviniciusdev/SkyDIIV-UI'
+import { Emoticon, emoticonById, emoticons } from '@emmanuelviniciusdev/skydiiv-ui'
 
 export function Example() {
   return <Emoticon id="sparkles" />
 }
 ```
 
-Raw GIFs are also available as `@emmanuelviniciusdev/SkyDIIV-UI/emoticons/sparkles.gif`.
+Raw GIFs are also available as `@emmanuelviniciusdev/skydiiv-ui/emoticons/sparkles.gif`.
 
 `styles.css` registers the theme, base layer, component CSS, and a Tailwind `@source` for this package. Apps that already import Tailwind should not import `tailwindcss` a second time through another entry.
 
-The token-only file is `@emmanuelviniciusdev/SkyDIIV-UI/theme.css`.
+The token-only file is `@emmanuelviniciusdev/skydiiv-ui/theme.css`.
 
 ## Test
 
 From the repository root:
 
 ```sh
-pnpm --filter @emmanuelviniciusdev/SkyDIIV-UI test
+pnpm --filter @emmanuelviniciusdev/skydiiv-ui test
 ```
 
 ## Publish
@@ -81,5 +81,5 @@ pnpm --filter @emmanuelviniciusdev/SkyDIIV-UI test
 Publishing runs from GitHub Actions on `main` when `design/ui/` changes, and can be started by hand. The workflow skips already-published versions. Local publish:
 
 ```sh
-pnpm --filter @emmanuelviniciusdev/SkyDIIV-UI publish --access public
+pnpm --filter @emmanuelviniciusdev/skydiiv-ui publish --access public
 ```
