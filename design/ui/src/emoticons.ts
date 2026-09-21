@@ -1,4 +1,5 @@
 import catalog from './emoticons.json'
+import { emoticonAssets } from './emoticon-assets'
 
 export const emoticonSources = ['kddi'] as const
 
@@ -18,7 +19,11 @@ export type Emoticon = {
 type EmoticonRecord = Omit<Emoticon, 'src'> & { src?: string }
 
 export function emoticonSrc(id: string): string {
-  return new URL(`./assets/emoticons/kddi/${id}.gif`, import.meta.url).href
+  const src = emoticonAssets[id]
+  if (!src) {
+    throw new Error(`Unknown emoticon: ${id}`)
+  }
+  return src
 }
 
 export const emoticons = (catalog as EmoticonRecord[]).map((item) => ({

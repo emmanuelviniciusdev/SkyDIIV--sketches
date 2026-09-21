@@ -4,6 +4,7 @@ import { fileURLToPath } from 'node:url'
 
 import { describe, expect, it } from 'vitest'
 
+import { emoticonAssets } from './emoticon-assets'
 import {
   emoticonById,
   emoticonGroups,
@@ -63,6 +64,14 @@ describe('emoticon repository', () => {
     for (const item of emoticons) {
       expect(existsSync(path.join(gifDir, `${item.id}.gif`)), item.id).toBe(true)
       expect(item.src).toBe(emoticonSrc(item.id))
+      expect(item.src).toContain(`${item.id}.gif`)
     }
+
+    expect(Object.keys(emoticonAssets).sort()).toEqual(
+      readdirSync(gifDir)
+        .filter((name) => name.endsWith('.gif'))
+        .map((name) => name.slice(0, -4))
+        .sort(),
+    )
   })
 })

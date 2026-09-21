@@ -27,6 +27,9 @@ export const Repository: Story = {
       canvas.getByRole('heading', { name: 'Smileys & Emotion' }),
     ).toBeVisible()
     await expect(canvas.getByText('630 kddi marks')).toBeVisible()
-    expect(canvasElement.querySelectorAll('img')).toHaveLength(kddiEmoticons.length)
+    const marks = canvasElement.querySelectorAll('img')
+    expect(marks).toHaveLength(kddiEmoticons.length)
+    expect(marks[0]?.getAttribute('src')).toMatch(/\.gif(?:\?.*)?$/)
+    expect(marks[0]?.getAttribute('src')).not.toContain('object Object')
   },
 }

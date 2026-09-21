@@ -16,15 +16,12 @@ const config: StorybookConfig = {
     '@storybook/addon-docs',
   ],
   framework: '@storybook/nextjs-vite',
-  staticDirs: [
-    '../public',
-    {
-      from: '../../ui/src/assets/emoticons',
-      to: '/emoticons',
-    },
-  ],
+  staticDirs: ['../public'],
   async viteFinal(viteConfig) {
     return mergeConfig(viteConfig, {
+      build: {
+        assetsInlineLimit: 0,
+      },
       server: {
         fs: {
           allow: [repoRoot],

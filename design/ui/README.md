@@ -52,7 +52,7 @@ Tokens live in the same package:
 import { colors, spacing, typography } from '@emmanuelviniciusdev/skydiiv-ui'
 ```
 
-KDDI pixel emoticons ship with the package. `src` is a resolved asset URL.
+KDDI pixel emoticons ship with the package. `src` is a bundler-resolved URL from the package assets, so `<Emoticon id="sparkles" />` loads the GIF from the library. Transpile the package so the assets are emitted.
 
 ```tsx
 import { Emoticon, emoticonById, emoticons } from '@emmanuelviniciusdev/skydiiv-ui'
