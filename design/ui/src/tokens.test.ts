@@ -19,7 +19,7 @@ describe('foundation tokens', () => {
     expect(colors.background).toBe('#F4F4F2')
     expect(colors.card).toBe('#ECEAE4')
     expect(colors.grain).toBe('#FAFAF9')
-    expect(colors.foreground).toBe('#5A6169')
+    expect(colors.foreground).toBe('#828A92')
     expect(colors.muted).toBe('#C2BCA8')
     expect(colors.primary).toBe('#6C92AB')
     expect(colors.secondary).toBe('#C79A79')
@@ -60,9 +60,9 @@ describe('foundation tokens', () => {
   })
 
   it('uses brand slate and stone for default interface text', () => {
-    expect(colors.text.body).toBe('#5A6169')
-    expect(colors.text.muted).toBe('#6A6558')
-    expect(colors.text.display).toBe('#5A6169')
+    expect(colors.text.body).toBe('#828A92')
+    expect(colors.text.muted).toBe('#9E988C')
+    expect(colors.text.display).toBe('#828A92')
   })
 
   it('uses Inter with a grotesque fallback stack', () => {

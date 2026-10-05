@@ -2,7 +2,7 @@ export const colors = {
   background: '#F4F4F2',
   card: '#ECEAE4',
   grain: '#FAFAF9',
-  foreground: '#5A6169',
+  foreground: '#828A92',
   muted: '#C2BCA8',
   primary: '#6C92AB',
   secondary: '#C79A79',
@@ -21,9 +21,9 @@ export const colors = {
   accentAccessible: '#746C81',
   coolAccessible: '#4E6780',
   text: {
-    body: '#5A6169',
-    muted: '#6A6558',
-    display: '#5A6169',
+    body: '#828A92',
+    muted: '#9E988C',
+    display: '#828A92',
     onPrimary: '#F4F4F2',
   },
 } as const

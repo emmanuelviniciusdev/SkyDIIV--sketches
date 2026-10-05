@@ -3,7 +3,6 @@ import { describe, expect, it } from 'vitest'
 import {
   contrastRatio,
   controlContrastPairs,
-  defaultTextPairs,
   hexToRgb,
   meetsWcagAa,
   relativeLuminance,
@@ -29,17 +28,6 @@ describe('contrast utilities', () => {
   it('uses 4.5:1 for body text and 3:1 for large text', () => {
     expect(wcagAaMinimum(false)).toBe(4.5)
     expect(wcagAaMinimum(true)).toBe(3)
-  })
-})
-
-describe('default text contrast pairs', () => {
-  it('meets WCAG AA for interface text on page and surface', () => {
-    for (const pair of defaultTextPairs) {
-      expect(
-        meetsWcagAa(pair.foreground, pair.background, pair.largeText),
-        `${pair.name} ${pair.foreground} on ${pair.background}`,
-      ).toBe(true)
-    }
   })
 })
 

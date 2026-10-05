@@ -246,7 +246,7 @@ export function ColorSwatches() {
     <FoundationFrame>
       <FoundationTitle>colors</FoundationTitle>
       <FoundationNote>
-        The brand palette stays faded. Default interface text uses a deeper slate gray and stone warm so type holds against the page.
+        The brand palette stays faded. Default interface text uses medium slate gray and stone warm for secondary copy.
         Compact filled controls use the accessible fills.
       </FoundationNote>
       <SwatchList heading="brand palette" items={brandSwatches} />
