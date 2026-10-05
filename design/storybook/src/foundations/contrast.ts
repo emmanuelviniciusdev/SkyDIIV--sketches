@@ -126,4 +126,10 @@ export const controlContrastPairs = [
     background: colors.coolAccessible,
     largeText: false,
   },
+  {
+    name: 'nude-accessible on nude',
+    foreground: colors.nudeAccessible,
+    background: colors.nude,
+    largeText: false,
+  },
 ] as const satisfies readonly ContrastPair[]

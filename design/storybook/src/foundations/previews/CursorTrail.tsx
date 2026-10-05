@@ -13,7 +13,7 @@ export function CursorTrail() {
     <FoundationFrame>
       <FoundationTitle>cursor</FoundationTitle>
       <FoundationNote>
-        Moving the pointer leaves a trail of plus signs in slate gray. The marks
+        Moving the pointer leaves a trail of plus signs in stone warm. The marks
         fade and grow as they leave. The trail is atmosphere, not a control. When
         motion is reduced, there is no trail.
       </FoundationNote>
@@ -36,7 +36,7 @@ export function CursorTrail() {
             margin: 0,
             fontSize: 22,
             lineHeight: 1,
-            color: colors.text.body,
+            color: colors.text.muted,
           }}
         >
           +

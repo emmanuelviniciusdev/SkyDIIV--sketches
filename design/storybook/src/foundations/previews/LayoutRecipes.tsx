@@ -76,10 +76,9 @@ export function LayoutRecipes() {
           </CardHeader>
           <CardContent>
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: spacing[1] }}>
-              <Badge variant="default">linen</Badge>
-              <Badge variant="secondary">oversized</Badge>
-              <Badge variant="accent">vintage</Badge>
-              <Badge variant="cool">capsule</Badge>
+              <Badge variant="letter-s">linen</Badge>
+              <Badge variant="letter-k">oversized</Badge>
+              <Badge variant="letter-d">capsule</Badge>
             </div>
           </CardContent>
           <CardFooter className="border-t">

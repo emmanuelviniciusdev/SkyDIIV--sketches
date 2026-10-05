@@ -47,6 +47,11 @@ const controlSwatches = [
     hex: colors.coolAccessible,
     label: 'cool fill',
   },
+  {
+    token: '--nude-accessible',
+    hex: colors.nudeAccessible,
+    label: 'nude text',
+  },
 ] as const
 
 function SwatchList({

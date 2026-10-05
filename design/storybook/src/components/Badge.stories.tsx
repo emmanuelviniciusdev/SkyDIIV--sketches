@@ -16,7 +16,7 @@ const meta = {
   argTypes: {
     variant: {
       control: 'select',
-      options: ['default', 'secondary', 'accent', 'cool', 'destructive', 'outline'],
+      options: ['default', 'secondary', 'destructive', 'outline', 'letter-s', 'letter-k', 'letter-y', 'letter-d', 'letter-i', 'letter-ii', 'letter-v'],
     },
   },
 } satisfies Meta<typeof Badge>
@@ -36,12 +36,29 @@ export const Variants: Story = {
     <div className="flex flex-wrap items-center gap-2">
       <Badge variant="default">default</Badge>
       <Badge variant="secondary">secondary</Badge>
-      <Badge variant="accent">accent</Badge>
-      <Badge variant="cool">cool</Badge>
       <Badge variant="outline">outline</Badge>
       <Badge variant="destructive">destructive</Badge>
     </div>
   ),
+}
+
+export const LogoLetters: Story = {
+  render: () => (
+    <div className="flex flex-wrap items-center gap-2">
+      <Badge variant="letter-s">s</Badge>
+      <Badge variant="letter-k">k</Badge>
+      <Badge variant="letter-y">y</Badge>
+      <Badge variant="letter-d">d</Badge>
+      <Badge variant="letter-i">i</Badge>
+      <Badge variant="letter-ii">ii</Badge>
+      <Badge variant="letter-v">v</Badge>
+    </div>
+  ),
+  play: async ({ canvasElement }) => {
+    const canvas = within(canvasElement)
+    await expect(canvas.getByText('s')).toBeVisible()
+    await expect(canvas.getByText('ii')).toBeVisible()
+  },
 }
 
 export const Tags: Story = {
@@ -49,8 +66,7 @@ export const Tags: Story = {
   render: () => (
     <div className="flex flex-wrap items-center gap-2">
       <Badge variant="default">linen</Badge>
-      <Badge variant="secondary">oversized</Badge>
-      <Badge variant="accent">
+      <Badge variant="secondary">
         vintage
         <button
           type="button"
@@ -60,7 +76,7 @@ export const Tags: Story = {
           <X weight={icon.weight} aria-hidden />
         </button>
       </Badge>
-      <Badge variant="cool">capsule</Badge>
+      <Badge variant="outline">capsule</Badge>
     </div>
   ),
 }

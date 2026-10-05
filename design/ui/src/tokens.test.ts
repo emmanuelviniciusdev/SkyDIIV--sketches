@@ -45,6 +45,7 @@ describe('foundation tokens', () => {
       colors.nude,
       colors.dusty,
       colors.coolAccessible,
+      colors.nudeAccessible,
       colors.text.body,
       colors.text.muted,
       colors.text.display,
@@ -53,6 +54,7 @@ describe('foundation tokens', () => {
       colors.secondaryAccessible,
       colors.destructiveAccessible,
       colors.accentAccessible,
+      colors.nudeForeground,
     ]
 
     expect(hexValues).not.toContain('#000000')
@@ -156,5 +158,14 @@ describe('foundation tokens', () => {
     expect(logo.letters.map((letter) => letter.ch).join('')).toBe('SkyDIIV')
     expect(logo.letters[0]).toEqual({ ch: 'S', top: '#AC7C76', bottom: '#C69689' })
     expect(logo.letters[6]).toEqual({ ch: 'V', top: '#A39BBF', bottom: '#BDADC4' })
+    expect(logo.letters.map((letter) => letter.top)).toEqual([
+      '#AC7C76',
+      '#CAA07F',
+      '#B1B1A4',
+      '#7496AD',
+      '#85A5BF',
+      '#B4BFD5',
+      '#A39BBF',
+    ])
   })
 })

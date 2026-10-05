@@ -1,4 +1,4 @@
-# SkyDIIV - Design System
+# SkyDIIV UI
 
 The main components, tokens, and styles for the SkyDIIV JavaScript frontend projects.
 

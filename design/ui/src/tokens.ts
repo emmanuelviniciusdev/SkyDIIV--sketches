@@ -20,6 +20,8 @@ export const colors = {
   destructiveAccessible: '#906561',
   accentAccessible: '#746C81',
   coolAccessible: '#4E6780',
+  nudeForeground: '#F4F4F2',
+  nudeAccessible: '#704C38',
   text: {
     body: '#828A92',
     muted: '#9E988C',
