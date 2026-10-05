@@ -2,7 +2,7 @@ export const colors = {
   background: '#F4F4F2',
   card: '#ECEAE4',
   grain: '#FAFAF9',
-  foreground: '#B5BAC2',
+  foreground: '#5A6169',
   muted: '#C2BCA8',
   primary: '#6C92AB',
   secondary: '#C79A79',
@@ -19,10 +19,11 @@ export const colors = {
   secondaryAccessible: '#886953',
   destructiveAccessible: '#906561',
   accentAccessible: '#746C81',
+  coolAccessible: '#4E6780',
   text: {
-    body: '#B5BAC2',
-    muted: '#C2BCA8',
-    display: '#B5BAC2',
+    body: '#5A6169',
+    muted: '#6A6558',
+    display: '#5A6169',
     onPrimary: '#F4F4F2',
   },
 } as const
@@ -41,41 +42,45 @@ export const typography = {
   scale: {
     display: {
       fontSize: { min: 48, max: 64, default: 56 },
-      fontWeight: 400,
+      fontWeight: 500,
       letterSpacing: '0.12em',
       lineHeight: 1.2,
     },
     h1: {
       fontSize: 32,
-      fontWeight: 300,
+      fontWeight: 500,
       letterSpacing: '0.08em',
       lineHeight: 1.2,
     },
     h2: {
       fontSize: 24,
-      fontWeight: 400,
+      fontWeight: 500,
       letterSpacing: '0.04em',
       lineHeight: 1.2,
     },
     body: {
       fontSize: 16,
-      fontWeight: 400,
+      fontWeight: 500,
       letterSpacing: '0.01em',
       lineHeight: 1.6,
     },
     small: {
       fontSize: 13,
-      fontWeight: 400,
+      fontWeight: 500,
       letterSpacing: '0.02em',
       lineHeight: 1.6,
     },
     micro: {
       fontSize: 11,
-      fontWeight: 400,
+      fontWeight: 500,
       letterSpacing: '0.04em',
       lineHeight: 1.6,
     },
   },
+} as const
+
+export const icon = {
+  weight: 'regular',
 } as const
 
 export const spacing = {

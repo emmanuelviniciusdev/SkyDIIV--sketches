@@ -12,6 +12,7 @@ import {
   SelectSeparator,
   SelectTrigger,
   SelectValue,
+  icon,
 } from '@emmanuelviniciusdev/skydiiv-ui'
 
 const meta = {
@@ -72,7 +73,7 @@ export const WithIcon: Story = {
   render: () => (
     <Select defaultValue="en-US">
       <SelectTrigger aria-label="language" className="w-fit min-w-48">
-        <Globe weight="light" className="text-muted-foreground" aria-hidden />
+        <Globe weight={icon.weight} className="text-muted-foreground" aria-hidden />
         <SelectValue placeholder="language" />
       </SelectTrigger>
       <SelectContent>

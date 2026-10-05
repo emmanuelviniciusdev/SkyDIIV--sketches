@@ -12,6 +12,7 @@ import {
   TabsContent,
   TabsList,
   TabsTrigger,
+  icon,
 } from '@emmanuelviniciusdev/skydiiv-ui'
 
 const meta = {
@@ -58,15 +59,15 @@ export const WithIcons: Story = {
     <Tabs defaultValue="pieces" className="w-80">
       <TabsList>
         <TabsTrigger value="pieces">
-          <TShirt weight="light" aria-hidden />
+          <TShirt weight={icon.weight} aria-hidden />
           pieces
         </TabsTrigger>
         <TabsTrigger value="looks">
-          <Images weight="light" aria-hidden />
+          <Images weight={icon.weight} aria-hidden />
           looks
         </TabsTrigger>
         <TabsTrigger value="notes">
-          <Note weight="light" aria-hidden />
+          <Note weight={icon.weight} aria-hidden />
           notes
         </TabsTrigger>
       </TabsList>

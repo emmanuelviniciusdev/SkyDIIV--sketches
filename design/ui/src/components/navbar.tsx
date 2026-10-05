@@ -39,7 +39,7 @@ function NavbarBrand({
     <Comp
       data-slot="navbar-brand"
       className={cn(
-        'brand-name text-[13px] font-normal tracking-[0.02em] text-foreground',
+        'brand-name text-[13px] font-medium tracking-[0.02em] text-foreground',
         className,
       )}
       {...props}
@@ -121,7 +121,7 @@ function NavbarMenuUserName({ className, ...props }: React.ComponentProps<'span'
     <span
       data-slot="navbar-menu-user-name"
       className={cn(
-        'min-w-0 truncate text-[13px] font-normal tracking-[0.02em] text-foreground',
+        'min-w-0 truncate text-[13px] font-medium tracking-[0.02em] text-foreground',
         className,
       )}
       {...props}

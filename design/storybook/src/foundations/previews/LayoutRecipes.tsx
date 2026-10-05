@@ -37,7 +37,7 @@ export function LayoutRecipes() {
           style={{
             fontSize: typography.scale.small.fontSize,
             letterSpacing: typography.scale.small.letterSpacing,
-            fontWeight: typography.fontWeight.regular,
+            fontWeight: typography.fontWeight.medium,
           }}
         >
           SkyDIIV
@@ -50,7 +50,7 @@ export function LayoutRecipes() {
       <div style={{ padding: spacing[3] }}>
         <FoundationTitle>layout</FoundationTitle>
         <FoundationNote>
-          A thin header with a hairline, italic quotations, and tinted tags.
+          A thin header with a hairline, italic quotations, and solid tags.
           Whitespace is part of the composition.
         </FoundationNote>
 
@@ -59,7 +59,7 @@ export function LayoutRecipes() {
             margin: `0 0 ${spacing[4]}px`,
             maxWidth: 520,
             fontSize: typography.scale.body.fontSize,
-            fontWeight: typography.fontWeight.light,
+            fontWeight: typography.fontWeight.regular,
             letterSpacing: typography.scale.body.letterSpacing,
             lineHeight: typography.scale.body.lineHeight,
             fontStyle: 'italic',

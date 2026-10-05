@@ -1,6 +1,6 @@
-# User Interfaces
+# SkyDIIV - Design System
 
-The main components, tokens, and styles of the SkyDIIV design system.
+The main components, tokens, and styles for the SkyDIIV JavaScript frontend projects.
 
 ## Install
 

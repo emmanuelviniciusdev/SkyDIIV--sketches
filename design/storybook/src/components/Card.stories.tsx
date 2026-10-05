@@ -32,7 +32,7 @@ export const Basic: Story = {
         <CardDescription>quiet surface for grouped content</CardDescription>
       </CardHeader>
       <CardContent>
-        <p className="text-[13px] font-light">
+        <p className="text-[13px] font-medium">
           cards hold related fields, summaries, and short actions without competing
           with the page.
         </p>
@@ -59,7 +59,7 @@ export const WithAction: Story = {
         </CardAction>
       </CardHeader>
       <CardContent>
-        <p className="text-[13px] font-light">skydiiv-invite-example</p>
+        <p className="text-[13px] font-medium">skydiiv-invite-example</p>
       </CardContent>
       <CardFooter className="border-t">
         <Button variant="primary" size="sm" icon={ShareNetwork}>
@@ -74,7 +74,7 @@ export const ContentOnly: Story = {
   render: () => (
     <Card className="w-[280px]">
       <CardContent>
-        <p className="text-[13px] font-light">a minimal card with content padding only.</p>
+        <p className="text-[13px] font-medium">a minimal card with content padding only.</p>
       </CardContent>
     </Card>
   ),

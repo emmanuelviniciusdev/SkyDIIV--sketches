@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/nextjs-vite'
 import { expect, within } from 'storybook/test'
 import { X } from '@phosphor-icons/react'
 
-import { Badge } from '@emmanuelviniciusdev/skydiiv-ui'
+import { Badge, icon } from '@emmanuelviniciusdev/skydiiv-ui'
 
 const meta = {
   title: 'Components/Badge',
@@ -57,7 +57,7 @@ export const Tags: Story = {
           aria-label="remove vintage"
           className="rounded-sm text-foreground"
         >
-          <X weight="light" aria-hidden />
+          <X weight={icon.weight} aria-hidden />
         </button>
       </Badge>
       <Badge variant="cool">capsule</Badge>

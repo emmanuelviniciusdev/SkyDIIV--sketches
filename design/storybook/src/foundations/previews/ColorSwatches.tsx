@@ -42,6 +42,11 @@ const controlSwatches = [
     hex: colors.accentAccessible,
     label: 'accent fill',
   },
+  {
+    token: '--cool-accessible',
+    hex: colors.coolAccessible,
+    label: 'cool fill',
+  },
 ] as const
 
 function SwatchList({
@@ -189,7 +194,7 @@ function PairTable({
                     textAlign: 'left',
                     padding: `${spacing[1]}px`,
                     borderBottom: `1px solid color-mix(in srgb, ${colors.muted} 40%, transparent)`,
-                    fontWeight: typography.fontWeight.regular,
+                    fontWeight: typography.fontWeight.medium,
                     textTransform: 'lowercase',
                   }}
                 >
@@ -209,7 +214,7 @@ function PairTable({
                   style={{
                     textAlign: 'left',
                     padding: `${spacing[1]}px`,
-                    fontWeight: typography.fontWeight.regular,
+                    fontWeight: typography.fontWeight.medium,
                     color: colors.text.body,
                   }}
                 >
@@ -241,7 +246,7 @@ export function ColorSwatches() {
     <FoundationFrame>
       <FoundationTitle>colors</FoundationTitle>
       <FoundationNote>
-        The brand palette stays faded. Default interface text uses slate gray and stone warm.
+        The brand palette stays faded. Default interface text uses a deeper slate gray and stone warm so type holds against the page.
         Compact filled controls use the accessible fills.
       </FoundationNote>
       <SwatchList heading="brand palette" items={brandSwatches} />

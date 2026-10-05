@@ -27,6 +27,7 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
+  icon,
 } from '@emmanuelviniciusdev/skydiiv-ui'
 
 const meta = {
@@ -44,7 +45,7 @@ function LanguageSelect() {
   return (
     <Select defaultValue="en-US">
       <SelectTrigger aria-label="language" className="h-8 w-fit min-w-40 bg-card px-2.5">
-        <Globe weight="light" className="text-muted-foreground" aria-hidden />
+        <Globe weight={icon.weight} className="text-muted-foreground" aria-hidden />
         <SelectValue placeholder="language" />
       </SelectTrigger>
       <SelectContent>

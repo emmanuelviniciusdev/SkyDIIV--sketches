@@ -5,6 +5,7 @@ import * as CheckboxPrimitive from '@radix-ui/react-checkbox'
 import { Check } from '@phosphor-icons/react'
 
 import { cn } from '../lib/utils'
+import { icon } from '../tokens'
 
 function Checkbox({
   className,
@@ -14,7 +15,7 @@ function Checkbox({
     <CheckboxPrimitive.Root
       data-slot="checkbox"
       className={cn(
-        'peer size-4 shrink-0 rounded-md border border-border bg-background shadow-none outline-none transition-colors duration-200 ease-out',
+        'peer size-4 shrink-0 rounded-md border border-border bg-card shadow-none outline-none transition-colors duration-200 ease-out',
         'focus-visible:border-primary',
         'data-[state=checked]:border-primary-accessible data-[state=checked]:bg-primary-accessible data-[state=checked]:text-primary-foreground',
         'aria-invalid:border-destructive',
@@ -27,7 +28,7 @@ function Checkbox({
         data-slot="checkbox-indicator"
         className="flex items-center justify-center text-current"
       >
-        <Check weight="light" className="size-3.5" aria-hidden />
+        <Check weight={icon.weight} className="size-3.5" aria-hidden />
       </CheckboxPrimitive.Indicator>
     </CheckboxPrimitive.Root>
   )

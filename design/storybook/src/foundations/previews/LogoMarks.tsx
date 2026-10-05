@@ -115,7 +115,7 @@ export function LogoMarks() {
                 style={{
                   margin: 0,
                   fontSize: typography.scale.h1.fontSize,
-                  fontWeight: typography.fontWeight.regular,
+                  fontWeight: typography.fontWeight.medium,
                   lineHeight: 1.2,
                   backgroundImage: `linear-gradient(180deg, ${letter.top} 0%, ${letter.bottom} 100%)`,
                   WebkitBackgroundClip: 'text',

@@ -120,4 +120,10 @@ export const controlContrastPairs = [
     background: colors.accentAccessible,
     largeText: false,
   },
+  {
+    name: 'text-on-primary on cool-accessible',
+    foreground: colors.text.onPrimary,
+    background: colors.coolAccessible,
+    largeText: false,
+  },
 ] as const satisfies readonly ContrastPair[]

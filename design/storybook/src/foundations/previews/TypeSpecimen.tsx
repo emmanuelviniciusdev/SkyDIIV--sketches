@@ -24,7 +24,7 @@ export function TypeSpecimen() {
     <FoundationFrame>
       <FoundationTitle>typography</FoundationTitle>
       <FoundationNote>
-        Primary family: Inter. Headings stay light or regular. Quotations may be italic.
+        Primary family: Inter. Type uses medium weight so it holds against the page. Quotations may be italic.
       </FoundationNote>
 
       <p
@@ -157,7 +157,7 @@ export function TypeSpecimen() {
             margin: 0,
             maxWidth: 640,
             fontSize: typography.scale.body.fontSize,
-            fontWeight: typography.fontWeight.light,
+            fontWeight: typography.fontWeight.regular,
             letterSpacing: typography.scale.body.letterSpacing,
             lineHeight: typography.scale.body.lineHeight,
             fontStyle: 'italic',

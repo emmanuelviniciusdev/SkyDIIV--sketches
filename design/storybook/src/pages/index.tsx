@@ -15,7 +15,7 @@ export default function Home() {
         style={{
           margin: '0 0 16px',
           fontSize: 32,
-          fontWeight: 300,
+          fontWeight: 500,
           letterSpacing: '0.08em',
           textTransform: 'lowercase',
         }}

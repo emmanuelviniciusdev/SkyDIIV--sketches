@@ -33,7 +33,7 @@ function EmptyStateTitle({ className, ...props }: React.ComponentProps<'p'>) {
     <p
       data-slot="empty-state-title"
       className={cn(
-        'mb-2 font-normal tracking-[0.04em] lowercase text-foreground',
+        'mb-2 font-medium tracking-[0.04em] lowercase text-foreground',
         className,
       )}
       {...props}
@@ -49,7 +49,7 @@ function EmptyStateDescription({
     <p
       data-slot="empty-state-description"
       className={cn(
-        'mb-6 max-w-sm text-[13px] font-light tracking-[0.02em] text-muted-foreground',
+        'mb-6 max-w-sm text-[13px] font-medium tracking-[0.02em] text-muted-foreground',
         className,
       )}
       {...props}

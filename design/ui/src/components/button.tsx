@@ -4,16 +4,17 @@ import { cva, type VariantProps } from 'class-variance-authority'
 import type { Icon } from '@phosphor-icons/react'
 
 import { cn } from '../lib/utils'
+import { icon } from '../tokens'
 
 const buttonVariants = cva(
-  "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-[13px] font-normal tracking-[0.04em] lowercase transition-colors duration-200 ease-out disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-primary",
+  "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-[13px] font-medium tracking-[0.04em] lowercase transition-colors duration-200 ease-out disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-primary",
   {
     variants: {
       variant: {
-        default: 'border border-border bg-card text-foreground hover:bg-background',
+        default: 'border border-border bg-card text-foreground hover:border-foreground',
         primary:
           'border border-transparent bg-primary-accessible text-primary-foreground hover:bg-primary-accessible/90',
-        outline: 'border border-border bg-background text-foreground hover:bg-card',
+        outline: 'border border-border bg-card text-foreground hover:border-foreground',
         ghost: 'border border-transparent bg-transparent text-foreground',
       },
       size: {
@@ -61,7 +62,7 @@ function Button({
     )
   }
 
-  const mark = Icon ? <Icon weight="light" aria-hidden /> : null
+  const mark = Icon ? <Icon weight={icon.weight} aria-hidden /> : null
 
   return (
     <Comp

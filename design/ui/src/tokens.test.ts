@@ -4,6 +4,7 @@ import {
   brandNames,
   breakpoints,
   colors,
+  icon,
   layout,
   logo,
   radius,
@@ -18,7 +19,7 @@ describe('foundation tokens', () => {
     expect(colors.background).toBe('#F4F4F2')
     expect(colors.card).toBe('#ECEAE4')
     expect(colors.grain).toBe('#FAFAF9')
-    expect(colors.foreground).toBe('#B5BAC2')
+    expect(colors.foreground).toBe('#5A6169')
     expect(colors.muted).toBe('#C2BCA8')
     expect(colors.primary).toBe('#6C92AB')
     expect(colors.secondary).toBe('#C79A79')
@@ -43,6 +44,7 @@ describe('foundation tokens', () => {
       colors.cool,
       colors.nude,
       colors.dusty,
+      colors.coolAccessible,
       colors.text.body,
       colors.text.muted,
       colors.text.display,
@@ -58,9 +60,9 @@ describe('foundation tokens', () => {
   })
 
   it('uses brand slate and stone for default interface text', () => {
-    expect(colors.text.body).toBe('#B5BAC2')
-    expect(colors.text.muted).toBe('#C2BCA8')
-    expect(colors.text.display).toBe('#B5BAC2')
+    expect(colors.text.body).toBe('#5A6169')
+    expect(colors.text.muted).toBe('#6A6558')
+    expect(colors.text.display).toBe('#5A6169')
   })
 
   it('uses Inter with a grotesque fallback stack', () => {
@@ -87,6 +89,16 @@ describe('foundation tokens', () => {
     expect(typography.scale.body.letterSpacing).toBe('0.01em')
     expect(typography.scale.body.lineHeight).toBe(1.6)
     expect(typography.scale.display.lineHeight).toBe(1.2)
+    expect(typography.scale.display.fontWeight).toBe(500)
+    expect(typography.scale.h1.fontWeight).toBe(500)
+    expect(typography.scale.h2.fontWeight).toBe(500)
+    expect(typography.scale.body.fontWeight).toBe(500)
+    expect(typography.scale.small.fontWeight).toBe(500)
+    expect(typography.scale.micro.fontWeight).toBe(500)
+  })
+
+  it('uses regular Phosphor weight for interface icons', () => {
+    expect(icon.weight).toBe('regular')
   })
 
   it('uses an 8px spacing scale plus documented insets', () => {

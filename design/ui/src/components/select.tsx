@@ -5,6 +5,7 @@ import * as SelectPrimitive from '@radix-ui/react-select'
 import { CaretDown, CaretUp, Check } from '@phosphor-icons/react'
 
 import { cn } from '../lib/utils'
+import { icon } from '../tokens'
 
 function Select({
   ...props
@@ -33,8 +34,8 @@ function SelectTrigger({
     <SelectPrimitive.Trigger
       data-slot="select-trigger"
       className={cn(
-        'flex h-9 w-full items-center justify-start gap-2 rounded-md border border-border bg-background px-3 text-[13px] font-normal tracking-[0.02em] lowercase text-foreground shadow-none outline-none transition-colors duration-200 ease-out',
-        'data-[placeholder]:text-muted-foreground/70',
+        'flex h-9 w-full items-center justify-start gap-2 rounded-md border border-border bg-card px-3 text-[13px] font-medium tracking-[0.02em] lowercase text-foreground shadow-none outline-none transition-colors duration-200 ease-out',
+        'data-[placeholder]:text-muted-foreground',
         'focus-visible:border-foreground',
         'aria-invalid:border-destructive',
         'disabled:cursor-not-allowed disabled:opacity-50',
@@ -45,7 +46,7 @@ function SelectTrigger({
     >
       {children}
       <SelectPrimitive.Icon asChild>
-        <CaretDown weight="light" aria-hidden />
+        <CaretDown weight={icon.weight} aria-hidden />
       </SelectPrimitive.Icon>
     </SelectPrimitive.Trigger>
   )
@@ -94,7 +95,7 @@ function SelectLabel({
     <SelectPrimitive.Label
       data-slot="select-label"
       className={cn(
-        'px-2 py-1.5 text-[11px] font-light tracking-[0.04em] lowercase text-muted-foreground',
+        'px-2 py-1.5 text-[11px] font-medium tracking-[0.04em] lowercase text-muted-foreground',
         className,
       )}
       {...props}
@@ -111,7 +112,7 @@ function SelectItem({
     <SelectPrimitive.Item
       data-slot="select-item"
       className={cn(
-        'relative flex w-full cursor-default items-center rounded-sm py-1.5 pr-8 pl-2 text-[13px] font-normal tracking-[0.02em] lowercase text-foreground outline-none select-none',
+        'relative flex w-full cursor-default items-center rounded-sm py-1.5 pr-8 pl-2 text-[13px] font-medium tracking-[0.02em] lowercase text-foreground outline-none select-none',
         'focus:bg-background',
         'data-[disabled]:pointer-events-none data-[disabled]:opacity-50',
         className,
@@ -120,7 +121,7 @@ function SelectItem({
     >
       <span className="absolute right-2 flex size-3.5 items-center justify-center">
         <SelectPrimitive.ItemIndicator>
-          <Check weight="light" className="size-3.5" aria-hidden />
+          <Check weight={icon.weight} className="size-3.5" aria-hidden />
         </SelectPrimitive.ItemIndicator>
       </span>
       <SelectPrimitive.ItemText>{children}</SelectPrimitive.ItemText>
@@ -151,7 +152,7 @@ function SelectScrollUpButton({
       className={cn('flex items-center justify-center py-1 text-foreground', className)}
       {...props}
     >
-      <CaretUp weight="light" className="size-4" aria-hidden />
+      <CaretUp weight={icon.weight} className="size-4" aria-hidden />
     </SelectPrimitive.ScrollUpButton>
   )
 }
@@ -166,7 +167,7 @@ function SelectScrollDownButton({
       className={cn('flex items-center justify-center py-1 text-foreground', className)}
       {...props}
     >
-      <CaretDown weight="light" className="size-4" aria-hidden />
+      <CaretDown weight={icon.weight} className="size-4" aria-hidden />
     </SelectPrimitive.ScrollDownButton>
   )
 }

@@ -39,9 +39,9 @@ function TabsTrigger({
     <TabsPrimitive.Trigger
       data-slot="tabs-trigger"
       className={cn(
-        'inline-flex items-center gap-2 rounded-md border border-transparent px-3 py-2 text-[13px] font-normal tracking-[0.04em] lowercase text-muted-foreground shadow-none outline-none transition-colors duration-200 ease-out',
-        'hover:border-border hover:bg-background hover:text-foreground',
-        'data-[state=active]:border-border data-[state=active]:bg-background data-[state=active]:text-foreground',
+        'inline-flex items-center gap-2 rounded-md border border-border bg-card px-3 py-2 text-[13px] font-medium tracking-[0.04em] lowercase text-muted-foreground shadow-none outline-none transition-colors duration-200 ease-out',
+        'hover:border-foreground hover:text-foreground',
+        'data-[state=active]:border-foreground data-[state=active]:bg-card data-[state=active]:text-foreground',
         'focus-visible:border-foreground',
         'disabled:pointer-events-none disabled:opacity-50',
         "[&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0",
@@ -60,7 +60,7 @@ function TabsContent({
     <TabsPrimitive.Content
       data-slot="tabs-content"
       className={cn(
-        'text-[13px] font-light tracking-[0.02em] text-foreground outline-none',
+        'text-[13px] font-medium tracking-[0.02em] text-foreground outline-none',
         className,
       )}
       {...props}

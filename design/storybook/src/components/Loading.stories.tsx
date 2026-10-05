@@ -52,7 +52,7 @@ export const WithLabel: Story = {
   render: () => (
     <div className="flex items-center gap-2">
       <Spinner />
-      <span aria-hidden className="text-[13px] font-light tracking-[0.02em] text-muted-foreground">
+      <span aria-hidden className="text-[13px] font-medium tracking-[0.02em] text-muted-foreground">
         loading...
       </span>
     </div>

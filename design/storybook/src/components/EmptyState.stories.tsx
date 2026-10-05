@@ -9,6 +9,7 @@ import {
   EmptyStateDescription,
   EmptyStateIcon,
   EmptyStateTitle,
+  icon,
 } from '@emmanuelviniciusdev/skydiiv-ui'
 
 const onAddPieces = fn()
@@ -28,7 +29,7 @@ export const Default: Story = {
   render: () => (
     <EmptyState className="w-[360px]">
       <EmptyStateIcon>
-        <TShirt weight="light" aria-hidden />
+        <TShirt weight={icon.weight} aria-hidden />
       </EmptyStateIcon>
       <EmptyStateTitle>no pieces yet</EmptyStateTitle>
       <EmptyStateDescription>
@@ -47,7 +48,7 @@ export const WithAction: Story = {
   render: () => (
     <EmptyState className="w-[360px]">
       <EmptyStateIcon>
-        <TShirt weight="light" aria-hidden />
+        <TShirt weight={icon.weight} aria-hidden />
       </EmptyStateIcon>
       <EmptyStateTitle>no pieces yet</EmptyStateTitle>
       <EmptyStateDescription>
@@ -72,7 +73,7 @@ export const NoResults: Story = {
   render: () => (
     <EmptyState className="w-[360px]">
       <EmptyStateIcon>
-        <MagnifyingGlass weight="light" aria-hidden />
+        <MagnifyingGlass weight={icon.weight} aria-hidden />
       </EmptyStateIcon>
       <EmptyStateTitle>no matches</EmptyStateTitle>
       <EmptyStateDescription>

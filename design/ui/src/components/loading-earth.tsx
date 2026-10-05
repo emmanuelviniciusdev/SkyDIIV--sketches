@@ -81,7 +81,7 @@ function LoadingEarth({
           <Sparkle key={sparkle.delay + sparkle.className} {...sparkle} />
         ))}
       </span>
-      <p className="text-[13px] font-light tracking-[0.02em] text-muted-foreground">
+      <p className="text-[13px] font-medium tracking-[0.02em] text-muted-foreground">
         {label}
       </p>
     </div>
