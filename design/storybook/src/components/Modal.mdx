@@ -1,0 +1,62 @@
+import { Canvas, Meta } from '@storybook/addon-docs/blocks'
+
+import * as ModalStories from './Modal.stories'
+
+<Meta of={ModalStories} />
+
+# Modal
+
+A quiet card panel over a frosted page. The top row always has a close mark — icon only. Title and subtitle are optional. Body holds the work. Footer holds the actions. No drop shadow.
+
+<table>
+  <thead>
+    <tr>
+      <th>Part</th>
+      <th>Role</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Overlay</td>
+      <td>frosted page behind the panel</td>
+    </tr>
+    <tr>
+      <td>Header</td>
+      <td>optional title and subtitle; close sits on the right</td>
+    </tr>
+    <tr>
+      <td>Title</td>
+      <td>short heading</td>
+    </tr>
+    <tr>
+      <td>Subtitle</td>
+      <td>supporting line under the title</td>
+    </tr>
+    <tr>
+      <td>Close</td>
+      <td>always present; X mark only, named close</td>
+    </tr>
+    <tr>
+      <td>Body</td>
+      <td>primary content</td>
+    </tr>
+    <tr>
+      <td>Footer</td>
+      <td>actions under a hairline</td>
+    </tr>
+  </tbody>
+</table>
+
+<Canvas of={ModalStories.Default} />
+
+## Title only
+
+<Canvas of={ModalStories.TitleOnly} />
+
+## Without title
+
+<Canvas of={ModalStories.WithoutTitle} />
+
+## Confirm
+
+<Canvas of={ModalStories.Confirm} />

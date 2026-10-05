@@ -1,0 +1,62 @@
+import { Canvas, Meta } from '@storybook/addon-docs/blocks'
+
+import * as BreadcrumbStories from './Breadcrumb.stories'
+
+<Meta of={BreadcrumbStories} />
+
+# Breadcrumb
+
+A compact path on a card fill with a stone hairline. Ancestor links stay muted. The current page is the only solid type. Separators are small carets. Copy stays short.
+
+<table>
+  <thead>
+    <tr>
+      <th>Part</th>
+      <th>Role</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Breadcrumb</td>
+      <td>trail surface: card fill, border, rounded corners</td>
+    </tr>
+    <tr>
+      <td>List</td>
+      <td>ordered row of steps</td>
+    </tr>
+    <tr>
+      <td>Item</td>
+      <td>one step in the path</td>
+    </tr>
+    <tr>
+      <td>Link</td>
+      <td>an ancestor; muted until hover</td>
+    </tr>
+    <tr>
+      <td>Page</td>
+      <td>the current step; not a link</td>
+    </tr>
+    <tr>
+      <td>Separator</td>
+      <td>caret between steps; can be replaced</td>
+    </tr>
+    <tr>
+      <td>Ellipsis</td>
+      <td>collapsed middle steps</td>
+    </tr>
+  </tbody>
+</table>
+
+<Canvas of={BreadcrumbStories.Default} />
+
+## With icons
+
+<Canvas of={BreadcrumbStories.WithIcons} />
+
+## Collapsed
+
+<Canvas of={BreadcrumbStories.Collapsed} />
+
+## Custom separator
+
+<Canvas of={BreadcrumbStories.CustomSeparator} />

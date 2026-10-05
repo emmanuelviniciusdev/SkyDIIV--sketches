@@ -1,5 +1,14 @@
 export { Avatar, avatarVariants, getLogoColorForLetter, getLogoColorForName, resolveInitial } from './components/avatar'
 export { Badge, badgeVariants } from './components/badge'
+export {
+  Breadcrumb,
+  BreadcrumbEllipsis,
+  BreadcrumbItem,
+  BreadcrumbLink,
+  BreadcrumbList,
+  BreadcrumbPage,
+  BreadcrumbSeparator,
+} from './components/breadcrumb'
 export { Button, buttonVariants } from './components/button'
 export {
   Card,
@@ -24,6 +33,17 @@ export { Input } from './components/input'
 export { Label } from './components/label'
 export { LoadingEarth } from './components/loading-earth'
 export { SkyChannelsLogo, SkyDiivLogo } from './components/logo'
+export {
+  Modal,
+  ModalBody,
+  ModalClose,
+  ModalContent,
+  ModalDescription,
+  ModalFooter,
+  ModalHeader,
+  ModalTitle,
+  ModalTrigger,
+} from './components/modal'
 export {
   Navbar,
   NavbarBrand,
