@@ -1,0 +1,58 @@
+import { Canvas, Meta } from '@storybook/addon-docs/blocks'
+
+import * as ZoomControlStories from './ZoomControl.stories'
+
+<Meta of={ZoomControlStories} />
+
+# ZoomControl
+
+A bordered bar with minus, a range, and plus. The row matches Input height and uses the card fill with a stone border. The filled range is accessible primary. The thumb is a small rounded square on the card fill, not a circle.
+
+Pair with Label through `aria-labelledby`. The range is a custom control, so `htmlFor` does not name it. Hint copy stays outside the control.
+
+The slider needs `aria-label` or `aria-labelledby`. Icon-only steppers always take `decrementAriaLabel` and `incrementAriaLabel`.
+
+<table>
+  <thead>
+    <tr>
+      <th>Part</th>
+      <th>Role</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Bar</td>
+      <td>card fill; stone border; medium radius</td>
+    </tr>
+    <tr>
+      <td>Range</td>
+      <td>thin accessible-primary fill</td>
+    </tr>
+    <tr>
+      <td>Thumb</td>
+      <td>card fill, stone border; focus to primary; hover to foreground</td>
+    </tr>
+    <tr>
+      <td>Steppers</td>
+      <td>ghost icon buttons; disabled at min and max</td>
+    </tr>
+  </tbody>
+</table>
+
+<Canvas of={ZoomControlStories.Default} />
+
+## Zoom range
+
+A 1–3 scalar with a finer track step and a wider button step.
+
+<Canvas of={ZoomControlStories.ZoomCrop} />
+
+## With label
+
+<Canvas of={ZoomControlStories.WithLabel} />
+
+## States
+
+<Canvas of={ZoomControlStories.Disabled} />
+<Canvas of={ZoomControlStories.AtMin} />
+<Canvas of={ZoomControlStories.AtMax} />

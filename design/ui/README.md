@@ -46,6 +46,34 @@ export function Example() {
 }
 ```
 
+`ZoomControl` is the minus / range / plus bar on a card fill. Pair it with `Label`. Hint copy stays outside the primitive. `Slider` is the track and thumb when the steppers are not needed.
+
+```tsx
+import { useState } from 'react'
+import { Label, ZoomControl } from '@emmanuelviniciusdev/skydiiv-ui'
+
+export function Example() {
+  const [zoom, setZoom] = useState(1)
+
+  return (
+    <div>
+      <Label id="photo-zoom-label">zoom</Label>
+      <ZoomControl
+        aria-labelledby="photo-zoom-label"
+        value={zoom}
+        min={1}
+        max={3}
+        step={0.05}
+        buttonStep={0.1}
+        onValueChange={setZoom}
+        decrementAriaLabel="decrease zoom"
+        incrementAriaLabel="increase zoom"
+      />
+    </div>
+  )
+}
+```
+
 Tokens live in the same package:
 
 ```ts

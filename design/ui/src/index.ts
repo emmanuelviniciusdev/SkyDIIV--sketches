@@ -68,6 +68,8 @@ export {
   SelectTrigger,
   SelectValue,
 } from './components/select'
+export { Slider } from './components/slider'
+export type { SliderProps } from './components/slider'
 export { SparklingStar } from './components/sparkling-star'
 export { Spinner } from './components/spinner'
 export { Tabs, TabsContent, TabsList, TabsTrigger } from './components/tabs'
@@ -80,6 +82,8 @@ export {
   ToastTitle,
   toastVariants,
 } from './components/toast'
+export { ZoomControl } from './components/zoom-control'
+export type { ZoomControlProps } from './components/zoom-control'
 
 export { cn } from './lib/utils'
 export {
