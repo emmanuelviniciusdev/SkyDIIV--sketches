@@ -131,15 +131,17 @@ function NavbarMenuUserName({ className, ...props }: React.ComponentProps<'span'
 
 function NavbarMenuItem({
   className,
+  variant = 'ghost',
   ...props
 }: React.ComponentProps<typeof Button>) {
   return (
     <Button
-      variant="ghost"
+      variant={variant}
       size="sm"
       data-slot="navbar-menu-item"
       className={cn(
-        'w-full justify-start hover:border-border hover:bg-background',
+        'w-full justify-start',
+        variant === 'ghost' && 'hover:border-border hover:bg-background',
         className,
       )}
       {...props}
